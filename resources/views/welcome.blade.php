@@ -66,6 +66,7 @@
     <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/vendors/scrolloverflow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+    <script src="/js/fullpage.dragAndMove.min.js"></script>
 
     <!-- Responsive Bootstrap Toolkit -->
     <script src="/js/bootstrap-toolkit.js"></script>
@@ -81,6 +82,8 @@
                 navigation: true,
                 navigationPosition: 'right',
                 navigationTooltips: ['Watch', 'Subscribe'],
+                showActiveTooltip: true,
+                dragAndMove: true,
             });
         });
     </script>
