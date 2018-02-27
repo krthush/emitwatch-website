@@ -40,11 +40,6 @@
                 padding: 0px;
             }
 
-/*            #image {
-                -webkit-transform: scaleX(-1);
-                transform: scaleX(-1);
-            }*/
-
             #input {
                 margin-top: -4vw;
             }
