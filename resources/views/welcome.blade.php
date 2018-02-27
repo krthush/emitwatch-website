@@ -286,5 +286,11 @@
         }
     </script>
 
+<<<<<<< HEAD
 </body>
 </html>
+=======
+      return hrs + ':' + mins + ':' + secs + '.' + ms;
+    }
+</script>
+>>>>>>> 8eeaed23f04b884bc70c39c718abd2912ae5217e
