@@ -15,6 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-
 // Route for getting user email
 Route::post('/subscribe', 'EmailController@store')->name('subscribe');
