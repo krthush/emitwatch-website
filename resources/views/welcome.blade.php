@@ -33,7 +33,7 @@
                 font-size: 15vw;
                 font-family:calibri; 
                 color: black;
-                -webkit-box-reflect: below -12.5vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.2)));
+                -webkit-box-reflect: below -12.5vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.1)));
             }
 
             .container-fluid {
@@ -49,7 +49,7 @@
             }
 
             #image {
-                -webkit-box-reflect: below -12.5vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.2)));
+                -webkit-box-reflect: below -2vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(70%, transparent), to(rgba(255, 255, 255, 0.1)));
             }
 
         </style>
