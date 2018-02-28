@@ -74,14 +74,12 @@
     <script>
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors:['firstPage', 'secondPage'],
                 loopBottom: true,
                 keyboardScrolling: true,
                 animateAnchor: true,
                 recordHistory: true,
                 navigation: true,
                 navigationPosition: 'right',
-                navigationTooltips: ['Watch', 'Subscribe'],
                 showActiveTooltip: true,
                 dragAndMove: true,
             });
@@ -159,14 +157,14 @@
         </div>
     </div>
     <div class="container-fluid d-lg-none d-xl-none" id="fullpage">
-        <div class="row section" data-anchor="slide1">
+        <div class="row section">
             <div class="col">
                 <div class="flex-center position-ref full-height">
                     <img src="/images/emit.png" id="image" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
-        <div class="row section" data-anchor="slide2">
+        <div class="row section">
             <div class="col">
                 <div class="flex-center position-ref full-height">
                     <div class="content">
