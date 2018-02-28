@@ -48,6 +48,10 @@
                 margin-top: 6vh;
             }
 
+            #image {
+                -webkit-box-reflect: below -12.5vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(40%, transparent), to(rgba(255, 255, 255, 0.2)));
+            }
+
         </style>
 
     <!-- Bootstrap CSS -->
