@@ -109,7 +109,7 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-3">
                 <div class="flex-center position-ref full-height">
-                    <img src="/images/watch.png" id="image" class="flex-center img-fluid" alt="Responsive image">
+                    <img src="/images/emit.png" id="image" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>
             <div class="col-lg-1"></div>
