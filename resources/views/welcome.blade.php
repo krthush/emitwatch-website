@@ -30,10 +30,11 @@
             }
 
             .title {
-                font-size: 15vw;
+                margin-bottom: 5vw;
+                font-size: 14vw;
                 font-family:calibri; 
                 color: black;
-                -webkit-box-reflect: below -12.5vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.1)));
+                -webkit-box-reflect: below -12vw -webkit-gradient(linear, right top, right bottom, from(transparent), color-stop(20%, transparent), to(rgba(255, 255, 255, 0.1)));
             }
 
             .container-fluid {
