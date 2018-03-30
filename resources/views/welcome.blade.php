@@ -188,6 +188,7 @@
                                       </div>
                                     </div>
                                 </form>
+                                <div>Contact us at stephentitus29@gmail.com OR tr514@ic.ac.uk</div>
                                 @if ($message = Session::get('success'))
                                     <div class="alert alert-success alert-block">
                                         <button type="button" class="close" data-dismiss="alert">×</button> 
