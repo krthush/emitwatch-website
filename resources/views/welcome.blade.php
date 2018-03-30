@@ -151,6 +151,7 @@
                                         </ul>
                                     </div>
                                 @endif
+                                <p>Contact us at stephentitus29@gmail.com OR tr514@ic.ac.uk</p>
                             </div>
                             <!-- This is a test for githubs -->
                             <div class="col-lg-2"></div>
