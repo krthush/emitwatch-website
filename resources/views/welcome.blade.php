@@ -188,7 +188,6 @@
                                       </div>
                                     </div>
                                 </form>
-                                <p>Contact us at stephentitus29@gmail.com OR tr514@ic.ac.uk</p>
                                 @if ($message = Session::get('success'))
                                     <div class="alert alert-success alert-block">
                                         <button type="button" class="close" data-dismiss="alert">×</button> 
@@ -206,6 +205,7 @@
                                         </ul>
                                     </div>
                                 @endif
+                                <p>Contact us at stephentitus29@gmail.com OR tr514@ic.ac.uk</p>
                             </div>
                             <!-- This is a test for githubs -->
                             <div class="col-lg-2"></div>
