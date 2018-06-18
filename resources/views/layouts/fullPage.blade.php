@@ -19,7 +19,7 @@
             navigationPosition: 'right',
             showActiveTooltip: true,
             dragAndMove: true,
-            sectionsColor: ['#0a0a0a', '#ffffff', '#0a0a0a', '#ffffff'],
+            sectionsColor: ['#0a0a0a', '#f5f5f5', '#0a0a0a', '#f5f5f5'],
         });
     });
 </script>

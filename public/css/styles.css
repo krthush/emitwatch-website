@@ -7,12 +7,54 @@
 	padding-right: 0px;
 	padding-left: 0px;
 }	/*Removes side margins & padding*/
+.blackText {
+	color: #0a0a0a;
+}
+.whiteText {
+	color: #f5f5f5;
+}
+
+
 
 /* GENERAL STYLING */
 html {
 }
 body {
 }
+li{
+  margin: 20px 0;
+}
+.section {
+	position: relative;
+}
+.headText {
+    position: absolute;
+    top: 1vh;
+
+    /* horizontal centering*/
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
+	font-size: 13vh;
+	text-align: center;
+}
+.sectionContainter{
+	width: 100%;
+	position: absolute;
+    top: 20vh;
+}
+.generalText{
+	font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+}
+.mediumText{
+	font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 /* Sizing/Positioning */
@@ -24,13 +66,61 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
+
+
+/* Progress Page */
+.bottomImage {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+#email-bar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#email-form {
+	font-size: 18pt;
+  	border-radius:0;
+	background: #f5f5f5;
+	color: #0a0a0a;
+}
+#email-btn {
+    font-size: 18pt;
+    padding: 14px 24px;
+    border: 0 none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #0a0a0a;
+    color: #f5f5f5;
+  	border-radius:0;
+}
+#email-btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+#email-btn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #212529;
+}
+#email-btn:active, .btn-primary.active {
+    background: #f5f5f5;
+    box-shadow: none;
+}
+
+
+/* Front Page */
+.textContainer {
+	width: 100%;
+}
 .vertical-align {
 	width: 100%;
 	position: absolute;
-	bottom: 30%;
+
+	/* pseudo vertical centering */
+	bottom: 35%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 
+	/* horizontal centering*/
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -39,28 +129,24 @@ body {
 	width: 100%;
 	bottom: 5vh;
 	position: absolute;
+
+	/* horizontal centering*/
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 }
-
 .frontPageText{
 	position: relative;
 }
-
-/* Front Page */
-.textContainer {
-	width: 100%;
-}
 .taglineText {
-	color: #f5f5f5;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
 	font-size: 13vh;
 	text-align: center;
 }
 .sublineText {
-	color: #f5f5f5;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
 	font-size: 5vh;
 	text-align: center;
 }
