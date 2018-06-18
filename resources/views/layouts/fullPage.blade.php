@@ -19,7 +19,7 @@
             navigationPosition: 'right',
             showActiveTooltip: true,
             dragAndMove: true,
-            dragAndMoveKey: b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==,
+            dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             sectionsColor: ['#0a0a0a', '#f5f5f5', '#0a0a0a', '#f5f5f5'],
         });
     });
