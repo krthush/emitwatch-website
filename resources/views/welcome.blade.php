@@ -91,7 +91,7 @@
                         <form  method="POST" action="{{ route('subscribe') }}">
                             {{ csrf_field() }}
                             <div class="input-group mb-3">
-                              <input name="email" type="email" id="email-form" class="form-control form-control-lg" placeholder="Please enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                              <input name="email" type="email" id="email-form" class="form-control" placeholder="Please enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                               <div class="input-group-append">
                                 <button id="email-btn" class="btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
                               </div>
