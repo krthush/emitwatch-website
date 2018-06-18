@@ -24,6 +24,28 @@ body {
 li{
   margin: 18px 0;
 }
+a:link {
+    color: #212529; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #212529;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0a0a0a;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color:  #212529;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .section {
 	position: relative;
 }

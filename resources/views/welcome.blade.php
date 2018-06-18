@@ -100,7 +100,7 @@
                     </div>
                     <div class="col-lg-2"></div>
                 </div>
-                <p>You can contact us at ownemit@gmail.com, and we'll get back to you as soon as possible.</p>
+                <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
             </div>
             <div class="col-sm-2"></div>
         </div>   
