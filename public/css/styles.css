@@ -76,8 +76,8 @@ li{
 	bottom: 0px;
 }
 #email-bar {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 #email-form {
   	border-radius:0;
