@@ -2,6 +2,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+<!-- Custom CSS -->
+<link href="/css/styles.css" rel="stylesheet" type="text/css">
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -22,22 +26,6 @@
 
 <!-- Responsive Bootstrap Toolkit -->
 <script src="/js/bootstrap-toolkit.js"></script>
-
-<!-- FullPage JS setup -->
-<script>
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            loopBottom: true,
-            keyboardScrolling: true,
-            animateAnchor: true,
-            recordHistory: true,
-            navigation: true,
-            navigationPosition: 'right',
-            showActiveTooltip: true,
-            dragAndMove: true,
-        });
-    });
-</script>
 
 <!-- Hotjar Tracking Code for https://ownemit.com/ -->
 <script>
