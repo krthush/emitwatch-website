@@ -60,7 +60,7 @@
                 <ul style="list-style-type:square">
                   <li>A different way of looking at time. In reverse.</li>
                   <li>Shows a countdown to start and end of day.</li>
-                  <li>Mutiple countdowns to most important events / goals/ look-forwards.</li>
+                  <li>Multiple countdowns to most important events/goals/look-forwards.</li>
                   <li>Customise countdowns to last from seconds to years.</li>
                   <li>Simply select an event on your phone calendar and emit syncs automatically.</li>
                   <li>Shows current time, if needed.</li>
