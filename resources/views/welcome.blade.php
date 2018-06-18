@@ -73,10 +73,10 @@
     </div>
 
     <div class="section">
-        <div class="headText whiteText">PROGRESS</div>
+        <div class="headText blackText">PROGRESS</div>
         <div class="row sectionContainter">
             <div class="col-sm-2"></div>
-            <div class="col-sm-8 mediumText whiteText">
+            <div class="col-sm-8 mediumText blackText">
 
                 <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
 
