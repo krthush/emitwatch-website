@@ -80,7 +80,7 @@
 
                 <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
 
-                <p>The Kickstarter campiagn launches on 31/07/18.</p>
+                <p>The Kickstarter campaign launches on 31/07/18.</p>
 
                 <p>To keep up-to-date with more information on emit and the Kickstarter campaign, please register your email.</p>
 
