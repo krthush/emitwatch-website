@@ -13,7 +13,7 @@
 <link href="/css/styles.css" rel="stylesheet" type="text/css">
 
 <!-- fullPage plugin by Alvaro Trigo CSS -->
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" />
+<script type="text/javascript" src="js/jquery.fullpage.extensions.min.js"></script>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
