@@ -53,7 +53,7 @@
         <div class="row sectionContainter">
             <div class="col-lg-1"></div>
             <div class="col-lg-5 mediumText">
-                <ul>
+                <ul style="list-style-type:square">
                   <li>A different way of looking at time. In reverse.</li>
                   <li>Shows a countdown to start and end of day.</li>
                   <li>Mutiple countdowns to most important events / goals/ look-forwards.</li>
