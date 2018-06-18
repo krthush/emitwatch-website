@@ -11,10 +11,20 @@
                     <img src="/images/rightfacing_countdown.png" id="image" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>           
-            <div class="col-sm-5">
-                <h1 class="taglineText">Own time.</h1>
-                <h1 class="taglineText">Own emit.</h1>
-                <h1 class="sublineText">Kickstarter starts in: </h1>
+            <div class="col-sm-5 frontPageText">
+                <div class="vertical-align">
+                    <div class="textContainer">
+                        <div class="taglineText">Own time.</div>
+                        <div class="taglineText">Own emit.</div>    
+                    </div>
+                </div>
+
+                <div class="bottom-align">
+                    <div class="textContainer">                
+                        <div class="sublineText">99 Days </div>
+                        <div class="sublineText">Kickstarter Launch</div> 
+                    </div>
+                </div>
             </div>
         </div>
     </div>
