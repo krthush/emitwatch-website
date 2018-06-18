@@ -3,25 +3,25 @@
 @section('content')
 <!-- Content-->
 
-<div class="container-fluid zeroPad" id="fullpage">
-    
-    @if ($message = Session::get('success'))
-        <div class="alert alert-success alert-block">
-            <button type="button" class="close" data-dismiss="alert">×</button> 
-                <strong>{{ $message }}</strong>
-        </div>
-    @endif
+@if ($message = Session::get('success'))
+    <div class="alert alert-success alert-block">
+        <button type="button" class="close" data-dismiss="alert">×</button> 
+            <strong>{{ $message }}</strong>
+    </div>
+@endif
 
-    @if ($errors->any())
-        <div class="alert alert-danger alert-block">
-            <button type="button" class="close" data-dismiss="alert">×</button> 
-            <ul style="list-style: none;">
-                @foreach ($errors->all() as $error)
-                    <li><strong>{{ $error }}</strong></li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
+@if ($errors->any())
+    <div class="alert alert-danger alert-block">
+        <button type="button" class="close" data-dismiss="alert">×</button> 
+        <ul style="list-style: none;">
+            @foreach ($errors->all() as $error)
+                <li><strong>{{ $error }}</strong></li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
+<div class="container-fluid zeroPad" id="fullpage">
 
     <div class="section">
         <div class="row">
