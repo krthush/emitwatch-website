@@ -34,7 +34,7 @@ body {
 }
 .sublineText {
 	color: #f5f5f5;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 5vh;
 	text-align: center;
 }
