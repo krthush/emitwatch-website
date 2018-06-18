@@ -4,6 +4,24 @@
 <!-- Content-->
 
 <div class="container-fluid zeroPad" id="fullpage">
+    
+    @if ($message = Session::get('success'))
+        <div class="alert alert-success alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button> 
+                <strong>{{ $message }}</strong>
+        </div>
+    @endif
+
+    @if ($errors->any())
+        <div class="alert alert-danger alert-block">
+            <button type="button" class="close" data-dismiss="alert">×</button> 
+            <ul style="list-style: none;">
+                @foreach ($errors->all() as $error)
+                    <li><strong>{{ $error }}</strong></li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 
     <div class="section">
         <div class="row">
@@ -83,23 +101,6 @@
                     <div class="col-lg-2"></div>
                 </div>
                 <p>You can contact us at ownemit@gmail.com, and we'll get back to you as soon as possible.</p>
-                @if ($message = Session::get('success'))
-                    <div class="alert alert-success alert-block">
-                        <button type="button" class="close" data-dismiss="alert">×</button> 
-                            <strong>{{ $message }}</strong>
-                    </div>
-                @endif
-
-                @if ($errors->any())
-                    <div class="alert alert-danger alert-block">
-                        <button type="button" class="close" data-dismiss="alert">×</button> 
-                        <ul style="list-style: none;">
-                            @foreach ($errors->all() as $error)
-                                <li><strong>{{ $error }}</strong></li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
             </div>
             <div class="col-sm-2"></div>
         </div>   
