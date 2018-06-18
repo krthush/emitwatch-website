@@ -51,8 +51,8 @@
     <div class="section">
         <div class="headText blackText">FEATURES</div>
         <div class="row sectionContainter">
-            <div class="col-sm-1"></div>
-            <div class="col-sm-5 mediumText">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5 mediumText">
                 <ul>
                   <li>A different way of looking at time. In reverse.</li>
                   <li>Shows a countdown to start and end of day.</li>
@@ -63,12 +63,12 @@
                   <li>Minimal and distinct design.</li>
                 </ul>       
             </div>
-            <div class="col-sm-5">
+            <div class="col-lg-5">
                 <div class="position-ref full-height">
                     <img src="/images/rightfacing_emit.png" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>
-            <div class="col-sm-1"></div>
+            <div class="col-lg-1"></div>
         </div>
     </div>
 
