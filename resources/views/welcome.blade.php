@@ -117,6 +117,8 @@
 
                     <p>The Kickstarter campaign launches on 31/07/18.</p>
 
+                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
+
                     <p>To keep up-to-date with more information on emit and the Kickstarter campaign, please register your email.</p>
 
                     <div class="row email-bar">
@@ -135,11 +137,10 @@
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-2"></div>
+                <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">
             </div>   
-            <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">
         </div>
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile">
@@ -150,6 +151,8 @@
 
                     <p>The Kickstarter campaign launches on 31/07/18.</p>
 
+                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
+
                     <p>To keep up-to-date with more information on emit and the Kickstarter campaign, please register your email.</p>
 
                     <div class="row email-bar">
@@ -168,7 +171,6 @@
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
                 </div>
                 <div class="col-lg-2"></div>
             </div>   
@@ -184,6 +186,7 @@
             <div class="row full-width sectionContainer">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
+
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
                     </p>
@@ -208,6 +211,7 @@
             <div class="row full-width sectionContainerMobile">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
+
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
                     </p>

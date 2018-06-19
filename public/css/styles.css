@@ -130,12 +130,10 @@ a:active {
     transform: translateX(-50%);
 }
 .sectionContainer{
-	position: absolute;
-    top: 120pt;
+    padding-top: 120pt;
 }
 .sectionContainerMobile{
-	position: absolute;
-    top: 75pt;
+    padding-top: 75pt;
 }
 .bottomImage {
 	width: 100%;
