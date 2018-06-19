@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-sm-6">                
                 <div class="flex-center position-ref full-height">
-                    <img src="/images/rightfacing_countdown.png" class="flex-center img-fluid" alt="Responsive image">
+                    <img src="/images/rightfacing_countdown_comp.png" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>           
             <div class="col-sm-5 frontPageText">
@@ -61,15 +61,15 @@
                   <li>A different way of looking at time. In reverse.</li>
                   <li>Shows a countdown to start and end of day.</li>
                   <li>Multiple countdowns to most important events/goals/look-forwards.</li>
-                  <li>Customise countdowns to last from seconds to years.</li>
+<!--                   <li>Customise countdowns to last from seconds to years.</li>
                   <li>Simply select an event on your phone calendar and emit syncs automatically.</li>
                   <li>Shows current time, if needed.</li>
-                  <li>Minimal and distinct design.</li>
+                  <li>Minimal and distinct design.</li> -->
                 </ul>       
             </div>
             <div class="col-lg-5">
                 <div class="position-ref full-height">
-                    <img src="/images/rightfacing_emit.png" class="flex-center img-fluid" alt="Responsive image">
+                    <img src="/images/rightfacing_emit_comp.png" class="flex-center img-fluid" alt="Responsive image">
                 </div>
             </div>
             <div class="col-lg-1"></div>
@@ -108,7 +108,7 @@
             </div>
             <div class="col-sm-2"></div>
         </div>   
-        <img src="/images/sideup_life.png" class="img-fluid bottomImage" alt="Responsive image"> 
+        <img src="/images/sideup_life_comp.png" class="img-fluid bottomImage" alt="Responsive image"> 
     </div>
 
     <div class="section">
