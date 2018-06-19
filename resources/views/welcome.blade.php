@@ -176,7 +176,7 @@
         </div>
     </div>
 
-    <div class="section fp-auto-height-responsive" id="section4">
+    <div class="section">
         <div class="d-none d-md-block top-center-align titleFont titleSize blackText">MISSION</div>
         <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">MISSION</div>
 
