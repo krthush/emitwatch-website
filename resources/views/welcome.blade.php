@@ -139,8 +139,8 @@
                     </div>
                 </div>
                 <div class="col-lg-2"></div>
-                <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">
-            </div>   
+            </div>
+            <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">  
         </div>
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile">

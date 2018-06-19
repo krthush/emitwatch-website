@@ -136,9 +136,16 @@ a:active {
     padding-top: 75pt;
 }
 .bottomImage {
-	width: 100%;
+	width: auto;
+	max-width: auto;
+	height: 30vh;
 	position: absolute;
 	bottom: 0px;
+
+	/* horizontal centering*/
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 
