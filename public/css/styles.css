@@ -48,7 +48,6 @@ a:active {
 /* Font Styles & Font Sizing */ 
 .titleFont {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: bold;
 	text-align: center;
 }
 .generalFont {
@@ -61,6 +60,7 @@ a:active {
 	color: #f5f5f5;
 }
 .titleSize {
+	font-weight: bold;
 	font-size: 75pt;
 }
 .sublineSize {
