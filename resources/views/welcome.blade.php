@@ -61,11 +61,11 @@
     <div class="section">
         <div class="container-fluid">
             <div class="d-none d-md-block top-center-align titleFont titleSize blackText">FEATURES</div>
-            <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">FEATURES</div>
-            <div class="row full-width sectionContainerMobile">
+            <div class="d-md-none top-center-align titleFont titleSize blackText">FEATURES</div>
+            <div class="row full-width sectionContainer">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 generalFont generalSize blackText">
-                    <ul class="listMarginMobile" style="list-style-type:square">
+                    <ul class="listMargin" style="list-style-type:square">
                       <li>A different way of looking at time. In reverse.</li>
                       <li>Shows a countdown to start and end of day.</li>
                       <li>Multiple countdowns to most important events/goals/look-forwards.</li>
