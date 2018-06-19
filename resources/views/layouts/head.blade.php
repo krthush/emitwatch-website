@@ -47,11 +47,13 @@ $(function() {
 
     // Display the result in the element with id="kickstarterCountDown"
     document.getElementById("kickstarterCountDown").innerHTML = days + " Days";
+    document.getElementById("kickstarterCountDownMobile").innerHTML = days + " Days";
 
     // If the count down is finished, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("kickstarterCountDown").innerHTML = "EXPIRED";
+        document.getElementById("kickstarterCountDown").innerHTML = "BEGUN!";
+        document.getElementById("kickstarterCountDownMobile").innerHTML = "BEGUN!";
     }
 });
 </script>
