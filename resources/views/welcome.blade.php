@@ -64,7 +64,7 @@
             <div class="d-md-none top-center-align titleFont titleSize blackText">FEATURES</div>
             <div class="row full-width sectionContainer">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5 generalFont generalSize blackText">
+                <div class="col-lg-5 generalFont mediumSize blackText">
                     <ul class="listMargin" style="list-style-type:square">
                       <li>A different way of looking at time. In reverse.</li>
                       <li>Shows a countdown to start and end of day.</li>
