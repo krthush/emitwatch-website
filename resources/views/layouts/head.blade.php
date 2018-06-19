@@ -20,7 +20,7 @@
 
 <!-- fullPage plugin by Alvaro Trigo CSS -->
 <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"></script>
+<script src="/js/scrolloverflow.min.js"></script>
 <!-- Drag N Move Extension -->
 <script src="/js/fullpage.dragAndMove.min.js"></script>
 <script src="/js/jquery.fullpage.extensions.min.js"></script>
@@ -38,6 +38,7 @@
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             sectionsColor: ['#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
+            anchors: ['home', 'features', 'progress', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
         });
