@@ -137,8 +137,7 @@ a:active {
 }
 .bottomImage {
 	width: auto;
-	max-width: auto;
-	height: 30vh;
+	height: 25vh;
 	position: absolute;
 	bottom: 0px;
 
