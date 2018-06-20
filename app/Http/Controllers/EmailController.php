@@ -10,7 +10,7 @@ class EmailController extends Controller
 {
 	public function store() {
         $this->validate(request(), [
-                'email' => 'required|unique:emails|max:255',
+                'email' => 'required|email|unique:emails|max:255',
         ]);
 
     	Email::create([
