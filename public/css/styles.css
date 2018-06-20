@@ -7,6 +7,9 @@
 	padding-right: 0px;
 	padding-left: 0px;
 }	/*Removes side margins & padding*/
+.bottomPad {
+	padding-bottom: 150pt;
+}
 
 
 
@@ -141,7 +144,6 @@ a:active {
 }
 .sectionContainerMobile{
     padding-top: 75pt;
-    padding-bottom: 150pt;
 }
 .bottomImage {
 	width: auto;
