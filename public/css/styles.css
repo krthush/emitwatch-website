@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* SHORTCUTS */
+/* SHORTCUTS/HACKS */
 .container-fluid.zeroPad {
 	margin-right: 0px;
 	margin-left: 0px;
@@ -98,6 +98,13 @@ a:active {
 	display: flex;
 	justify-content: center;
 }
+.center-align {
+	position: absolute;
+	/* horizontal centering*/
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);	
+}
 .vertical-center-align {
 	position: absolute;
 
@@ -134,6 +141,7 @@ a:active {
 }
 .sectionContainerMobile{
     padding-top: 75pt;
+    padding-bottom: 150pt;
 }
 .bottomImage {
 	width: auto;

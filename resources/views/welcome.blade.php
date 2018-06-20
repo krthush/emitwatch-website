@@ -8,14 +8,12 @@
     <div class="section">
         @if ($message = Session::get('success'))
             <div class="alert alert-success alert-block">
-                <button type="button" class="close" data-dismiss="alert">×</button> 
                     <strong>{{ $message }}</strong>
             </div>
         @endif
 
         @if ($errors->any())
             <div class="alert alert-danger alert-block">
-                <button type="button" class="close" data-dismiss="alert">×</button> 
                 <ul style="list-style: none;">
                     @foreach ($errors->all() as $error)
                         <li><strong>{{ $error }}</strong></li>
@@ -202,9 +200,15 @@
                         Own time. Own emit.
                     </p>
 
+<!--                     <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-4"><img src="/images/teamphoto.png" class="img-fluid" alt="Responsive image"></div>
+                        <div class="col-4"></div>
+                    </div> -->  
                 </div>
-                <div class="col-sm-2"></div>  
+                <div class="col-sm-2"></div>
             </div>
+            <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">
         </div>
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile">
@@ -228,8 +232,9 @@
                     </p>
 
                 </div>
-                <div class="col-sm-2"></div>  
+                <div class="col-sm-2"></div>
             </div>
+            <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image"> 
         </div>
     </div>
 </div>
