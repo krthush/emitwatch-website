@@ -166,6 +166,22 @@ a:active {
 .frontPageText{
 	position: relative;
 }
+#time {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 3.2vw;
+	transform: matrix(1,-0.05,0.3,1,0.8,0);
+	padding-bottom: 10vw;
+	padding-left: 1.5vw;
+}
+#time_small_screen {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 6.6vw;
+	transform: matrix(1,-0.05,0.3,1,0.8,0);
+	padding-bottom: 21vw;
+	padding-left: 2.7vw;
+}
 
 
 

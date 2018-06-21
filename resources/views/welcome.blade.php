@@ -1,4 +1,4 @@
-@extends('layouts.fullPage')
+@extends('layouts.master')
 
 @section('content')
 <!-- Content-->
@@ -29,7 +29,9 @@
         </div>
         <div class="row full-height">
             <div class="col-md-6 flex-center">
-                <img src="/images/rightfacing_countdown_comp.png" class="img-fluid flex-center" alt="Responsive image">
+                <span id="time" class="center-align d-none d-md-block whiteText"></span>
+                <span id="time_small_screen" class="center-align d-md-none whiteText"></span>
+                <img src="/images/rightfacing_blank_countdown.png" class="img-fluid flex-center" alt="Responsive image">
             </div>           
             <div class="col-md-5 d-none d-md-block frontPageText">
                 <div class="full-width vertical-center-align">
