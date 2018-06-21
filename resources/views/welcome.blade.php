@@ -125,7 +125,7 @@
                             <form  method="POST" action="{{ route('subscribe') }}">
                                 {{ csrf_field() }}
                                 <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Please enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                   <div class="input-group-append">
                                     <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
                                   </div>
@@ -134,13 +134,24 @@
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
+                    <div class="row iconContainer">
+                        <a href="https://www.instagram.com/emitwatch/">
+                            <img class="icon" src="/images/insta_logo.png">
+                        </a>
+                        <a href="https://www.facebook.com/ownemit/">
+                            <img class="icon" src="/images/fb_logo.png">
+                        </a>
+                        <a href="https://www.snapchat.com/add/emitwatch">
+                            <img class="icon" src="/images/snap_logo.png">
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-2"></div>
             </div>
             <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">  
         </div>
         <div class="d-md-none container-fluid">
-            <div class="row full-width sectionContainerMobile">
+            <div class="row full-width sectionContainerMobile mediumBottomPad">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSizeMobile blackText">
 
@@ -159,7 +170,7 @@
                             <form  method="POST" action="{{ route('subscribe') }}">
                                 {{ csrf_field() }}
                                 <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Please enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                                   <div class="input-group-append">
                                     <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
                                   </div>
@@ -167,6 +178,17 @@
                             </form>
                         </div>
                         <div class="col-lg-2"></div>
+                    </div>
+                    <div class="row iconContainer">
+                        <a href="https://www.instagram.com/emitwatch/">
+                            <img class="icon" src="/images/insta_logo.png">
+                        </a>
+                        <a href="https://www.facebook.com/ownemit/">
+                            <img class="icon" src="/images/fb_logo.png">
+                        </a>
+                        <a href="https://www.snapchat.com/add/emitwatch">
+                            <img class="icon" src="/images/snap_logo.png">
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-2"></div>
@@ -211,7 +233,7 @@
             <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">
         </div>
         <div class="d-md-none container-fluid">
-            <div class="row full-width sectionContainerMobile bottomPad">
+            <div class="row full-width sectionContainerMobile largeBottomPad">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
 
