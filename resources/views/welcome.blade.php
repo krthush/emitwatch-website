@@ -106,7 +106,7 @@
         <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">PROGRESS</div>
 
         <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainer">
+            <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSize blackText">
 
@@ -202,7 +202,7 @@
         <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">MISSION</div>
 
         <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainer">
+            <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
 
