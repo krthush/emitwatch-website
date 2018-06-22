@@ -112,30 +112,12 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSize blackText">
 
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
-
-                    <p>The Kickstarter campaign launches on 31/07/18.</p>
+                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
 
-                    <p>To keep up-to-date with more information on emit and the Kickstarter campaign, please register your email.</p>
+                    <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
 
-                    <div class="row email-bar">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8">
-                            
-                            <form  method="POST" action="{{ route('subscribe') }}">
-                                {{ csrf_field() }}
-                                <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
-                                  </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
                             <img class="icon" src="/images/insta_logo.png">
@@ -147,6 +129,7 @@
                             <img class="icon" src="/images/snap_logo.png">
                         </a>
                     </div>
+
                 </div>
                 <div class="col-lg-2"></div>
             </div>
@@ -157,30 +140,12 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSizeMobile blackText">
 
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
-
-                    <p>The Kickstarter campaign launches on 31/07/18.</p>
+                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
 
-                    <p>To keep up-to-date with more information on emit and the Kickstarter campaign, please register your email.</p>
+                    <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
 
-                    <div class="row email-bar">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8">
-                            
-                            <form  method="POST" action="{{ route('subscribe') }}">
-                                {{ csrf_field() }}
-                                <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
-                                  </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
                             <img class="icon" src="/images/insta_logo.png">
@@ -192,6 +157,7 @@
                             <img class="icon" src="/images/snap_logo.png">
                         </a>
                     </div>
+                    
                 </div>
                 <div class="col-lg-2"></div>
             </div>   
