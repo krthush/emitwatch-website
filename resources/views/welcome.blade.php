@@ -31,7 +31,7 @@
             <div class="col-md-6 flex-center">
                 <span id="time" class="center-align d-none d-md-block whiteText"></span>
                 <span id="time_small_screen" class="center-align d-md-none whiteText"></span>
-                <img src="/images/rightfacing_blank_countdown.png" class="img-fluid flex-center" alt="Responsive image">
+                <img src="/images/rightfacing_countdown_blank.png" class="img-fluid flex-center" alt="Responsive image">
             </div>           
             <div class="col-md-5 d-none d-md-block frontPageText">
                 <div class="full-width vertical-center-align">
