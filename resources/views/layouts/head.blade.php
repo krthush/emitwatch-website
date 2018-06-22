@@ -2,6 +2,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
+<meta property="og:image" content="https://ownemit.com/images/rightfacing_goal_comp.png" />
+
+<meta property="og:description" content="New perspective on time. In reverse." />
+
+<meta property="og:url"content="https://ownemit.com/" />
+
+<meta property="og:title" content="emit" />
+
 <!-- CSS -->
 
 <!-- Custom Fonts -->
