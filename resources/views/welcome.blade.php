@@ -3,6 +3,14 @@
 @section('content')
 <!-- Content-->
 
+<meta property="og:image" content="https://ownemit.com/images/rightfacing_goal_comp_bg.png" />
+
+<meta property="og:description" content="New perspective on time. In reverse." />
+
+<meta property="og:url"content="https://ownemit.com/" />
+
+<meta property="og:title" content="emit" />
+
 <div class="container-fluid zeroPad" id="fullpage">
 
     <div class="section">
@@ -157,7 +165,7 @@
                             <img class="icon" src="/images/snap_logo.png">
                         </a>
                     </div>
-                    
+
                 </div>
                 <div class="col-lg-2"></div>
             </div>   
