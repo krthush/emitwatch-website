@@ -3,9 +3,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="emit – A new perspective on time. In reverse. | emit">
+<meta property="og:title" content="emit – A new perspective on time. In reverse.">
 <meta property="og:image" content="https://ownemit.com/images/rightfacing_goal_comp_preview.png">
-<meta property="og:description" content="Watch that counts down to your most events of the day, week and even life. Own time. Own emit.">
+<meta property="og:description" content="A watch that counts down to the most important events of your day, month, year and even life. Own time. Own emit.">
 <meta property="og:url" content="ownemit.com">
 <meta property="og:type" content="website">
 
