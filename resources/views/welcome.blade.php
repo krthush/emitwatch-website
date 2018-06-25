@@ -127,6 +127,8 @@
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
 
                     <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+                    
+                    <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
 
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
@@ -155,8 +157,8 @@
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
 
                     <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
-
-                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+                    
+                    <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
 
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
