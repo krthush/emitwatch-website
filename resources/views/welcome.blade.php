@@ -124,7 +124,7 @@
 
                     <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
 
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
+                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
                     <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
                     
@@ -154,7 +154,7 @@
 
                     <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
 
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a>, and we'll get back to you as soon as possible.</p>
+                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
                     <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
                     
