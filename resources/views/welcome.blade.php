@@ -122,7 +122,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSize blackText">
 
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
+                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (01/08/2018).</p>
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
@@ -152,7 +152,7 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont mediumSizeMobile blackText">
 
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (31/07/2018).</p>
+                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (01/08/2018).</p>
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
@@ -266,7 +266,7 @@
 <!-- Script for calculating days until kickstarterCountDown -->
 <script>
 $(function() {
-    var countDownDate = new Date("July 31, 2018 23:59:59").getTime();
+    var countDownDate = new Date("August 1, 2018 23:59:59").getTime();
     // Get todays date and time
     var now = new Date().getTime();
 
