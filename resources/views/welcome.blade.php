@@ -385,7 +385,7 @@
 </script>
 
 <!-- Script for calculating days until kickstarterCountDown -->
-<script>
+<!-- <script>
 $(function() {
     var countDownDate = new Date("August 1, 2018 23:59:59").getTime();
     // Get todays date and time
@@ -411,7 +411,7 @@ $(function() {
         document.getElementById("kickstarterCountDownMobile").innerHTML = "BEGUN!";
     }
 });
-</script>
+</script> -->
 
 <!-- JS for Daily CountDown -->
 <script type="text/javascript">
