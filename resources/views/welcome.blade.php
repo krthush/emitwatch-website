@@ -126,9 +126,26 @@
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
-                    <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+                    <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+
+                    <div class="row email-bar">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            
+                            <form  method="POST" action="{{ route('subscribe') }}">
+                                {{ csrf_field() }}
+                                <div class="input-group mb-3">
+                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                  <div class="input-group-append">
+                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
+                                  </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
                     
-                    <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+<!--                     <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div> -->
 
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
@@ -156,9 +173,26 @@
 
                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
 
-                    <p>Follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+                    <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+
+                    <div class="row email-bar">
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-8">
+                            
+                            <form  method="POST" action="{{ route('subscribe') }}">
+                                {{ csrf_field() }}
+                                <div class="input-group mb-3">
+                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                  <div class="input-group-append">
+                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
+                                  </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-2"></div>
+                    </div>
                     
-                    <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
+<!--                     <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div> -->
 
                     <div class="row iconContainer">
                         <a href="https://www.instagram.com/emitwatch/">
