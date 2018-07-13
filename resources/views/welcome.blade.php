@@ -52,18 +52,18 @@
                 </div>
 
                 <div class="full-width bottom-center-align">
-                    <div class="full-width titleFont sublineSize whiteText"> 
+                    <!-- <div class="full-width titleFont sublineSize whiteText"> 
                         <div>Kickstarter Launch: </div>
                         <div><span id="kickstarterCountDown"></span></div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <div class="d-md-none full-width bottom-center-align">
-            <div class="titleFont sublineSizeMobile whiteText">
+            <!-- <div class="titleFont sublineSizeMobile whiteText">
                 <div>Kickstarter Launch: </div>
                 <div><span id="kickstarterCountDownMobile"></span></div>
-            </div>
+            </div> -->
         </div>
     </div>
 
