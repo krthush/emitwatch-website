@@ -65,6 +65,24 @@
                 <div><span id="kickstarterCountDownMobile"></span></div>
             </div> -->
         </div>
+        <div class="d-none d-md-block top-center-align titleFont sublineSize whiteText full-width navBar">
+            <div class="row full-width navBar">
+                <div class="col-3"><a href="#video">VIDEO</a></div>
+                <div class="col-3"><a href="#features">FEATURES</a></div>
+                <div class="col-3"><a href="#signup">SIGN UP</a></div>
+                <div class="col-3"><a href="#mission">MISSION</a></div>
+            </div>            
+        </div>
+        <div class="d-md-none bottom-center-align titleFont sublineSizeMobile whiteText full-width">
+            <div class="row full-width">
+                <div class="col-6"><a href="#video">VIDEO</a></div>
+                <div class="col-6"><a href="#features">FEATURES</a></div>
+            </div>
+            <div class="row full-width">
+                <div class="col-6"><a href="#signup">SIGN UP</a></div>
+                <div class="col-6"><a href="#mission">MISSION</a></div>
+            </div>                
+        </div>
     </div>
 
     <div class="section">
@@ -134,8 +152,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">PROGRESS</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">PROGRESS</div>
+        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">SIGN UP</div>
+        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">SIGN UP</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -359,7 +377,7 @@
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
-            anchors: ['home', 'video', 'features', 'progress', 'mission'],
+            anchors: ['home', 'video', 'features', 'signup', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
         });
