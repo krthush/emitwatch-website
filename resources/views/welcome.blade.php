@@ -67,10 +67,23 @@
         </div>
     </div>
 
-    <div class="section" id="section0">
-        <video id="myVideo" loop muted controls="false" data-autoplay>
-            <source src="/images/movie.mp4" type="video/mp4">
-        </video>
+    <div class="section">
+        <div class="d-none d-md-block top-center-align titleFont titleSize whiteText">VIDEO</div>
+        <div class="d-md-none top-center-align titleFont titleSizeMobile whiteText">VIDEO</div>
+        <div class="d-none d-md-block container-fluid">
+            <div class="row full-width sectionContainer">
+                <div class="col-12">
+                    <video controls class="videoLarge center-align">
+                        <source src="/images/movieLarge.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="d-md-none container-fluid zeroPad">
+            <video controls class="sectionContainerMobile videoSmall center-align">
+                <source src="/images/movieSmall.mp4" type="video/mp4">
+            </video>
+        </div>
     </div>
 
 
@@ -138,8 +151,30 @@
                     <div class="row email-bar">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8">
+
+                            <!-- Begin MailChimp Signup Form -->
+
+                            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                            <style type="text/css">
+                                #mc_embed_signup{background:#f5f5f5; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                            </style>
+                            <div id="mc_embed_signup">
+                            <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                
+                                <input type="email" value="" name="EMAIL" class="email-form form-control" id="mce-EMAIL" placeholder="Email Address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn"></div>
+                                </div>
+                            </form>
+                            </div>
+
+                            <!--End mc_embed_signup-->
                             
-                            <form  method="POST" action="{{ route('subscribe') }}">
+<!--                             <form  method="POST" action="{{ route('subscribe') }}">
                                 {{ csrf_field() }}
                                 <div class="input-group mb-3">
                                   <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -147,7 +182,8 @@
                                     <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
                                   </div>
                                 </div>
-                            </form>
+                            </form> -->
+
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
@@ -185,8 +221,32 @@
                     <div class="row email-bar">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8">
+
+                            <!-- Begin MailChimp Signup Form -->
+
+                            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                            <style type="text/css">
+                                #mc_embed_signup{background:#f5f5f5; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                            </style>
+                            <div id="mc_embed_signup">
+                            <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                
+                                <input type="email" value="" name="EMAIL" class="email-form form-control" id="mce-EMAIL" placeholder="Email Address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn"></div>
+                                </div>
+                            </form>
+                            </div>
+
+                            <!--End mc_embed_signup-->
+
+
                             
-                            <form  method="POST" action="{{ route('subscribe') }}">
+<!--                             <form  method="POST" action="{{ route('subscribe') }}">
                                 {{ csrf_field() }}
                                 <div class="input-group mb-3">
                                   <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -194,7 +254,9 @@
                                     <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
                                   </div>
                                 </div>
-                            </form>
+                            </form> -->
+
+
                         </div>
                         <div class="col-lg-2"></div>
                     </div>
@@ -296,7 +358,7 @@
             showActiveTooltip: true,
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
-            sectionsColor: ['#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
+            sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
             anchors: ['home', 'video', 'features', 'progress', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
