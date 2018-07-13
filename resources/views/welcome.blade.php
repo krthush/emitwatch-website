@@ -67,6 +67,13 @@
         </div>
     </div>
 
+    <div class="section" id="section0">
+        <video id="myVideo" loop muted controls="false" data-autoplay>
+            <source src="/images/movie.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
     <div class="section">
         <div class="d-none d-md-block top-center-align titleFont titleSize blackText">FEATURES</div>
         <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">FEATURES</div>
@@ -124,7 +131,7 @@
 
                     <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (August 2018).</p>
 
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
+<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
 
                     <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
 
@@ -171,7 +178,7 @@
 
                     <p>We are currently working on our prototypes and will be fund-raising on Kickstarter (August 2018).</p>
 
-                    <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p>
+<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
 
                     <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
 
@@ -289,8 +296,8 @@
             showActiveTooltip: true,
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
-            sectionsColor: ['#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
-            anchors: ['home', 'features', 'progress', 'mission'],
+            sectionsColor: ['#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
+            anchors: ['home', 'video', 'features', 'progress', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
         });
