@@ -88,6 +88,8 @@ a:active {
 }
 .titleSizeMobile {
 	font-size: 50pt;
+	white-space: nowrap;
+      	overflow: hidden;
 }
 .sublineSizeMobile {
 	font-size: 25pt;
