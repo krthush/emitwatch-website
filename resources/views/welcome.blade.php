@@ -69,7 +69,7 @@
             <div class="row full-width navBar">
                 <div class="col-3"><a href="#video">VIDEO</a></div>
                 <div class="col-3"><a href="#features">FEATURES</a></div>
-                <div class="col-3"><a href="#signup">SIGN UP</a></div>
+                <div class="col-3"><a href="#signup">SIGN-UP</a></div>
                 <div class="col-3"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
@@ -79,7 +79,7 @@
                 <div class="col-6"><a href="#features">FEATURES</a></div>
             </div>
             <div class="row full-width">
-                <div class="col-6"><a href="#signup">SIGN UP</a></div>
+                <div class="col-6"><a href="#signup">SIGN-UP</a></div>
                 <div class="col-6"><a href="#mission">MISSION</a></div>
             </div>                
         </div>
@@ -152,8 +152,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">SIGN UP</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">SIGN UP</div>
+        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">SIGN-UP</div>
+        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">SIGN-UP</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
