@@ -77,7 +77,7 @@
             </div>            
         </div>
         <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
-            <div class="row full-width">
+            <div class="row full-width center-align">
                 <span><a href="#video">VIDEO</a></span>
                 <span> | </span>
                 <span><a href="#features">FEATURES</a></span>
