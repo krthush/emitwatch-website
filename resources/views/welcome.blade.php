@@ -66,25 +66,25 @@
             </div> -->
         </div>
         <div class="d-none d-md-block top-center-align titleFont navBarSize whiteText full-width navBar">
-            <div class="row full-width navBar">
-                <div class="col-2 col-offset-1"><a href="#video">VIDEO</a></div>
-                <div class="col-1">|</div>
-                <div class="col-2"><a href="#features">FEATURES</a></div>
-                <div class="col-1">|</div>
-                <div class="col-2"><a href="#signup">SIGN-UP</a></div>
-                <div class="col-1">|</div>
-                <div class="col-2"><a href="#mission">MISSION</a></div>
+            <div class="row full-width">
+                <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#signup">SIGN-UP</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
         <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
-            <div class="row full-width center-align">
-                <span><a href="#video">VIDEO</a></span>
-                <span> | </span>
-                <span><a href="#features">FEATURES</a></span>
-                <span> | </span>
-                <span><a href="#signup">SIGN-UP</a></span>
-                <span> | </span>
-                <span><a href="#mission">MISSION</a></span>
+            <div class="row full-width">
+                <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#signup">SIGN-UP</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
             </div>              
         </div>
     </div>
@@ -375,8 +375,6 @@
             keyboardScrolling: true,
             animateAnchor: true,
             recordHistory: true,
-            navigation: true,
-            navigationPosition: 'right',
             showActiveTooltip: true,
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
