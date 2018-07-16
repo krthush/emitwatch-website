@@ -77,14 +77,14 @@
             </div>            
         </div>
         <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
-            <div class="row full-width">
-                <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
-                <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
-                <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#signup">SIGN-UP</a></div>
-                <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
+            <div class="row full-width flex-center">
+                <span ><a href="#video">VIDEO</a></span>
+                <span class="lrPad"> | </span>
+                <span ><a href="#features">FEATURES</a></span>
+                <span class="lrPad"> | </span>
+                <span ><a href="#signup">SIGN-UP</a></span>
+                <span class="lrPad"> | </span>
+                <span ><a href="#mission">MISSION</a></span>
             </div>              
         </div>
     </div>

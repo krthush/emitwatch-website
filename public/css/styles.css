@@ -13,10 +13,10 @@
 .mediumBottomPad {
 	padding-bottom: 100pt;
 }
-.leftPad {
-	padding-left: 15pt;
+.lrPad {
+	padding-left: 5px;
+	padding-right: 5px;
 }
-
 
 
 /* GENERAL STYLING */
