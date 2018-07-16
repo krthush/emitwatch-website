@@ -65,7 +65,7 @@
                 <div><span id="kickstarterCountDownMobile"></span></div>
             </div> -->
         </div>
-        <div class="d-none d-md-block top-center-align titleFont sublineSize whiteText full-width navBar">
+        <div class="d-none d-md-block top-center-align titleFont navBarSize whiteText full-width navBar">
             <div class="row full-width navBar">
                 <div class="col-3"><a href="#video">VIDEO</a></div>
                 <div class="col-3"><a href="#features">FEATURES</a></div>
@@ -73,7 +73,7 @@
                 <div class="col-3"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
-        <div class="d-md-none bottom-center-align titleFont sublineSizeMobile whiteText full-width">
+        <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
             <div class="row full-width">
                 <div class="col-6"><a href="#video">VIDEO</a></div>
                 <div class="col-6"><a href="#features">FEATURES</a></div>

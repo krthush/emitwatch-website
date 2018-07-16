@@ -86,18 +86,25 @@ a:active {
 .mediumSize {
 	font-size: 16pt;
 }
+.navBarSize {
+	font-size: 25pt;
+}
 .titleSizeMobile {
 	font-size: 50pt;
-	white-space: nowrap;
-      	overflow: hidden;
 }
 .sublineSizeMobile {
 	font-size: 25pt;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .mediumSizeMobile {
 	font-size: 12pt;
 }
-
+.navBarSizeMobile {
+	font-size: 25pt;
+	white-space: nowrap;
+	overflow: hidden;
+}
 
 /* Sizing/Positioning */
 .full-height {
