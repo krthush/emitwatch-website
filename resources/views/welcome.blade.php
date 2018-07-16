@@ -77,15 +77,13 @@
             </div>            
         </div>
         <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
-            <div class="row full-width">
-                <span><a href="#video">VIDEO</a></span>
-                <div class="col-1"> | </div>
-                <span><a href="#features">FEATURES</a></span>
-                <div class="col-1"> | </div>
-                <span><a href="#signup">SIGN-UP</a></span>
-                <div class="col-1"> | </div>
-                <span><a href="#mission">MISSION</a></span>
-            </div>              
+            <span><a href="#video">VIDEO</a></span>
+            <div class="col-1"> | </div>
+            <span><a href="#features">FEATURES</a></span>
+            <div class="col-1"> | </div>
+            <span><a href="#signup">SIGN-UP</a></span>
+            <div class="col-1"> | </div>
+            <span><a href="#mission">MISSION</a></span>            
         </div>
     </div>
 
