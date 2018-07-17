@@ -95,14 +95,14 @@
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
                 <div class="col-12">
-                    <video controls class="videoLarge center-align">
+                    <video id="desktopVideo" controls class="videoLarge center-align">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
         </div>
         <div class="d-md-none container-fluid zeroPad">
-            <video controls class="sectionContainerMobile videoSmall center-align">
+            <video id="mobileVideo" controls class="sectionContainerMobile videoSmall center-align">
                 <source src="/images/movieSmall.mp4" type="video/mp4">
             </video>
         </div>
@@ -466,6 +466,23 @@ $(function() {
 
         return hrs + ':' + mins + ':' + secs + '.' + ms;
     }
+
+</script>
+
+<!-- JS for Video Autoplay -->
+<script type="text/javascript">
+
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+if (w >= 768) {
+    var vid = document.getElementById("desktopVideo");
+    vid.autoplay = true;
+    vid.load();
+} else {
+    var vid = document.getElementById("mobileVideo");
+    vid.autoplay = true;
+    vid.load(); 
+}
 
 </script>
 
