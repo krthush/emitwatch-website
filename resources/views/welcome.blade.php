@@ -1,3 +1,6 @@
+
+
+
 @extends('layouts.master')
 
 @section('content')
@@ -186,7 +189,7 @@
                             <br>
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
-                            <p>Support for iOS and Android.</p>
+                            <p>Compatible with iOS and Android.</p>
                         </div>
                     </div>
                     <div id="timerTxt" class="full-width">
