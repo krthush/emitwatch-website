@@ -31,8 +31,11 @@
                 </ul>
             </div>
         @endif
+
+        <h1>LICENSES!!!</h1>
+
         <div class="d-md-none full-width top-center-align">
-            <div class="titleFont titleSizeMobile whiteText">
+            <div class="titleFont centerText titleSizeMobile whiteText">
                 <div>Own time.</div>
                 <div>Own emit.</div>
             </div>
@@ -45,14 +48,14 @@
             </div>           
             <div class="col-md-5 d-none d-md-block frontPageText">
                 <div class="full-width vertical-center-align">
-                    <div class="full-width titleFont titleSize whiteText">
+                    <div class="full-width titleFont centerText titleSize whiteText">
                         <div>Own time.</div>
                         <div>Own emit.</div>    
                     </div>
                 </div>
 
                 <div class="full-width bottom-center-align">
-                    <!-- <div class="full-width titleFont sublineSize whiteText"> 
+                    <!-- <div class="full-width titleFont centerText sublineSize whiteText"> 
                         <div>Kickstarter Launch: </div>
                         <div><span id="kickstarterCountDown"></span></div>
                     </div> -->
@@ -60,12 +63,12 @@
             </div>
         </div>
         <div class="d-md-none full-width bottom-center-align">
-            <!-- <div class="titleFont sublineSizeMobile whiteText">
+            <!-- <div class="titleFont centerText sublineSizeMobile whiteText">
                 <div>Kickstarter Launch: </div>
                 <div><span id="kickstarterCountDownMobile"></span></div>
             </div> -->
         </div>
-        <div class="d-none d-md-block top-center-align titleFont navBarSize whiteText full-width navBar">
+        <div class="d-none d-md-block top-center-align titleFont centerText navBarSize whiteText full-width navBar">
             <div class="row full-width">
                 <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
                 <div class="col-1 mx-auto">|</div>
@@ -76,7 +79,7 @@
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
-        <div class="d-md-none bottom-center-align titleFont navBarSizeMobile whiteText full-width">
+        <div class="d-md-none bottom-center-align titleFont centerText navBarSizeMobile whiteText full-width">
             <div class="row full-width flex-center">
                 <span ><a href="#video">VIDEO</a></span>
                 <span class="lrPad"> | </span>
@@ -90,8 +93,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize whiteText">VIDEO</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile whiteText">VIDEO</div>
+        <div class="d-none d-md-block top-center-align titleFont centerText titleSize whiteText">VIDEO</div>
+        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile whiteText">VIDEO</div>
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
                 <div class="col-12">
@@ -110,12 +113,27 @@
 
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">FEATURES</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">FEATURES</div>
+        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">FEATURES</div>
+        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">FEATURES</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
-                <div class="col-md-1"></div>
+
+                <!-- content to be placed inside <body>…</body> -->
+                <div class="center-align featureButtonContainer">
+                    <a href='#' id="daynightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
+                    <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
+                    <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
+                    <a href='#' id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
+                    <a href='#' id="progressBtn" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
+                    <a href='#' id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
+                    <a href='#' id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                </div>
+
+
+
+
+<!--                 <div class="col-md-1"></div>
                 <div class="col-md-5 generalFont mediumSize blackText">
                     <ul class="listMargin" style="list-style-type:square">
                       <li>A different way of looking at time. In reverse.</li>
@@ -130,9 +148,86 @@
                 <div class="col-md-5">
                     <img src="/images/rightfacing_emit_comp.png" class="img-fluid flex-center" alt="Responsive image">
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-1"></div> -->
+
+
+                    
+
+            </div>
+            <div class="row featureSectionContainer full-height">
+                <div class="col-md-2"></div> 
+                <div class="col-md-4 flex-center">
+                    <img id="daynightImg" src="/images/daynightImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="timerImg" src="/images/timerImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="timeImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <img id="batteryImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                </div>         
+                <div class="col-md-4">
+                    <div id="daynightTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>A different way of looking at time. In reverse.</p>
+                            <p>Shows a countdown to start and end of day.</p>
+                        </div>
+                    </div>
+                    <div id="calendarTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Calendar Events</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Multiple countdowns to most important events / goals / look-forwards.</p>
+                            <p>Customise countdowns to last from seconds to years.</p>
+                        </div>
+                    </div>
+                    <div id="smartphoneTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Sync from phone</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
+                            <p>Works with variety of calendars including google, microsoft, etc.</p>
+                            <p>Support for iOS and Android.</p>
+                        </div>
+                    </div>
+                    <div id="timerTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Multiple Timers</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Ability to create many timers.</p>
+                            <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
+                        </div>
+                    </div>
+                    <div id="progressTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">See progress</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Set start and end time of a task.</p>
+                            <p>Intuitive representation of your progress.</p>
+                        </div>
+                    </div>
+                    <div id="timeTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Standard time</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Shows current time, if needed.</p>
+                        </div>
+                    </div>
+                    <div id="batteryTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">2 Day Battery Life</div>
+                        <div class="generalFont navBarSize blackText">
+                            <br>
+                            <p>Magnetic pin charging (2 hours).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div> 
             </div>
         </div>
+
+
+
         <div class="d-md-none container-fluid zeroPad">
             <div class="row full-width sectionContainerMobile">
                 <div class="col-md-1"></div>
@@ -156,8 +251,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">SIGN-UP</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">SIGN-UP</div>
+        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">SIGN-UP</div>
+        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">SIGN-UP</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -186,10 +281,10 @@
                             <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                 
-                                <input type="email" value="" name="EMAIL" class="email-form form-control" id="mce-EMAIL" placeholder="Email Address" required>
+                                <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn"></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont"></div>
                                 </div>
                             </form>
                             </div>
@@ -256,10 +351,10 @@
                             <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
                                 
-                                <input type="email" value="" name="EMAIL" class="email-form form-control" id="mce-EMAIL" placeholder="Email Address" required>
+                                <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
                                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn"></div>
+                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont"></div>
                                 </div>
                             </form>
                             </div>
@@ -305,8 +400,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont titleSize blackText">MISSION</div>
-        <div class="d-md-none top-center-align titleFont titleSizeMobile blackText">MISSION</div>
+        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">MISSION</div>
+        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">MISSION</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -386,6 +481,7 @@
             scrollOverflow: true,
             verticalCentered:false,
 
+            // Autoplay video fix
             afterLoad: function(origin, destination, direction){
                 if (destination==2) {
                     if (w >= 768) {
@@ -481,6 +577,87 @@ $(function() {
         var hrs = (s - mins) / 60;
 
         return hrs + ':' + mins + ':' + secs + '.' + ms;
+    }
+
+</script>
+
+
+<!-- jQuery for features page -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        // Initial hide of all img + txt except daynight
+        $("#calendarImg").hide();
+        $("#smartphoneImg").hide();
+        $("#timerImg").hide();
+        $("#progressImg").hide();
+        $("#timeImg").hide();
+        $("#batteryImg").hide();
+
+        $("#calendarTxt").hide();
+        $("#smartphoneTxt").hide();
+        $("#timerTxt").hide();
+        $("#progressTxt").hide();
+        $("#timeTxt").hide();
+        $("#batteryTxt").hide();
+
+        // Check for mouseover
+        $(".featureButtonLink").mouseover(function(){
+            // Hides all txt/imgs
+            hideAll();
+
+            // Check for which button is being hovered on
+            // TODO: this can be made more neat?
+            if (this.id == "daynightBtn") {
+                $("#daynightImg").show();
+                $("#daynightTxt").show();
+            } else if (this.id == "calendarBtn") {
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            } else if (this.id == "smartphoneBtn") {
+                $("#smartphoneImg").show();
+                $("#smartphoneTxt").show();
+            } else if (this.id == "timerBtn") {
+                $("#timerImg").show();
+                $("#timerTxt").show();
+            } else if (this.id == "progressBtn") {
+                $("#progressImg").show();
+                $("#progressTxt").show();
+            } else if (this.id == "timeBtn") {
+                $("#timeImg").show();
+                $("#timeTxt").show();
+            } else if (this.id == "batteryBtn") {
+                $("#batteryImg").show();
+                $("#batteryTxt").show();
+            } else {
+                // Bug Catch
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            }
+
+        });
+
+    });
+
+    // Hides all txt/imgs
+    function hideAll() {
+        // Hide all imgs
+        $("#daynightImg").hide();
+        $("#calendarImg").hide();
+        $("#smartphoneImg").hide();
+        $("#timerImg").hide();
+        $("#progressImg").hide();
+        $("#timeImg").hide();
+        $("#batteryImg").hide();
+
+        // Hide all text
+        $("#daynightTxt").hide();
+        $("#calendarTxt").hide();
+        $("#smartphoneTxt").hide();
+        $("#timerTxt").hide();
+        $("#progressTxt").hide();
+        $("#timeTxt").hide();
+        $("#batteryTxt").hide();
     }
 
 </script>
