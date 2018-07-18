@@ -199,13 +199,6 @@ a:active {
 	padding-bottom: 10vw;
 	padding-left: 1.5vw;
 }
-@media screen and (min-width: 1700px) {
-  #time {
-    font-size: 54px; /* 3.2*0.01*1700 */
-    padding-bottom: 170px; /* 10*0.01*1700 */
-	padding-left: 26px; /* 1.5*0.01*1700 */
-  }
-}
 #time_small_screen {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
