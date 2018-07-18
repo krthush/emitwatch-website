@@ -371,6 +371,9 @@
 <!-- FullPage JS setup -->
 <script type="text/javascript">
     $(document).ready(function() {
+
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
         $('#fullpage').fullpage({
             keyboardScrolling: true,
             animateAnchor: true,
@@ -382,6 +385,19 @@
             anchors: ['home', 'video', 'features', 'signup', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
+
+            afterLoad: function(origin, destination, direction){
+                if (destination==2) {
+                    if (w >= 768) {
+                        var vid = document.getElementById("desktopVideo");
+                        vid.play();
+                    } else {
+                        var vid = document.getElementById("mobileVideo");
+                        vid.play(); 
+                    }
+                }
+            },
+
         });
     });
 </script>
@@ -466,23 +482,6 @@ $(function() {
 
         return hrs + ':' + mins + ':' + secs + '.' + ms;
     }
-
-</script>
-
-<!-- JS for Video Autoplay -->
-<script type="text/javascript">
-
-var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
-if (w >= 768) {
-    var vid = document.getElementById("desktopVideo");
-    vid.autoplay = true;
-    vid.load();
-} else {
-    var vid = document.getElementById("mobileVideo");
-    vid.autoplay = true;
-    vid.load(); 
-}
 
 </script>
 
