@@ -32,8 +32,6 @@
             </div>
         @endif
 
-        <h1>LICENSES!!!</h1>
-
         <div class="d-md-none full-width top-center-align">
             <div class="titleFont centerText titleSizeMobile whiteText">
                 <div>Own time.</div>
