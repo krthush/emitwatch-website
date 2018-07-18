@@ -477,11 +477,9 @@ var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 if (w >= 768) {
     var vid = document.getElementById("desktopVideo");
     vid.autoplay = true;
-    vid.load();
 } else {
     var vid = document.getElementById("mobileVideo");
     vid.autoplay = true;
-    vid.load(); 
 }
 
 </script>
