@@ -166,7 +166,7 @@
                         <a href='#' id="batteryBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/battery-01.png"></a>
                     </div>
                 </div>
-                     
+
                 <div class="col-md-4">
 
                     <!-- Spacing for mobile -->
@@ -274,31 +274,10 @@
                 <div class="col-md-2"></div> 
             </div>
 
+            <!-- Spacing for mobile -->
+            <div class="d-md-none full-width largeBottomPad"></div>
+
         </div>
-
-
-
-<!--         <div class="d-md-none container-fluid zeroPad">
-            <div class="row full-width sectionContainerMobile">
-                <div class="col-md-1"></div>
-                <div class="col-md-5 generalFont mediumSizeMobile blackText">
-                    <ul class="listMarginMobile" style="list-style-type:square">
-                      <li>A different way of looking at time. In reverse.</li>
-                      <li>Shows a countdown to start and end of day.</li>
-                      <li>Multiple countdowns to most important events/goals/look-forwards.</li>
-                      <li>Customise countdowns to last from seconds to years.</li>
-                      <li>Simply select an event on your phone calendar and emit syncs automatically.</li>
-                      <li>Shows current time, if needed.</li>
-                      <li>Minimal and distinct design.</li>
-                    </ul>       
-                </div>
-                <div class="col-md-5">
-                    <img src="/images/rightfacing_emit_comp.png" class="img-fluid flex-center" alt="Responsive image">
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-        </div> -->
-
 
     </div>
 
