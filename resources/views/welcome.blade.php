@@ -417,7 +417,7 @@
                         Battery by Gregor Cresnar from the Noun Project <br>
                         timer by Anusha Narvekar from the Noun Project <br>
                         Time by arjuazka from the Noun Project <br>
-                        <a href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
+                        <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
                     </div>
 
 <!--                     <div class="row">
@@ -461,7 +461,7 @@
                         Battery by Gregor Cresnar from the Noun Project <br>
                         timer by Anusha Narvekar from the Noun Project <br>
                         Time by arjuazka from the Noun Project <br>
-                        <a href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
+                        <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
                     </div>
 
                 </div>
