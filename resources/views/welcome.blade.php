@@ -100,6 +100,8 @@
                     <video id="desktopVideo" controls class="videoLarge">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
                     </video>
+                    <!-- Prevent accidental scrolling -->
+                    <div class="full-width largeBottomPad"></div>
                 </div>
                 <div class="col-1"></div>
             </div>
