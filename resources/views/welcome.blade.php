@@ -274,10 +274,10 @@
                 <div class="col-md-2"></div> 
             </div>
 
-            <!-- Spacing for mobile -->
-            <div class="d-md-none full-width largeBottomPad"></div>
-
         </div>
+
+        <!-- Spacing for mobile -->
+        <div class="full-width largeBottomPad"></div>
 
     </div>
 
