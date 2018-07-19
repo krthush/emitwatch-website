@@ -98,15 +98,17 @@
         <div class="d-md-none top-center-align titleFont centerText titleSizeMobile whiteText">VIDEO</div>
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
-                <div class="col-12">
-                    <video id="desktopVideo" controls class="videoLarge center-align">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <video id="desktopVideo" controls class="videoLarge">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
                     </video>
                 </div>
+                <div class="col-1"></div>
             </div>
         </div>
         <div class="d-md-none container-fluid zeroPad">
-            <video id="mobileVideo" controls class="sectionContainerMobile videoSmall center-align">
+            <video id="mobileVideo" controls class="sectionContainerMobile videoSmall">
                 <source src="/images/movieSmall.mp4" type="video/mp4">
             </video>
         </div>
@@ -216,9 +218,10 @@
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">2 Day Battery Life</div>
+                        <div class="titleFont subTitleSize blackText">Long Battery Life</div>
                         <div class="generalFont navBarSize blackText">
                             <br>
+                            <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
                         </div>
                     </div>
@@ -425,6 +428,18 @@
                         Own time. Own emit.
                     </p>
 
+                    <div class="faded">
+                        <b>Licenses:</b> <br>
+                        day and night by Nerea Martínez Orduña from the Noun Project <br>
+                        Smartphone by Naveen from the Noun Project <br>
+                        timer by Adrien Coquet from the Noun Project <br>
+                        Watch by Manasa from the Noun Project <br>
+                        Calendar by Storm Icons from the Noun Project <br>
+                        Battery by Gregor Cresnar from the Noun Project <br>
+                        timer by Anusha Narvekar from the Noun Project <br>
+                        Time by arjuazka from the Noun Project <br>
+                    </div>
+
 <!--                     <div class="row">
                         <div class="col-4"></div>
                         <div class="col-4"><img src="/images/teamphoto.png" class="img-fluid" alt="Responsive image"></div>
@@ -455,6 +470,18 @@
                     <p>
                         Own time. Own emit.
                     </p>
+
+                    <div>
+                        <p><b>Licenses:</b></p>
+                        <p>day and night by Nerea Martínez Orduña from the Noun Project</p>
+                        <p>Smartphone by Naveen from the Noun Project</p>
+                        <p>timer by Adrien Coquet from the Noun Project</p>
+                        <p>Watch by Manasa from the Noun Project</p>
+                        <p>Calendar by Storm Icons from the Noun Project</p>
+                        <p>Battery by Gregor Cresnar from the Noun Project</p>
+                        <p>timer by Anusha Narvekar from the Noun Project</p>
+                        <p>Time by arjuazka from the Noun Project</p>
+                    </div>
 
                 </div>
                 <div class="col-sm-2"></div>

@@ -52,14 +52,6 @@ a:active {
 .listMarginMobile > li {
 	margin-bottom: 10px;
 }
-.videoLarge {
-    max-width: 75%;
-    height: auto;
-}
-.videoSmall {
-    max-width: 100%;
-    height: auto;
-}
 
 
 
@@ -116,6 +108,9 @@ a:active {
 }
 .centerText {
 	text-align: center;
+}
+.faded {
+	opacity: 0.4;
 }
 
 
@@ -228,6 +223,51 @@ a:active {
 }
 
 
+/* Video Page */
+.videoLarge {
+    width: 100%;
+    height: auto;
+}
+.videoSmall {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Features Page */
+.featureButtonContainer {
+}
+.featureButtonLine {
+	width: 90%;
+	height: 0px;
+	border: solid 2px;
+}
+.featureButton {
+	width: 70px;
+	height: 70px;
+}
+.featureButton:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.featureButtonLink {
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+.featureSectionContainer {
+	margin-top: 120px;
+}
+.featureImg {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
 
 /* Progress Page */
 .email-bar {
@@ -273,38 +313,4 @@ a:active {
 	height: 75px;
 	margin-left: 10px;
 	margin-right: 10px;
-}
-
-
-
-/* Features Page */
-.featureButtonContainer {
-}
-.featureButtonLine {
-	width: 90%;
-	height: 0px;
-	border: solid 2px;
-}
-.featureButton {
-	width: 70px;
-	height: 70px;
-}
-.featureButton:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-.featureButtonLink {
-	margin-left: 10px;
-	margin-right: 10px;	
-}
-.featureSectionContainer {
-	margin-top: 120px;
-}
-.featureImg {
-	padding-left: 50px;
-	padding-right: 50px;
 }
