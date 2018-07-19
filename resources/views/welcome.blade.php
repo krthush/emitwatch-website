@@ -118,11 +118,11 @@
         <div class="d-none d-md-block top-align full-width titleFont text-center titleSize blackText">FEATURES</div>
         <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile blackText">FEATURES</div>
 
-        <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainer">
+        <div class="container-fluid">
+            <div class="row full-width">
 
                 <!-- content to be placed inside <body>…</body> -->
-                <div class="mx-auto">
+                <div class="d-none d-md-block mx-auto sectionContainer featureButtonContainer">
                     <a href='#' id="daynightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
                     <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
                     <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
@@ -131,10 +131,14 @@
                     <a href='#' id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
                     <a href='#' id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
                 </div>
-                    
+
+                <!-- Spacing for mobile -->
+                <div class="d-md-none full-width sectionContainerMobile"></div>                    
 
             </div>
-            <div class="row featureSectionContainer full-height">
+
+            <div class="row full-height"> 
+
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
                     <img id="daynightImg" src="/images/daynightImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
@@ -144,27 +148,68 @@
                     <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
                     <img id="timeImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
                     <img id="batteryImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                </div>         
+                </div>
+
+                <!-- Spacing for mobile -->
+                <div class="d-md-none row full-width featureMobileMargin">
+                    <div class="mx-auto">
+                        <a href='#' id="daynightBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/daynight-01.png"></a>
+                        <a href='#' id="calendarBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/calendar-01.png"></a>
+                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/smartphone-01.png"></a>
+                        <a href='#' id="timerBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/timer-01.png"></a>
+                    </div>
+                </div>
+                <div class="d-md-none row full-width">
+                    <div class="mx-auto">
+                        <a href='#' id="progressBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/progress-01.png"></a>
+                        <a href='#' id="timeBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/time-01.png"></a>
+                        <a href='#' id="batteryBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/battery-01.png"></a>
+                    </div>
+                </div>
+                     
                 <div class="col-md-4">
+
+                    <!-- Spacing for mobile -->
+                    <div class="d-md-none full-width featureMobileMargin"></div>
+
                     <div id="daynightTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Day/Night Cycle</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>A different way of looking at time. In reverse.</p>
+                            <p>Shows a countdown to start and end of day.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Day/Night Cycle</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>A different way of looking at time. In reverse.</p>
                             <p>Shows a countdown to start and end of day.</p>
                         </div>
                     </div>
                     <div id="calendarTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Calendar Events</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Calendar Events</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Multiple countdowns to most important events / goals / look-forwards.</p>
+                            <p>Customise countdowns to last from seconds to years.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Calendar Events</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
                         </div>
                     </div>
                     <div id="smartphoneTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Sync from phone</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Sync from phone</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
+                            <p>Works with variety of calendars including google, microsoft, etc.</p>
+                            <p>Compatible with iOS and Android.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Sync from phone</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
@@ -172,31 +217,54 @@
                         </div>
                     </div>
                     <div id="timerTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Multiple Timers</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Multiple Timers</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Ability to create many timers.</p>
+                            <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Multiple Timers</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
                         </div>
                     </div>
                     <div id="progressTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">See progress</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">See progress</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Set start and end time of a task.</p>
+                            <p>Intuitive representation of your progress.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">See progress</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
                         </div>
                     </div>
                     <div id="timeTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Standard time</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Standard time</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Shows current time, if needed.</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Standard time</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Long Battery Life</div>
-                        <div class="generalFont mediumSize blackText">
+                        <div class="d-none d-md-block titleFont subTitleSize blackText">Long Battery Life</div>
+                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                            <br>
+                            <p>Lasts up to 2 days per charge.</p>
+                            <p>Magnetic pin charging (2 hours).</p>
+                        </div>
+                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Long Battery Life</div>
+                        <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
@@ -205,11 +273,12 @@
                 </div>
                 <div class="col-md-2"></div> 
             </div>
+
         </div>
 
 
 
-        <div class="d-md-none container-fluid zeroPad">
+<!--         <div class="d-md-none container-fluid zeroPad">
             <div class="row full-width sectionContainerMobile">
                 <div class="col-md-1"></div>
                 <div class="col-md-5 generalFont mediumSizeMobile blackText">
@@ -228,7 +297,7 @@
                 </div>
                 <div class="col-md-1"></div>
             </div>
-        </div>
+        </div> -->
 
 
     </div>
@@ -610,7 +679,7 @@ $(function() {
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
 
-        // Check for mouseover
+        // Check for mouseover for Desktop
         $(".featureButtonLink").mouseover(function(){
 
             // $(this).find('img').fadeTo(500, 0.5);
@@ -649,10 +718,52 @@ $(function() {
 
         });
 
+        // Check for mouseover for Mobile
+        $(".featureButtonLinkMobile").mouseover(function(){
+
+            // $(this).find('img').fadeTo(500, 0.5);
+
+            // Hides all txt/imgs
+            hideAll();
+
+            // Check for which button is being hovered on
+            // TODO: this can be made more neat?
+            if (this.id == "daynightBtnMobile") {
+                $("#daynightImg").show();
+                $("#daynightTxt").show();
+            } else if (this.id == "calendarBtnMobile") {
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            } else if (this.id == "smartphoneBtnMobile") {
+                $("#smartphoneImg").show();
+                $("#smartphoneTxt").show();
+            } else if (this.id == "timerBtnMobile") {
+                $("#timerImg").show();
+                $("#timerTxt").show();
+            } else if (this.id == "progressBtnMobile") {
+                $("#progressImg").show();
+                $("#progressTxt").show();
+            } else if (this.id == "timeBtnMobile") {
+                $("#timeImg").show();
+                $("#timeTxt").show();
+            } else if (this.id == "batteryBtnMobile") {
+                $("#batteryImg").show();
+                $("#batteryTxt").show();
+            } else {
+                // Bug Catch
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            }
+
+        });
+
+
+
     });
 
     // Hides all txt/imgs
     function hideAll() {
+
         // Hide all imgs
         $("#daynightImg").hide();
         $("#calendarImg").hide();
@@ -670,6 +781,7 @@ $(function() {
         $("#progressTxt").hide();
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
+
     }
 
 </script>
