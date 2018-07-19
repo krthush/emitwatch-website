@@ -87,6 +87,8 @@ a:active {
 }
 .navBarSize {
 	font-size: 25pt;
+	white-space: nowrap;
+	overflow: hidden;
 }
 .titleSizeMobile {
 	font-size: 50pt;
