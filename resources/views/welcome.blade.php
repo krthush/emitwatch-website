@@ -1,6 +1,3 @@
-
-
-
 @extends('layouts.master')
 
 @section('content')
@@ -35,41 +32,41 @@
             </div>
         @endif
 
-        <div class="d-md-none full-width top-center-align">
-            <div class="titleFont centerText titleSizeMobile whiteText">
+        <div class="d-md-none full-width mx-auto top-align">
+            <div class="full-width titleFont text-center titleSizeMobile whiteText">
                 <div>Own time.</div>
                 <div>Own emit.</div>
             </div>
         </div>
         <div class="row full-height">
             <div class="col-md-6 flex-center">
-                <span id="time" class="center-align d-none d-md-block whiteText"></span>
-                <span id="time_small_screen" class="center-align d-md-none whiteText"></span>
+                <span id="time" class="transform-center d-none d-md-block whiteText"></span>
+                <span id="time_small_screen" class="transform-center d-md-none whiteText"></span>
                 <img src="/images/rightfacing_countdown_blank.png" class="img-fluid flex-center" alt="Responsive image">
             </div>           
-            <div class="col-md-5 d-none d-md-block frontPageText">
-                <div class="full-width vertical-center-align">
-                    <div class="full-width titleFont centerText titleSize whiteText">
+            <div  class="col-md-5 d-none d-md-block frontPageText">
+                <div class="flex-center full-height full-width text-center">
+                    <div class="titleFont sublineSize whiteText">
                         <div>Own time.</div>
                         <div>Own emit.</div>    
                     </div>
                 </div>
 
-                <div class="full-width bottom-center-align">
-                    <!-- <div class="full-width titleFont centerText sublineSize whiteText"> 
+                <div class="full-width text-center bottom-align">
+                    <!-- <div class="full-width titleFont text-center sublineSize whiteText"> 
                         <div>Kickstarter Launch: </div>
                         <div><span id="kickstarterCountDown"></span></div>
                     </div> -->
                 </div>
             </div>
         </div>
-        <div class="d-md-none full-width bottom-center-align">
-            <!-- <div class="titleFont centerText sublineSizeMobile whiteText">
+        <div class="d-md-none full-width text-center bottom-align">
+            <!-- <div class="full-width titleFont text-center sublineSizeMobile whiteText">
                 <div>Kickstarter Launch: </div>
                 <div><span id="kickstarterCountDownMobile"></span></div>
             </div> -->
         </div>
-        <div class="d-none d-md-block top-center-align titleFont centerText navBarSize whiteText full-width navBar">
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
                 <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
                 <div class="col-1 mx-auto">|</div>
@@ -80,7 +77,7 @@
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
-        <div class="d-md-none bottom-center-align titleFont centerText navBarSizeMobile whiteText full-width">
+        <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
             <div class="row full-width flex-center">
                 <span ><a href="#video">VIDEO</a></span>
                 <span class="lrPad"> | </span>
@@ -94,8 +91,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont centerText titleSize whiteText">VIDEO</div>
-        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile whiteText">VIDEO</div>
+        <div class="d-none d-md-block top-align full-width titleFont text-center titleSize whiteText">VIDEO</div>
+        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile whiteText">VIDEO</div>
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
                 <div class="col-1"></div>
@@ -116,14 +113,14 @@
 
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">FEATURES</div>
-        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">FEATURES</div>
+        <div class="d-none d-md-block top-align full-width titleFont text-center titleSize blackText">FEATURES</div>
+        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile blackText">FEATURES</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer">
 
                 <!-- content to be placed inside <body>…</body> -->
-                <div class="center-align featureButtonContainer">
+                <div class="mx-auto">
                     <a href='#' id="daynightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
                     <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
                     <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
@@ -171,7 +168,7 @@
                 <div class="col-md-4">
                     <div id="daynightTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>A different way of looking at time. In reverse.</p>
                             <p>Shows a countdown to start and end of day.</p>
@@ -179,7 +176,7 @@
                     </div>
                     <div id="calendarTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Calendar Events</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
@@ -187,7 +184,7 @@
                     </div>
                     <div id="smartphoneTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Sync from phone</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
@@ -196,7 +193,7 @@
                     </div>
                     <div id="timerTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Multiple Timers</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
@@ -204,7 +201,7 @@
                     </div>
                     <div id="progressTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">See progress</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
@@ -212,14 +209,14 @@
                     </div>
                     <div id="timeTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Standard time</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Long Battery Life</div>
-                        <div class="generalFont navBarSize blackText">
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
@@ -255,8 +252,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">SIGN-UP</div>
-        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">SIGN-UP</div>
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">SIGN-UP</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -404,8 +401,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-center-align titleFont centerText titleSize blackText">MISSION</div>
-        <div class="d-md-none top-center-align titleFont centerText titleSizeMobile blackText">MISSION</div>
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">MISSION</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">MISSION</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -631,6 +628,9 @@ $(function() {
 
         // Check for mouseover
         $(".featureButtonLink").mouseover(function(){
+
+            // $(this).find('img').fadeTo(500, 0.5);
+
             // Hides all txt/imgs
             hideAll();
 

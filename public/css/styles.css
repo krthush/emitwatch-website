@@ -72,18 +72,18 @@ a:active {
 	font-weight: bold;
 	font-size: 75pt;
 }
-.subTitleSize {
-	font-size: 40pt;
-	font-weight: bold;
-}
 .sublineSize {
-	font-size: 30pt;
+	font-size: 6vw;
+}
+.subTitleSize {
+	font-size: 3vw;
+	font-weight: bold;
 }
 .generalSize {
 	font-size: 12pt;
 }
 .mediumSize {
-	font-size: 16pt;
+	font-size: 1.7vw;
 }
 .navBarSize {
 	font-size: 25pt;
@@ -132,43 +132,20 @@ a:active {
 	display: flex;
 	justify-content: center;
 }
-.center-align {
+.transform-center {
 	position: absolute;
 	/* horizontal centering*/
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);	
 }
-.vertical-center-align {
-	position: absolute;
-
-	/* pseudo vertical centering */
-	bottom: 35%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
-
-	/* horizontal centering*/
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-}
-.bottom-center-align {
+.bottom-align {
 	position: absolute;
 	bottom: 60px;
-
-	/* horizontal centering*/
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
 }
-.top-center-align {
+.top-align {
     position: absolute;
     top: 0;
-
-    /* horizontal centering*/
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 .sectionContainer{
     padding-top: 120pt;
@@ -192,9 +169,6 @@ a:active {
 
 
 /* Front Page */
-.frontPageText{
-	position: relative;
-}
 #time {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
@@ -236,14 +210,8 @@ a:active {
 
 
 /* Features Page */
-.featureButtonContainer {
-}
-.featureButtonLine {
-	width: 90%;
-	height: 0px;
-	border: solid 2px;
-}
 .featureButton {
+	display: block;
 	width: 70px;
 	height: 70px;
 }
@@ -257,10 +225,13 @@ a:active {
 }
 .featureButtonLink {
 	margin-left: 10px;
-	margin-right: 10px;	
+	margin-right: 10px;
+	display: inline-block;
+    background: black;
+    padding: 0;
 }
 .featureSectionContainer {
-	margin-top: 120px;
+	margin-top: 40px;
 }
 .featureImg {
 	padding-left: 50px;
