@@ -129,28 +129,6 @@
                     <a href='#' id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
                     <a href='#' id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
                 </div>
-
-
-
-
-<!--                 <div class="col-md-1"></div>
-                <div class="col-md-5 generalFont mediumSize blackText">
-                    <ul class="listMargin" style="list-style-type:square">
-                      <li>A different way of looking at time. In reverse.</li>
-                      <li>Shows a countdown to start and end of day.</li>
-                      <li>Multiple countdowns to most important events/goals/look-forwards.</li>
-                      <li>Customise countdowns to last from seconds to years.</li>
-                      <li>Simply select an event on your phone calendar and emit syncs automatically.</li>
-                      <li>Shows current time, if needed.</li>
-                      <li>Minimal and distinct design.</li>
-                    </ul>       
-                </div>
-                <div class="col-md-5">
-                    <img src="/images/rightfacing_emit_comp.png" class="img-fluid flex-center" alt="Responsive image">
-                </div>
-                <div class="col-md-1"></div> -->
-
-
                     
 
             </div>
@@ -249,6 +227,8 @@
                 <div class="col-md-1"></div>
             </div>
         </div>
+
+
     </div>
 
     <div class="section">
@@ -468,16 +448,16 @@
                         Own time. Own emit.
                     </p>
 
-                    <div>
-                        <p><b>Licenses:</b></p>
-                        <p>day and night by Nerea Martínez Orduña from the Noun Project</p>
-                        <p>Smartphone by Naveen from the Noun Project</p>
-                        <p>timer by Adrien Coquet from the Noun Project</p>
-                        <p>Watch by Manasa from the Noun Project</p>
-                        <p>Calendar by Storm Icons from the Noun Project</p>
-                        <p>Battery by Gregor Cresnar from the Noun Project</p>
-                        <p>timer by Anusha Narvekar from the Noun Project</p>
-                        <p>Time by arjuazka from the Noun Project</p>
+                    <div class="faded">
+                        <b>Licenses:</b> <br>
+                        day and night by Nerea Martínez Orduña from the Noun Project <br>
+                        Smartphone by Naveen from the Noun Project <br>
+                        timer by Adrien Coquet from the Noun Project <br>
+                        Watch by Manasa from the Noun Project <br>
+                        Calendar by Storm Icons from the Noun Project <br>
+                        Battery by Gregor Cresnar from the Noun Project <br>
+                        timer by Anusha Narvekar from the Noun Project <br>
+                        Time by arjuazka from the Noun Project <br>
                     </div>
 
                 </div>
