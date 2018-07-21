@@ -91,10 +91,10 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block top-align full-width titleFont text-center titleSize whiteText">VIDEO</div>
-        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile whiteText">VIDEO</div>
+<!--         <div class="d-none d-md-block top-align full-width titleFont text-center titleSize whiteText">VIDEO</div>
+        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile whiteText">VIDEO</div> -->
         <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainer">
+            <div class="row full-width sectionContainerMobile">
                 <div class="col-1"></div>
                 <div class="col-10">
                     <video id="desktopVideo" controls class="videoLarge">
