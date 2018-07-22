@@ -472,16 +472,7 @@
                     </p>
 
                     <div class="faded">
-                        <b>Licenses:</b> <br>
-                        day and night by Nerea Martínez Orduña from the Noun Project <br>
-                        Smartphone by Naveen from the Noun Project <br>
-                        timer by Adrien Coquet from the Noun Project <br>
-                        Watch by Manasa from the Noun Project <br>
-                        Calendar by Storm Icons from the Noun Project <br>
-                        Battery by Gregor Cresnar from the Noun Project <br>
-                        timer by Anusha Narvekar from the Noun Project <br>
-                        Time by arjuazka from the Noun Project <br>
-                        <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
+                        <a class="licenseLink" href="licenses">Licenses</a>
                     </div>
 
 <!--                     <div class="row">
@@ -516,16 +507,7 @@
                     </p>
 
                     <div class="faded">
-                        <b>Licenses:</b> <br>
-                        day and night by Nerea Martínez Orduña from the Noun Project <br>
-                        Smartphone by Naveen from the Noun Project <br>
-                        timer by Adrien Coquet from the Noun Project <br>
-                        Watch by Manasa from the Noun Project <br>
-                        Calendar by Storm Icons from the Noun Project <br>
-                        Battery by Gregor Cresnar from the Noun Project <br>
-                        timer by Anusha Narvekar from the Noun Project <br>
-                        Time by arjuazka from the Noun Project <br>
-                        <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
+                        <a class="licenseLink" href="licenses">Licenses</a>
                     </div>
 
                 </div>
