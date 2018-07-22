@@ -46,9 +46,12 @@
             </div>           
             <div  class="col-md-5 d-none d-md-block frontPageText">
                 <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont sublineSize whiteText">
-                        <div>Own time.</div>
-                        <div>Own emit.</div>    
+                    <div class="titleFont">
+                        <div class="sublineSize whiteText">Own time.</div>
+                        <div class="sublineSize whiteText">Own emit.</div>
+                        <div class="navBarSize whiteText miniBotPad">Have a better perspective on time.</div>
+                        <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
+                        <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
                     </div>
                 </div>
 
@@ -68,22 +71,26 @@
         </div>
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
-                <div class="col-2 mx-auto"><a href="#video">VIDEO</a></div>
-                <div class="col-1 mx-auto">|</div>
+                <!-- <div class="col-2 mx-auto"><a href="#">USE</a></div>
+                <div class="col-1 mx-auto">|</div> -->
                 <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
                 <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#signup">SIGN-UP</a></div>
+                <div class="col-2 mx-auto"><a href="#signup">PROGRESS</a></div>
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
             </div>            
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
-            <div class="row full-width flex-center">
-                <span ><a href="#video">VIDEO</a></span>
-                <span class="lrPad"> | </span>
+            <div class="miniBotPad">
+                <a href="#signup"><button class="white-btn btn blackText setLengthMobile">Sign-Up</button></a>
+                <a href="#video"><button class="black-btn btn whiteText setLengthMobile ">Play Video</button></a>
+            </div>
+            <div class="row full-width flex-center ">
+                <!-- <span ><a href="#">USE</a></span>
+                <span class="lrPad"> | </span> -->
                 <span ><a href="#features">FEATURES</a></span>
                 <span class="lrPad"> | </span>
-                <span ><a href="#signup">SIGN-UP</a></span>
+                <span ><a href="#signup">PROGRESS</a></span>
                 <span class="lrPad"> | </span>
                 <span ><a href="#mission">MISSION</a></span>
             </div>              
@@ -282,8 +289,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">SIGN-UP</div>
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">PROGRESS</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">PROGRESS</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
@@ -311,11 +318,15 @@
                             <div id="mc_embed_signup">
                             <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
-                                
-                                <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont"></div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value="">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
+                                        <div class="input-group-append">
+                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont">
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                             </div>
@@ -353,6 +364,7 @@
                 </div>
                 <div class="col-lg-2"></div>
             </div>
+            <div class="bottom-align"></div>
             <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">  
         </div>
         <div class="d-md-none container-fluid">
@@ -381,11 +393,15 @@
                             <div id="mc_embed_signup">
                             <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                                 <div id="mc_embed_signup_scroll">
-                                
-                                <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
-                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value=""></div>
-                                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont"></div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value="">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
+                                        <div class="input-group-append">
+                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont">
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                             </div>
@@ -524,8 +540,6 @@
 <script type="text/javascript">
     $(document).ready(function() {
 
-        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
         $('#fullpage').fullpage({
             keyboardScrolling: true,
             animateAnchor: true,
@@ -540,6 +554,9 @@
 
             // Autoplay video fix
             afterLoad: function(origin, destination, direction){
+
+                var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
                 if (destination==2) {
                     if (w >= 768) {
                         var vid = document.getElementById("desktopVideo");
