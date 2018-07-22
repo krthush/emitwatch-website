@@ -284,7 +284,7 @@
         </div>
 
         <!-- Spacing for mobile -->
-        <div class="full-width largeBottomPad"></div>
+        <div class="d-md-none full-width largeBottomPad"></div>
 
     </div>
 
