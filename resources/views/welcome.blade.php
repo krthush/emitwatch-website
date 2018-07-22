@@ -98,26 +98,39 @@
     </div>
 
     <div class="section">
-<!--         <div class="d-none d-md-block top-align full-width titleFont text-center titleSize whiteText">VIDEO</div>
-        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile whiteText">VIDEO</div> -->
+
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainerMobile">
                 <div class="col-1"></div>
                 <div class="col-10">
-                    <video id="desktopVideo" controls class="videoLarge">
+                    <video id="desktopVideo" controls class="containedVideo">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
                     </video>
-                    <!-- Prevent accidental scrolling -->
                     <div class="full-width largeBottomPad"></div>
                 </div>
                 <div class="col-1"></div>
             </div>
         </div>
         <div class="d-md-none container-fluid zeroPad">
-            <video id="mobileVideo" controls class="sectionContainerMobile videoSmall">
+            <video id="mobileVideo" controls class="sectionContainerMobile containedVideo">
                 <source src="/images/movieSmall.mp4" type="video/mp4">
             </video>
         </div>
+
+<!--         <video class="fullscreenVideo" loop muted data-autoplay>
+            <source src="/images/rain.mp4" type="video/mp4">
+        </video>
+
+        <div class="layer flex-center">
+            <div class="flex-center full-height full-width text-center">
+                <div class="titleFont">
+                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
+                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                </div>
+            </div> 
+        </div> -->
+
     </div>
 
 
