@@ -369,8 +369,8 @@
                         <a href="https://www.facebook.com/ownemit/">
                             <img class="icon" src="/images/fb_logo.png">
                         </a>
-                        <a href="https://www.snapchat.com/add/emitwatch">
-                            <img class="icon" src="/images/snap_logo.png">
+                        <a href="https://twitter.com/emitwatch">
+                            <img class="icon" src="/images/twitter_logo.png">
                         </a>
                     </div>
 
@@ -447,8 +447,8 @@
                         <a href="https://www.facebook.com/ownemit/">
                             <img class="icon" src="/images/fb_logo.png">
                         </a>
-                        <a href="https://www.snapchat.com/add/emitwatch">
-                            <img class="icon" src="/images/snap_logo.png">
+                        <a href="https://twitter.com/emitwatch">
+                            <img class="icon" src="/images/twitter_logo.png">
                         </a>
                     </div>
 
