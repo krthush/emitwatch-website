@@ -196,8 +196,8 @@
                         <div class="d-none d-md-block titleFont subTitleSize blackText">Day/Night Cycle</div>
                         <div class="d-none d-md-block generalFont mediumSize blackText">
                             <br>
-                            <p>A different way of looking at time. In reverse.</p>
-                            <p>Shows a countdown to start and end of day.</p>
+                            <p>A different way of looking at time. <br> In reverse.</p>
+                            <p>Shows countdown to start and end of day.</p>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Day/Night Cycle</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -674,13 +674,17 @@ $(function() {
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
 
+        document.getElementById("daynightBtn").style.filter = "brightness(70%)";
+        document.getElementById("daynightBtnMobile").style.filter = "brightness(70%)";
+
         // Check for mouseover for Desktop
         $(".featureButtonLink").mouseover(function(){
 
-            // $(this).find('img').fadeTo(500, 0.5);
-
             // Hides all txt/imgs
             hideAll();
+
+            // $(this).find('img').fadeTo(500, 0.5);
+            document.getElementById(this.id).style.filter = "brightness(70%)";
 
             // Check for which button is being hovered on
             // TODO: this can be made more neat?
@@ -716,10 +720,11 @@ $(function() {
         // Check for mouseover for Mobile
         $(".featureButtonLinkMobile").mouseover(function(){
 
-            // $(this).find('img').fadeTo(500, 0.5);
-
             // Hides all txt/imgs
             hideAll();
+
+            // $(this).find('img').fadeTo(500, 0.5);
+            document.getElementById(this.id).style.filter = "brightness(70%)";
 
             // Check for which button is being hovered on
             // TODO: this can be made more neat?
@@ -776,6 +781,23 @@ $(function() {
         $("#progressTxt").hide();
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
+
+        // Reset all buttons
+        document.getElementById("daynightBtn").style.filter = "brightness(100%)";
+        document.getElementById("calendarBtn").style.filter = "brightness(100%)";
+        document.getElementById("smartphoneBtn").style.filter = "brightness(100%)";
+        document.getElementById("timerBtn").style.filter = "brightness(100%)";
+        document.getElementById("progressBtn").style.filter = "brightness(100%)";
+        document.getElementById("timeBtn").style.filter = "brightness(100%)";
+        document.getElementById("batteryBtn").style.filter = "brightness(100%)";
+
+        document.getElementById("daynightBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("calendarBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("smartphoneBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("timerBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("progressBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("timeBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("batteryBtnMobile").style.filter = "brightness(100%)";
 
     }
 
