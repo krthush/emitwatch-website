@@ -117,7 +117,7 @@
             </video>
         </div>
 
-<!--         <video class="fullscreenVideo" loop muted data-autoplay>
+        <!-- <video class="fullscreenVideo" loop muted data-autoplay>
             <source src="/images/rain.mp4" type="video/mp4">
         </video>
 
@@ -132,6 +132,60 @@
         </div> -->
 
     </div>
+
+    <!-- <div class="section">
+
+        <video class="fullscreenVideo" loop muted data-autoplay>
+            <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+
+        <div class="layer flex-center">
+            <div class="flex-center full-height full-width text-center">
+                <div class="titleFont">
+                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
+                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <video class="fullscreenVideo" loop muted data-autoplay>
+            <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+
+        <div class="layer flex-center">
+            <div class="flex-center full-height full-width text-center">
+                <div class="titleFont">
+                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
+                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <video class="fullscreenVideo" loop muted data-autoplay>
+            <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+        </video>
+
+        <div class="layer flex-center">
+            <div class="flex-center full-height full-width text-center">
+                <div class="titleFont">
+                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
+                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                </div>
+            </div> 
+        </div>
+
+    </div> -->
 
 
     <div class="section">
@@ -543,7 +597,9 @@
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
+            // sectionsColor: ['#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
             anchors: ['home', 'video', 'features', 'signup', 'mission'],
+            // anchors: ['home', 'video', 'use_1', 'use_2', 'use_3', 'features', 'signup', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
 
