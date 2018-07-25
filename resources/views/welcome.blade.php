@@ -359,16 +359,22 @@
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">PROGRESS</div>
         <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">PROGRESS</div>
 
-        <div class="d-none d-md-block container-fluid">
+        <div class="container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-8 generalFont mediumSize blackText">
+                <div class="col-lg-8 generalFont blackText">
 
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
+                    <p class="d-none d-md-block mediumSize">We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
 
 <!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
 
-                    <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+                    <p class="d-none d-md-block mediumSize">Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+
+                    <p class="d-md-none mediumSizeMobile">We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
+
+<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
+
+                    <p class="d-md-none mediumSizeMobile">Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
 
                     <div class="row email-bar">
                         <div class="col-lg-2"></div>
@@ -433,83 +439,6 @@
             </div>
             <div class="bottom-align"></div>
             <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">  
-        </div>
-        <div class="d-md-none container-fluid">
-            <div class="row full-width sectionContainerMobile mediumBottomPad">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8 generalFont mediumSizeMobile blackText">
-
-                    <p>We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
-
-<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
-
-                    <p>Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
-
-                    <div class="row email-bar">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8">
-
-                            <!-- Begin MailChimp Signup Form -->
-
-                            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-                            <style type="text/css">
-                                #mc_embed_signup{background:#f5f5f5; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                            </style>
-                            <div id="mc_embed_signup">
-                            <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value="">
-                                    </div>
-                                    <div class="input-group">
-                                        <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
-                                        <div class="input-group-append">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            </div>
-
-                            <!--End mc_embed_signup-->
-
-
-                            
-<!--                             <form  method="POST" action="{{ route('subscribe') }}">
-                                {{ csrf_field() }}
-                                <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
-                                  </div>
-                                </div>
-                            </form> -->
-
-
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                    
-<!--                     <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div> -->
-
-                    <div class="row iconContainer">
-                        <a href="https://www.instagram.com/emitwatch/">
-                            <img class="icon" src="/images/insta_logo.png">
-                        </a>
-                        <a href="https://www.facebook.com/ownemit/">
-                            <img class="icon" src="/images/fb_logo.png">
-                        </a>
-                        <a href="https://twitter.com/emitwatch">
-                            <img class="icon" src="/images/twitter_logo.png">
-                        </a>
-                    </div>
-
-                </div>
-                <div class="col-lg-2"></div>
-            </div>   
-            <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">
         </div>
     </div>
 
@@ -857,6 +786,12 @@ $(function() {
 
     }
 
+</script>
+
+<script type="text/javascript">
+    $( "#mc-embedded-subscribe" ).click(function() {
+        fbq('track', 'CompleteRegistration');
+    });
 </script>
 
 @endsection
