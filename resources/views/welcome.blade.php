@@ -479,7 +479,7 @@
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">
+            <!-- <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image"> -->
         </div>
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile largeBottomPad">
@@ -509,7 +509,7 @@
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image"> 
+            <!-- <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">  -->
         </div>
     </div>
 </div>
