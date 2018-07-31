@@ -71,13 +71,13 @@
         </div>
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
-                <!-- <div class="col-2 mx-auto"><a href="#">USE</a></div>
-                <div class="col-1 mx-auto">|</div> -->
                 <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#signup">PROGRESS</a></div>
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
+                <div class="col-1 mx-auto">|</div>
+                <div class="col-2 mx-auto"><a href="#supporters">SUPPORTERS</a></div>
             </div>            
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
@@ -86,13 +86,13 @@
                 <a href="#video"><button class="black-btn btn whiteText setLengthMobile ">Play Video</button></a>
             </div>
             <div class="row full-width flex-center ">
-                <!-- <span ><a href="#">USE</a></span>
-                <span class="lrPad"> | </span> -->
                 <span ><a href="#features">FEATURES</a></span>
                 <span class="lrPad"> | </span>
                 <span ><a href="#signup">PROGRESS</a></span>
                 <span class="lrPad"> | </span>
                 <span ><a href="#mission">MISSION</a></span>
+                <span class="lrPad"> | </span>
+                <span ><a href="#supporters">SUPPORTERS</a></span>
             </div>              
         </div>
     </div>
@@ -498,6 +498,48 @@
             <!-- <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">  -->
         </div>
     </div>
+
+    <div class="section">
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize whiteText">SUPPORTERS</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile whiteText">SUPPORTERS</div>
+
+        <div class="d-none d-md-block container-fluid">
+            <div class="row full-width sectionContainer mediumBottomPad">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
+
+                    Simran Grewal<br>
+                    Shayan Imran<br>
+                    Pius Chong<br>
+                    Alex Luy<br>
+                    Ana Cristina Luy<br>
+                    Caleb Goddard <br>
+                    Bob Wemerman<br>
+                     
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+        <div class="d-md-none container-fluid">
+            <div class="row full-width sectionContainerMobile largeBottomPad">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
+
+                    Simran Grewal<br>
+                    Shayan Imran<br>
+                    Pius Chong<br>
+                    Alex Luy<br>
+                    Ana Cristina Luy<br>
+                    Caleb Goddard<br>
+                    Bob Wemerman<br>
+
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
 
 <!-- FullPage JS setup -->
@@ -511,9 +553,9 @@
             showActiveTooltip: true,
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
-            sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
+            sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             // sectionsColor: ['#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
-            anchors: ['home', 'video', 'features', 'signup', 'mission'],
+            anchors: ['home', 'video', 'features', 'signup', 'mission', 'supporters'],
             // anchors: ['home', 'video', 'use_1', 'use_2', 'use_3', 'features', 'signup', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
