@@ -2,6 +2,7 @@
 <meta charset="utf-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="google-site-verification" content="ixh63P7Tr3t_oApcfx3O-KE51AWOIkAsnQHWggpUGE0" />
 
 <meta property="og:title" content="emit – A new perspective on time. In reverse.">
 <meta property="og:image" content="https://ownemit.com/images/rightfacing_goal_comp_preview.png">
