@@ -19,5 +19,9 @@ Route::get('/licenses', function () {
     return view('licenses');
 })->name('licenses');
 
+Route::get('/shop', function () {
+    return redirect('https://emitwatch.myshopify.com/');
+})->name('shop');
+
 // Route for getting user email
 Route::post('/subscribe', 'EmailController@store')->name('subscribe');
