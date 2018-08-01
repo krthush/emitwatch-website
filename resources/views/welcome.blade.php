@@ -77,7 +77,7 @@
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
                 <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#supporters">SUPPORTERS</a></div>
+                <div class="col-2 mx-auto"><a href="#supporters">PATRONS</a></div>
             </div>            
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
@@ -92,7 +92,7 @@
                 <span class="lrPad"> | </span>
                 <span ><a href="#mission">MISSION</a></span>
                 <span class="lrPad"> | </span>
-                <span ><a href="#supporters">SUPPORTERS</a></span>
+                <span ><a href="#supporters">PATRONS</a></span>
             </div>              
         </div>
     </div>
@@ -500,8 +500,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize whiteText">SUPPORTERS</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile whiteText">SUPPORTERS</div>
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize whiteText">PATRONS</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile whiteText">PATRONS</div>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
