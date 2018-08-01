@@ -418,6 +418,11 @@
                         <a href="https://twitter.com/emitwatch">
                             <img class="icon" src="/images/twitter_logo.png">
                         </a>
+
+                        <a href="https://emitwatch.myshopify.com/">
+                            <img class="icon" src="/images/cart.png">
+                        </a>
+
                     </div>
 
                 </div>
