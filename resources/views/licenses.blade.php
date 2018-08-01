@@ -1,4 +1,3 @@
-@@ -1,73 +0,0 @@
 @extends('layouts.master')
 
 @section('content')
