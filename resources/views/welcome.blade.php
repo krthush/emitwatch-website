@@ -523,7 +523,7 @@
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile largeBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
+                <div class="col-sm-8 generalFont mediumSizeMobile whiteText text-justify">
 
                     Simran Grewal<br>
                     Shayan Imran<br>
