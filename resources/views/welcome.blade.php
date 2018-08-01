@@ -77,7 +77,7 @@
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
                 <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#supporters">PATRONS</a></div>
+                <div class="col-2 mx-auto"><a href="#patrons">PATRONS</a></div>
             </div>            
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
@@ -92,7 +92,7 @@
                 <span class="lrPad"> | </span>
                 <span ><a href="#mission">MISSION</a></span>
                 <span class="lrPad"> | </span>
-                <span ><a href="#supporters">PATRONS</a></span>
+                <span ><a href="#patrons">PATRONS</a></span>
             </div>              
         </div>
     </div>
@@ -555,7 +555,7 @@
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             // sectionsColor: ['#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5'],
-            anchors: ['home', 'video', 'features', 'signup', 'mission', 'supporters'],
+            anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
             // anchors: ['home', 'video', 'use_1', 'use_2', 'use_3', 'features', 'signup', 'mission'],
             scrollOverflow: true,
             verticalCentered:false,
