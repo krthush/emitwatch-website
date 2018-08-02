@@ -87,5 +87,14 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123259634-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123259634-1');
+</script>
 
 <title>emit</title>
