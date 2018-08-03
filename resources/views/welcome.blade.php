@@ -99,6 +99,10 @@
 
     <div class="section">
 
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton inverted" src="/images/home-01.png">
+        </a>
+
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainerMobile">
                 <div class="col-1"></div>
@@ -209,8 +213,13 @@
 
 
     <div class="section">
+
         <div class="d-none d-md-block top-align full-width titleFont text-center titleSize blackText">FEATURES</div>
         <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile blackText">FEATURES</div>
+
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton" src="/images/home-01.png">
+        </a>
 
         <div class="container-fluid">
             <div class="row full-width">
@@ -379,6 +388,10 @@
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">PROGRESS</div>
         <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">PROGRESS</div>
 
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton" src="/images/home-01.png">
+        </a>
+
         <div class="container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-lg-2"></div>
@@ -471,6 +484,10 @@
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">MISSION</div>
         <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">MISSION</div>
 
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton" src="/images/home-01.png">
+        </a>
+
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
@@ -541,6 +558,10 @@
     <div class="section">
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize whiteText">PATRONS</div>
         <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile whiteText">PATRONS</div>
+
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton inverted" src="/images/home-01.png">
+        </a>
 
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
