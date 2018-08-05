@@ -59,6 +59,13 @@ a:active {
 .inverted {
 	filter: invert(100%);
 }
+.modal-dialog {
+	max-width: 90%;
+    width:  90%;
+}
+.modal-content {
+	background-color: #000000;
+}
 
 
 

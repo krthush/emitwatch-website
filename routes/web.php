@@ -19,6 +19,10 @@ Route::get('/licenses', function () {
     return view('licenses');
 })->name('licenses');
 
+Route::get('/test', function () {
+    return view('test');
+})->name('test');
+
 Route::get('/shop', function () {
     return redirect('https://emitwatch.myshopify.com/');
 })->name('shop');
