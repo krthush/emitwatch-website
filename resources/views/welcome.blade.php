@@ -50,8 +50,8 @@
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Have a better perspective on time.</div>
-                        <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                     </div>
                 </div>
 
@@ -82,8 +82,8 @@
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
             <div class="miniBotPad">
-                <a href="#signup"><button class="white-btn btn blackText setLengthMobile">Sign-Up</button></a>
-                <a href="#video"><button class="black-btn btn whiteText setLengthMobile ">Play Video</button></a>
+                <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
+                <a href="#video"><button class="black-btn btn whiteBorder whiteText setLengthMobile ">Play Video</button></a>
             </div>
             <div class="row full-width flex-center ">
                 <span ><a href="#features">FEATURES</a></span>
@@ -134,8 +134,8 @@
                 <div class="flex-center full-height full-width text-center">
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                     </div>
                 </div> 
             </div>
@@ -150,8 +150,8 @@
                 <div class="flex-center full-height full-width text-center">
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                     </div>
                 </div> 
             </div>
@@ -166,8 +166,8 @@
                 <div class="flex-center full-height full-width text-center">
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                     </div>
                 </div> 
             </div>
@@ -185,8 +185,8 @@
             <div class="flex-center full-height full-width text-center">
                 <div class="titleFont">
                     <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                    <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                 </div>
             </div> 
         </div>
@@ -203,8 +203,8 @@
             <div class="flex-center full-height full-width text-center">
                 <div class="titleFont">
                     <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                    <a href="#signup"><button class="white-btn btn blackText setLength">Sign-Up</button></a>
-                    <a href="#video"><button class="black-btn btn whiteText setLength">Play Video</button></a>     
+                    <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                    <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
                 </div>
             </div> 
         </div>
@@ -281,12 +281,16 @@
                             <br>
                             <p>A different way of looking at time. <br> In reverse.</p>
                             <p>Shows countdown to start and end of day.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>  
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Day/Night Cycle</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>A different way of looking at time. In reverse.</p>
                             <p>Shows a countdown to start and end of day.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="calendarTxt" class="full-width">
@@ -295,12 +299,16 @@
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Calendar Events</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="smartphoneTxt" class="full-width">
@@ -310,6 +318,8 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Sync from phone</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -317,6 +327,8 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="timerTxt" class="full-width">
@@ -325,12 +337,16 @@
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Multiple Timers</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="progressTxt" class="full-width">
@@ -339,12 +355,16 @@
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">See progress</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="timeTxt" class="full-width">
@@ -352,11 +372,15 @@
                         <div class="d-none d-md-block generalFont mediumSize blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Standard time</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
@@ -365,12 +389,16 @@
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Long Battery Life</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
+                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
                         </div>
                     </div>
                 </div>
