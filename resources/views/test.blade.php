@@ -14,12 +14,15 @@
     <div class="modal-content">
       <div class="modal-body">
             <div class="row full-width">
-                <div class="col-12">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <div class="col-12 relative-position zeroPad">
+                    <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <video id="desktopVideo" controls class="containedVideo">
+                    <video id="desktopVideo" controls class="d-none d-md-block containedVideo">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
+                    </video>
+                    <video id="mobileVideo" controls class="d-md-none containedVideo">
+                        <source src="/images/movieSmall.mp4" type="video/mp4">
                     </video>
                 </div>
             </div>
@@ -28,12 +31,24 @@
   </div>
 </div>
 
+<!-- N.B. This does NOT work for on the go screen size change -->
 <script type="text/javascript">
   $('#videoModal').on('shown.bs.modal', function () {
-    $('#desktopVideo')[0].play();
-  })
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        $('#desktopVideo')[0].play();
+    } else {
+        $('#mobileVideo')[0].play(); 
+    }
+  });
+
   $('#videoModal').on('hidden.bs.modal', function () {
-    $('#desktopVideo')[0].pause();
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        $('#desktopVideo')[0].pause();
+    } else {
+        $('#mobileVideo')[0].pause(); 
+    }
   });
 </script>
 
