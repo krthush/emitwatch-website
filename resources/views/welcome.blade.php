@@ -289,8 +289,10 @@
                             <br>
                             <p>A different way of looking at time. In reverse.</p>
                             <p>Shows a countdown to start and end of day.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="calendarTxt" class="full-width">
@@ -307,8 +309,10 @@
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="smartphoneTxt" class="full-width">
@@ -327,8 +331,10 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="timerTxt" class="full-width">
@@ -345,8 +351,10 @@
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="progressTxt" class="full-width">
@@ -363,8 +371,10 @@
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="timeTxt" class="full-width">
@@ -379,8 +389,10 @@
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
@@ -397,8 +409,10 @@
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <div class="text-center">    
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>

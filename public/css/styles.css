@@ -27,8 +27,16 @@
 
 /* GENERAL STYLING */
 html {
+    overflow: scroll;
+    overflow-x: hidden;
 }
-body {
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
 a:link {
     color: #f5f5f5; 
@@ -186,9 +194,6 @@ a:active {
 	font-size: 15pt;
 	white-space: nowrap;
 	overflow: hidden;
-}
-.centerText {
-	text-align: center;
 }
 .faded {
 	opacity: 0.4;
