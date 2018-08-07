@@ -447,7 +447,7 @@
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-center">
+                <div class="col-sm-8 generalFont generalSize blackText text-justify">
 
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
@@ -482,7 +482,7 @@
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile largeBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-center">
+                <div class="col-sm-8 generalFont generalSize blackText text-justify">
 
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
