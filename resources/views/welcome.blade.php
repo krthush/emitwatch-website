@@ -101,6 +101,10 @@
 
     <div class="section fullscreenVideoSection">
 
+        <a class="d-none d-md-block" href="#home">
+            <img class="homeButton" src="/images/home-01.png">
+        </a>
+
         <div class="slide">
             <video class="fullscreenVideo" loop muted data-autoplay>
                 <source src="/images/gym.mp4" type="video/mp4">
