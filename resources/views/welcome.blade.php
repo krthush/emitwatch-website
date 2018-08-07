@@ -102,7 +102,7 @@
     <div class="section fullscreenVideoSection">
 
         <a class="d-none d-md-block" href="#home">
-            <img class="homeButton" src="/images/home-01.png">
+            <img class="homeButton inverted" src="/images/home-01.png">
         </a>
 
         <div class="slide">
