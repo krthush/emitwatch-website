@@ -72,9 +72,9 @@
         </div>
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
-                <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
+                <div class="col-2 mx-auto"><a href="#why">WHY?</a></div>
                 <div class="col-1 mx-auto">|</div>
-                <div class="col-2 mx-auto"><a href="#signup">PROGRESS</a></div>
+                <div class="col-2 mx-auto"><a href="#features">FEATURES</a></div>
                 <div class="col-1 mx-auto">|</div>
                 <div class="col-2 mx-auto"><a href="#mission">MISSION</a></div>
                 <div class="col-1 mx-auto">|</div>
@@ -88,9 +88,9 @@
                 <!-- <div class="full-width titleFont text-center whiteText miniTopPad">Kickstarter soon!</div> -->
             </div>
             <div class="row full-width flex-center ">
-                <span ><a href="#features">FEATURES</a></span>
+                <span ><a href="#why">WHY?</a></span>
                 <span class="lrPad"> | </span>
-                <span ><a href="#signup">PROGRESS</a></span>
+                <span ><a href="#features">FEATURES</a></span>
                 <span class="lrPad"> | </span>
                 <span ><a href="#mission">MISSION</a></span>
                 <span class="lrPad"> | </span>
@@ -357,17 +357,13 @@
                 <div class="col-lg-2"></div>
                 <div class="col-lg-8 generalFont blackText">
 
-                    <p class="d-none d-md-block mediumSize">We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
+<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
+
+                    <p class="d-none d-md-block mediumSize">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
 
 <!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
 
-                    <p class="d-none d-md-block mediumSize">Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
-
-                    <p class="d-md-none mediumSizeMobile">We are currently working on our prototypes and will be fund-raising on Kickstarter.</p>
-
-<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
-
-                    <p class="d-md-none mediumSizeMobile">Sign up and follow us to keep up-to-date with more information on emit and the Kickstarter campaign: </p>
+                    <p class="d-md-none mediumSizeMobile">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
 
                     <div class="row email-bar">
                         <div class="col-lg-2"></div>
@@ -451,7 +447,7 @@
         <div class="d-none d-md-block container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-justify">
+                <div class="col-sm-8 generalFont generalSize blackText text-center">
 
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
@@ -486,7 +482,7 @@
         <div class="d-md-none container-fluid">
             <div class="row full-width sectionContainerMobile largeBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-justify">
+                <div class="col-sm-8 generalFont generalSize blackText text-center">
 
                     <p>
                         Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
@@ -599,7 +595,7 @@
             // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             // anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
-            anchors: ['home', 'use', 'features', 'signup', 'mission', 'patrons'],
+            anchors: ['home', 'why', 'features', 'signup', 'mission', 'patrons'],
             scrollOverflow: true,
             verticalCentered:false,
         });
