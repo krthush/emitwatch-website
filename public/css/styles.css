@@ -16,6 +16,10 @@
 .miniBotPad {
 	padding-bottom: 30px;
 }
+.miniTopPad {
+	padding-top: 30px;
+}
+
 
 
 
@@ -180,9 +184,7 @@ a:active {
 	overflow: hidden;
 }
 .sublineSizeMobile {
-	font-size: 25pt;
-	white-space: nowrap;
-	overflow: hidden;
+	font-size: 30pt;
 }
 .subTitleSizeMobile {
 	font-size: 16pt;

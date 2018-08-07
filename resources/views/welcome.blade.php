@@ -51,7 +51,8 @@
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Have a better perspective on time.</div>
                         <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
+                        <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                        <!-- <div class="full-width titleFont text-center navBarSize whiteText miniTopPad">Kickstarter soon!</div>      -->
                     </div>
                 </div>
 
@@ -83,7 +84,8 @@
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
             <div class="miniBotPad">
                 <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
-                <a href="#video"><button class="black-btn btn whiteBorder whiteText setLengthMobile ">Play Video</button></a>
+                <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                <!-- <div class="full-width titleFont text-center whiteText miniTopPad">Kickstarter soon!</div> -->
             </div>
             <div class="row full-width flex-center ">
                 <span ><a href="#features">FEATURES</a></span>
@@ -97,120 +99,32 @@
         </div>
     </div>
 
-    <div class="section">
-
-        <a class="d-none d-md-block" href="#home">
-            <img class="homeButton inverted" src="/images/home-01.png">
-        </a>
-
-        <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainerMobile">
-                <div class="col-1"></div>
-                <div class="col-10">
-                    <video id="desktopVideo" controls class="containedVideo">
-                        <source src="/images/movieLarge.mp4" type="video/mp4">
-                    </video>
-                    <div class="full-width largeBottomPad"></div>
-                </div>
-                <div class="col-1"></div>
-            </div>
-        </div>
-        <div class="d-md-none container-fluid zeroPad">
-            <video id="mobileVideo" controls class="sectionContainerMobile containedVideo">
-                <source src="/images/movieSmall.mp4" type="video/mp4">
-            </video>
-        </div>
-
-    </div>
-
-    <!-- <div class="section fullscreenVideoSection">
-
-        <div class="slide">
-            <video class="fullscreenVideo" loop muted data-autoplay>
-                <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
-            </video>
-
-            <div class="layer flex-center">
-                <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont">
-                        <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
-                    </div>
-                </div> 
-            </div>
-        </div>
-
-        <div class="slide">
-            <video class="fullscreenVideo" loop muted data-autoplay>
-                <source src="/images/ocean.mp4" type="video/mp4">
-            </video>
-
-            <div class="layer flex-center">
-                <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont">
-                        <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
-                    </div>
-                </div> 
-            </div>
-        </div>
-
-        <div class="slide">
-            <video class="fullscreenVideo" loop muted data-autoplay>
-                <source src="/images/rain.mp4" type="video/mp4">
-            </video>
-
-            <div class="layer flex-center">
-                <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont">
-                        <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
-                    </div>
-                </div> 
-            </div>
-        </div>
-
-    </div>
-
     <div class="section fullscreenVideoSection">
 
-        <video class="fullscreenVideo" loop muted data-autoplay>
-            <source src="/images/ocean.mp4" type="video/mp4">
-        </video>
+        <div class="slide">
+            <video class="fullscreenVideo" loop muted data-autoplay>
+                <source src="/images/gym.mp4" type="video/mp4">
+            </video>
 
-        <div class="layer flex-center">
-            <div class="flex-center full-height full-width text-center">
-                <div class="titleFont">
-                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                    <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                    <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
-                </div>
-            </div> 
+            <div class="layer flex-center">
+                <div class="flex-center full-height full-width text-center">
+                    <div class="titleFont d-none d-md-block">
+                        <div class="sublineSize whiteText">Motivation. Keep going.</div>
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>     
+                    </div>
+                    <div class="titleFont d-md-none">
+                        <div class="sublineSizeMobile whiteText">Motivation. Keep going.</div>
+                        <div>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                        </div>     
+                    </div>
+                </div> 
+            </div>
         </div>
 
     </div>
-
-    <div class="section fullscreenVideoSection">
-
-        <video class="fullscreenVideo" loop muted data-autoplay>
-            <source src="/images/rain.mp4" type="video/mp4">
-        </video>
-
-        <div class="layer flex-center">
-            <div class="flex-center full-height full-width text-center">
-                <div class="titleFont">
-                    <div class="sublineSize whiteText">Always on time. Everywhere.</div>
-                    <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                    <a href="#video"><button class="black-btn btn whiteBorder whiteText setLength">Play Video</button></a>     
-                </div>
-            </div> 
-        </div>
-
-    </div> -->
-
 
     <div class="section">
 
@@ -282,7 +196,7 @@
                             <p>A different way of looking at time. <br> In reverse.</p>
                             <p>Shows countdown to start and end of day.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>  
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Day/Night Cycle</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -290,8 +204,8 @@
                             <p>A different way of looking at time. In reverse.</p>
                             <p>Shows a countdown to start and end of day.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -302,7 +216,7 @@
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Calendar Events</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -310,8 +224,8 @@
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -323,7 +237,7 @@
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Sync from phone</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -332,8 +246,8 @@
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -344,7 +258,7 @@
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Multiple Timers</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -352,8 +266,8 @@
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -364,7 +278,7 @@
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">See progress</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -372,8 +286,8 @@
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -383,15 +297,15 @@
                             <br>
                             <p>Shows current time, if needed.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Standard time</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -402,7 +316,7 @@
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                            <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                            <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                         <div class="d-md-none titleFont subTitleSizeMobile blackText">Long Battery Life</div>
                         <div class="d-md-none generalFont mediumSizeMobile blackText">
@@ -410,8 +324,8 @@
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
                             <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
-                                <a href="#video"><button class="black-btn btn blackBorder whiteText setLength">Play Video</button></a>
+                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
+                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                             </div>
                         </div>
                     </div>
@@ -644,6 +558,29 @@
 
 </div>
 
+<!-- Modal -->
+<div class="modal modal-wide fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+            <div class="row full-width">
+                <div class="col-12 relative-position zeroPad">
+                    <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <video id="desktopVideo" controls class="d-none d-md-block containedVideo">
+                        <source src="/images/movieLarge.mp4" type="video/mp4">
+                    </video>
+                    <video id="mobileVideo" controls class="d-md-none containedVideo">
+                        <source src="/images/movieSmall.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- FullPage JS setup -->
 <script type="text/javascript">
     $(document).ready(function() {
@@ -655,35 +592,35 @@
             showActiveTooltip: true,
             dragAndMove: false,
             dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
+            // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
-            // sectionsColor: ['#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
-            anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
-            // anchors: ['home', 'video', 'use_1', 'use_2', 'use_3', 'features', 'signup', 'mission', 'patrons'],
+            // anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
+            anchors: ['home', 'use', 'features', 'signup', 'mission', 'patrons'],
             scrollOverflow: true,
             verticalCentered:false,
-
-            // Autoplay video fix
-            afterLoad: function(origin, destination, direction){
-
-                var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
-                if (destination==2) {
-                    if (w >= 768) {
-                        var vid = document.getElementById("desktopVideo");
-                        // vid.autoplay = true;
-                        // vid.load();
-                        vid.play();
-                    } else {
-                        var vid = document.getElementById("mobileVideo");
-                        // vid.autoplay = true;
-                        // vid.load();
-                        vid.play(); 
-                    }
-                }
-            },
-
         });
     });
+</script>
+
+<!-- N.B. This does NOT work for on the go screen size change -->
+<script type="text/javascript">
+  $('#videoModal').on('shown.bs.modal', function () {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        $('#desktopVideo')[0].play();
+    } else {
+        $('#mobileVideo')[0].play(); 
+    }
+  });
+
+  $('#videoModal').on('hidden.bs.modal', function () {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        $('#desktopVideo')[0].pause();
+    } else {
+        $('#mobileVideo')[0].pause(); 
+    }
+  });
 </script>
 
 <!-- Script for calculating days until kickstarterCountDown -->
