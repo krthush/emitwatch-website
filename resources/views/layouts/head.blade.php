@@ -38,8 +38,11 @@
 <script src="/js/scrolloverflow.min.js"></script>
 
 <!-- Drag N Move Extension -->
-<script src="/js/fullpage.dragAndMove.min.js"></script>
-<script src="/js/jquery.fullpage.extensions.min.js"></script>
+<!-- <script src="/js/fullpage.dragAndMove.min.js"></script> -->
+<!-- <script src="/js/jquery.fullpage.extensions.min.js"></script> -->
+
+<!-- FullpageJS -->
+<script type="text/javascript" src="/js/fullpage.min.js"></script>
 
 <!-- Hotjar Tracking Code for https://ownemit.com/ -->
 <script>
