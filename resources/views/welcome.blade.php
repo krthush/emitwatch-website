@@ -445,7 +445,7 @@
         </a>
 
         <div class="d-none d-md-block container-fluid">
-            <div class="row full-width sectionContainer mediumBottomPad">
+            <div class="row full-width sectionContainer">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
 
@@ -469,11 +469,14 @@
                         <a class="licenseLink" href="licenses">Licenses</a>
                     </div>
 
+                    <img src="/images/team.jpg" class="teamImg" alt="Responsive image">
+
 <!--                     <div class="row">
                         <div class="col-4"></div>
                         <div class="col-4"><img src="/images/teamphoto.png" class="img-fluid" alt="Responsive image"></div>
                         <div class="col-4"></div>
-                    </div> -->  
+                    </div> -->       
+
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -503,6 +506,8 @@
                     <div class="faded">
                         <a class="licenseLink" href="licenses">Licenses</a>
                     </div>
+
+                    <img src="/images/team.jpg" class="teamImgMobile" alt="Responsive image"> 
 
                 </div>
                 <div class="col-sm-2"></div>
@@ -598,6 +603,7 @@
             anchors: ['home', 'why', 'features', 'signup', 'mission', 'patrons'],
             scrollOverflow: true,
             verticalCentered:false,
+            licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
     });
 </script>

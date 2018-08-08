@@ -266,22 +266,10 @@ a:active {
 .sectionContainerMobile{
     padding-top: 75pt;
 }
-.bottomImage {
-	width: auto;
-	height: 25vh;
-	position: absolute;
-	bottom: 0px;
-
-	/* horizontal centering*/
-	/* slight adjustments due to offcentring */
-    left: 49%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-}
 
 
 
-/* Video Stuff */
+/* Video/Img Stuff */
 .containedVideo {
     width: 100%;
     height: auto;
@@ -305,6 +293,37 @@ a:active {
 }
 .fullscreenVideoSection {
 	overflow: hidden;
+}
+.bottomImage {
+	width: auto;
+	height: 25vh;
+	position: absolute;
+	bottom: 0px;
+
+	/* horizontal centering*/
+	/* slight adjustments due to offcentring */
+    left: 49%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.featureImg {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.teamImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 100px;
+}
+.teamImgMobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 
@@ -362,10 +381,6 @@ a:active {
 	display: inline-block;
     background: black;
     padding: 0;
-}
-.featureImg {
-	padding-left: 50px;
-	padding-right: 50px;
 }
 .featureButtonMobile {
 	display: block;
