@@ -19,14 +19,6 @@ Route::get('/licenses', function () {
     return view('licenses');
 })->name('licenses');
 
-Route::get('/test', function () {
-    return view('test');
-})->name('test');
-
-Route::get('/tick', function () {
-    return view('tick');
-})->name('tick');
-
 Route::get('/thankyou', function () {
     return view('thankyou');
 })->name('thankyou');
