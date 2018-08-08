@@ -106,6 +106,29 @@
         </a>
 
         <div class="slide">
+            <video class="fullscreenVideo" loop muted data-autoplay id="workVideo">
+                <source src="/images/work.mp4" type="video/mp4">
+            </video>
+
+            <div class="layer flex-center">
+                <div class="flex-center full-height full-width text-center">
+                    <div class="titleFont d-none d-md-block">
+                        <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
+                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>     
+                    </div>
+                    <div class="titleFont d-md-none">
+                        <div class="sublineSizeMobile whiteText"><span id="workVideoTextMobile">Plan ahead.</span></div>
+                        <div>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                        </div>     
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="slide">
             <video class="fullscreenVideo" loop muted data-autoplay>
                 <source src="/images/gym.mp4" type="video/mp4">
             </video>
@@ -529,13 +552,14 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
 
+                    Bob Wemerman<br>
                     Simran Grewal<br>
                     Shayan Imran<br>
                     Pius Chong<br>
+                    Priya Sukumaran<br>
+                    Caleb Goddard<br>
                     Alex Luy<br>
                     Ana Cristina Luy<br>
-                    Caleb Goddard <br>
-                    Bob Wemerman<br>
                      
                 </div>
                 <div class="col-sm-2"></div>
@@ -546,13 +570,14 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont mediumSizeMobile whiteText text-justify">
 
+                    Bob Wemerman<br>
                     Simran Grewal<br>
                     Shayan Imran<br>
                     Pius Chong<br>
+                    Priya Sukumaran<br>
+                    Caleb Goddard<br>
                     Alex Luy<br>
                     Ana Cristina Luy<br>
-                    Caleb Goddard<br>
-                    Bob Wemerman<br>
 
                 </div>
                 <div class="col-sm-2"></div>
@@ -709,6 +734,54 @@ $(function() {
 
         return hrs + ':' + mins + ':' + secs + '.' + ms;
     }
+
+</script>
+
+<!-- JS for Work Video Hours CountDown -->
+<script type="text/javascript">
+
+// Get the video element with id="workVideo"
+var vid = document.getElementById("workVideo");
+
+// Assign an ontimeupdate event to the video element, and execute a function if the current playback position has changed
+vid.ontimeupdate = function() {textChangeFunction()};
+
+function textChangeFunction() {
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        if (vid.currentTime <= 4) {
+            document.getElementById("workVideoText").innerHTML = "Plan ahead.";
+        } else if (vid.currentTime <= 5) {
+            document.getElementById("workVideoText").innerHTML = "Report due: 8 hours";
+        } else if (vid.currentTime <= 6) {
+            document.getElementById("workVideoText").innerHTML = "Report due: 7 hours";  
+        } else if (vid.currentTime <= 7) {
+            document.getElementById("workVideoText").innerHTML = "Report due: 6 hours";  
+        } else if (vid.currentTime <= 8) {
+            document.getElementById("workVideoText").innerHTML = "Report due: 5 hours";  
+        } else if (vid.currentTime <= 9) {
+            document.getElementById("workVideoText").innerHTML = "Report due: 4 hours";  
+        } else {
+            document.getElementById("workVideoText").innerHTML = "Achieve more.";  
+        }
+    } else {
+        if (vid.currentTime <= 4) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Plan ahead.";
+        } else if (vid.currentTime <= 5) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 8 hours";
+        } else if (vid.currentTime <= 6) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 7 hours";  
+        } else if (vid.currentTime <= 7) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 6 hours";  
+        } else if (vid.currentTime <= 8) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 5 hours";  
+        } else if (vid.currentTime <= 9) {
+            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 4 hours";  
+        } else {
+            document.getElementById("workVideoTextMobile").innerHTML = "Achieve more.";  
+        }
+    }
+}
 
 </script>
 
