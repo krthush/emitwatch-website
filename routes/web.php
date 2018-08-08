@@ -27,6 +27,10 @@ Route::get('/tick', function () {
     return view('tick');
 })->name('tick');
 
+Route::get('/thankyou', function () {
+    return view('thankyou');
+})->name('thankyou');
+
 Route::get('/shop', function () {
     return redirect('https://emitwatch.myshopify.com/');
 })->name('shop');
