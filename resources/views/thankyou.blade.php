@@ -3,6 +3,10 @@
 @section('content')
 <!-- Content-->
 
+<script type="text/javascript">
+    fbq('track', 'CompleteRegistration');
+</script>
+
 <div class="container-fluid zeroPad" id="fullpage">
 
     <div class="section">
@@ -49,7 +53,7 @@
             anchors: ['mission'],
             scrollOverflow: true,
             verticalCentered:false,
-
+            licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
     });
 </script>

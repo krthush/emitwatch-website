@@ -68,7 +68,7 @@
             anchors: ['mission'],
             scrollOverflow: true,
             verticalCentered:false,
-
+            licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
     });
 </script>

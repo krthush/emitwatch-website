@@ -861,10 +861,4 @@ $(function() {
 
 </script>
 
-<script type="text/javascript">
-    $( "#mc-embedded-subscribe" ).click(function() {
-        fbq('track', 'CompleteRegistration');
-    });
-</script>
-
 @endsection
