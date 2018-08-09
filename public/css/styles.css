@@ -222,12 +222,38 @@ a:active {
 	margin-right: 0px;
 	margin-left: 0px;
 }
+/* 
+ * flexbox centering
+ *
+ * [1] wrap need to be set to flex to be able to use justify-content
+ * [2] Makes sure the contents are centered horizontally since the 
+ *     default flexbox direction is set to row
+ * [3] centers the inner element vertically
+ */
 .flex-center {
-	align-items: center;
-	display: flex;
-	justify-content: center;
+  display: flex;                /* [1] */ 
+  justify-content: center;      /* [2] */
+  align-items: center;          /* [3] */
 }
+/* 
+ * transform centering
+ *
+ * [1] needs position relative or absolute in order to use
+ *     top & left position
+ * [2] Inline-block so the element takes the with of its content
+ * [3] Puts the upper left corner to the center of the wrapping element
+ *     in this case % is relative to the parent dimensions 
+ * [4] translates the element back to the center. in this case % is relative
+ *     to the element it self. Use autoprefixer or something to make this
+ *     work wherever you want it to.
+ */
 .transform-center {
+  position: absolute;                /* [1] */ 
+  display: inline-block;             /* [2] */ 
+  top: 50%; left: 50%;               /* [3] */ 
+  transform: translate(-50%,-50%);   /* [4] */	
+}
+.transform-hozcenter {
 	position: absolute;
 	/* horizontal centering*/
 	left: 50%;
@@ -404,6 +430,11 @@ a:active {
 }
 .featureMobileMargin {
 	margin-top: 20px;
+}
+#dayNightCountdown {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 3.5vw;
 }
 
 

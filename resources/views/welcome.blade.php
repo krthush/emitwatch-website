@@ -40,8 +40,8 @@
         </div>
         <div class="row full-height">
             <div class="col-md-6 flex-center">
-                <span id="time" class="transform-center d-none d-md-block whiteText"></span>
-                <span id="time_small_screen" class="transform-center d-md-none whiteText"></span>
+                <span id="time" class="transform-hozcenter d-none d-md-block whiteText"></span>
+                <span id="time_small_screen" class="transform-hozcenter d-md-none whiteText"></span>
                 <img src="/images/rightfacing_countdown_blank.png" class="img-fluid flex-center" alt="Responsive image">
             </div>           
             <div  class="col-md-5 d-none d-md-block frontPageText">
@@ -185,13 +185,16 @@
 
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
-                    <img id="daynightImg" src="/images/daynightImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="timerImg" src="/images/timerImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="timeImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
-                    <img id="batteryImg" src="/images/timeImg.png" class="featureImg img-fluid flex-center" alt="Responsive image">
+                    <div id="daynightImg">
+                        <span id="dayNightCountdown" class="whiteText transform-center">00:00:00</span>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
+                    <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <img id="timerImg" src="/images/timerImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <img id="timeImg" src="/images/timeImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <img id="batteryImg" src="/images/timeImg.png" class="featureImg img-fluid" alt="Responsive image">
                 </div>
 
                 <!-- Spacing for mobile -->
@@ -930,6 +933,70 @@ function textChangeFunction() {
         document.getElementById("timeBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("batteryBtnMobile").style.filter = "brightness(100%)";
 
+    }
+
+</script>
+
+<!-- JS for Daily CountDown -->
+<script type="text/javascript">
+
+    // Blank string
+    var string = "";
+    // Initial call
+    // Get date today, the subtract to get time to 24:00:00 (theoretical midnight)
+    var now = new Date();
+    var seconds = 59-now.getSeconds();
+    var minutes = 59-now.getMinutes();
+    var hours = 23-now.getHours();
+
+    // Makes sure time is in format of hh:mm:ss
+    if (hours   < 10) {hours   = "0"+hours;}
+    if (minutes < 10) {minutes = "0"+minutes;}
+    if (seconds < 10) {seconds = "0"+seconds;}
+
+    // Write time in hh:mm:ss format to element with #time
+    document.getElementById("dayNightCountdown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (w >= 768) {
+        document.getElementById("dayNightCountdown").style.fontSize = "3.5vw";
+    } else {
+        document.getElementById("dayNightCountdown").style.fontSize = "10vw"; 
+    }
+
+    // function to repeat every second
+    window.setInterval(function(){
+
+        var now = new Date();
+        var seconds = 59-now.getSeconds();
+        var minutes = 59-now.getMinutes();
+        var hours = 23-now.getHours();
+
+        // makes sure time is in format of hh:mm:ss
+        if (hours   < 10) {hours   = "0"+hours;}
+        if (minutes < 10) {minutes = "0"+minutes;}
+        if (seconds < 10) {seconds = "0"+seconds;}
+
+        // write time in hh:mm:ss format to element with #time
+        document.getElementById("dayNightCountdown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        if (w >= 768) {
+            document.getElementById("dayNightCountdown").style.fontSize = "3.5vw";
+        } else {
+            document.getElementById("dayNightCountdown").style.fontSize = "10vw"; 
+        }
+
+    }, 1000);
+
+    function msToTime(s) {
+
+        var ms = s % 1000;
+        s = (s - ms) / 1000;
+        var secs = s % 60;
+        s = (s - secs) / 60;
+        var mins = s % 60;
+        var hrs = (s - mins) / 60;
+
+        return hrs + ':' + mins + ':' + secs + '.' + ms;
     }
 
 </script>
