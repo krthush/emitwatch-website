@@ -368,8 +368,8 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">PROGRESS</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">PROGRESS</div>
+        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
+        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">SIGN-UP</div>
 
         <a class="d-none d-md-block" href="#home">
             <img class="homeButton" src="/images/home-01.png">
