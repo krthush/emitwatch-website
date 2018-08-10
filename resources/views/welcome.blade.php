@@ -286,7 +286,7 @@
                         <div class="titleFont subTitleSize blackText">Long Battery Life</div>
                         <div class="generalFont mediumSize blackText">
                             <br>
-                            <p>Lasts up to 2 days per charge.</p>
+                            <p>Lasts up to 2+ days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
