@@ -1,3 +1,5 @@
 TODO:
 
+MASSIVE optimization required by removing using of "normal" and "mobile" css classes, instead adjust values using css media port size!!
+
 Need to leverage browser caching to optimize website better

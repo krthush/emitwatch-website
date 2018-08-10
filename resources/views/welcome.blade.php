@@ -40,11 +40,11 @@
         </div>
         <div class="row full-height">
             <div class="col-md-6 flex-center">
-                <span id="time" class="transform-hozcenter d-none d-md-block whiteText"></span>
-                <span id="time_small_screen" class="transform-hozcenter d-md-none whiteText"></span>
+                <span id="frontPageAnimatedText" class="transform-hozcenter d-none d-md-block whiteText"></span>
+                <span id="frontPageAnimatedTextMobile" class="transform-hozcenter d-md-none whiteText"></span>
                 <img src="/images/rightfacing_countdown_blank.png" class="img-fluid flex-center" alt="Responsive image">
             </div>           
-            <div  class="col-md-5 d-none d-md-block frontPageText">
+            <div  class="col-md-5 d-none d-md-block">
                 <div class="flex-center full-height full-width text-center">
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Own time.</div>
@@ -155,8 +155,7 @@
 
     <div class="section">
 
-        <div class="d-none d-md-block top-align full-width titleFont text-center titleSize blackText">FEATURES</div>
-        <div class="d-md-none top-align full-width titleFont text-center titleSizeMobile blackText">FEATURES</div>
+        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">FEATURES</div>
 
         <a class="d-none d-md-block" href="#home">
             <img class="homeButton" src="/images/home-01.png">
@@ -186,15 +185,29 @@
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
                     <div id="daynightImg">
-                        <span id="dayNightCountdown" class="whiteText transform-center">00:00:00</span>
+                        <span id="dayNightText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
-                    <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <div id="calendarImg" class="text-center">
+                        <div class="whiteText transform-center">
+                            <span id="calendarTextTop" class="featureAnimatedTextSmall">Anniversary</span><br>
+                            <span id="calendarTextMiddle" class="featureAnimatedText">3 Days</span><br>
+                            <span id="calendarTextBottom" class="featureAnimatedTextSmall">4 Hours</span><br>
+                        </div>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
+                    <!-- <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid" alt="Responsive image"> -->
                     <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid" alt="Responsive image">
                     <img id="timerImg" src="/images/timerImg.png" class="featureImg img-fluid" alt="Responsive image">
                     <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid" alt="Responsive image">
-                    <img id="timeImg" src="/images/timeImg.png" class="featureImg img-fluid" alt="Responsive image">
-                    <img id="batteryImg" src="/images/timeImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <div id="timeImg">
+                        <span id="timeText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
+                        <img src="/images/timeImgBlank.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
+                    <div id="batteryImg">
+                        <span id="batteryText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
+                        <img src="/images/timeImgBlank.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
                 </div>
 
                 <!-- Spacing for mobile -->
@@ -371,8 +384,7 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">SIGN-UP</div>
+        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
 
         <a class="d-none d-md-block" href="#home">
             <img class="homeButton" src="/images/home-01.png">
@@ -463,8 +475,7 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize blackText">MISSION</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile blackText">MISSION</div>
+        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">MISSION</div>
 
         <a class="d-none d-md-block" href="#home">
             <img class="homeButton" src="/images/home-01.png">
@@ -543,8 +554,7 @@
     </div>
 
     <div class="section">
-        <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center titleSize whiteText">PATRONS</div>
-        <div class="d-md-none mx-auto top-align full-width titleFont text-center titleSizeMobile whiteText">PATRONS</div>
+        <div class="mx-auto top-align full-width titleFont text-center titleSize whiteText">PATRONS</div>
 
         <a class="d-none d-md-block" href="#home">
             <img class="homeButton inverted" src="/images/home-01.png">
@@ -633,6 +643,7 @@
             verticalCentered:false,
             licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
+
     });
 </script>
 
@@ -704,8 +715,8 @@ $(function() {
     if (seconds < 10) {seconds = "0"+seconds;}
 
     // Write time in hh:mm:ss format to element with #time
-    document.getElementById("time").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-    document.getElementById("time_small_screen").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    document.getElementById("frontPageAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    document.getElementById("frontPageAnimatedTextMobile").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     // function to repeat every second
     window.setInterval(function(){
@@ -721,8 +732,8 @@ $(function() {
         if (seconds < 10) {seconds = "0"+seconds;}
 
         // write time in hh:mm:ss format to element with #time
-        document.getElementById("time").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-        document.getElementById("time_small_screen").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("frontPageAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("frontPageAnimatedTextMobile").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
 
@@ -937,7 +948,7 @@ function textChangeFunction() {
 
 </script>
 
-<!-- JS for Daily CountDown -->
+<!-- Features JS for Daily CountDown -->
 <script type="text/javascript">
 
     // Blank string
@@ -955,13 +966,7 @@ function textChangeFunction() {
     if (seconds < 10) {seconds = "0"+seconds;}
 
     // Write time in hh:mm:ss format to element with #time
-    document.getElementById("dayNightCountdown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    if (w >= 768) {
-        document.getElementById("dayNightCountdown").style.fontSize = "3.5vw";
-    } else {
-        document.getElementById("dayNightCountdown").style.fontSize = "10vw"; 
-    }
+    document.getElementById("dayNightText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     // function to repeat every second
     window.setInterval(function(){
@@ -977,13 +982,91 @@ function textChangeFunction() {
         if (seconds < 10) {seconds = "0"+seconds;}
 
         // write time in hh:mm:ss format to element with #time
-        document.getElementById("dayNightCountdown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-        var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-        if (w >= 768) {
-            document.getElementById("dayNightCountdown").style.fontSize = "3.5vw";
-        } else {
-            document.getElementById("dayNightCountdown").style.fontSize = "10vw"; 
-        }
+        document.getElementById("dayNightText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+
+    }, 1000);
+
+    function msToTime(s) {
+
+        var ms = s % 1000;
+        s = (s - ms) / 1000;
+        var secs = s % 60;
+        s = (s - secs) / 60;
+        var mins = s % 60;
+        var hrs = (s - mins) / 60;
+
+        return hrs + ':' + mins + ':' + secs + '.' + ms;
+    }
+
+</script>
+
+<!-- Features jQuery for Objective page -->
+<script type="text/javascript">
+
+    $(function () {
+
+        count = 0;
+        wordsArrayTop = ["Report Due", "Date Night", "Exams"];
+        wordsArrayMiddle = ["3 Days", "1 Day", "1 Month"];
+        wordsArrayBottom = ["7 Hours", "3 Hours", "3 Days"];
+
+        setInterval(function () {
+
+            count++;
+
+            $("#calendarTextTop").fadeOut(400, function () {
+                $(this).text(wordsArrayTop[count % wordsArrayTop.length]).fadeIn(400);
+            });
+            $("#calendarTextMiddle").fadeOut(400, function () {
+                $(this).text(wordsArrayMiddle[count % wordsArrayMiddle.length]).fadeIn(400);
+            });
+            $("#calendarTextBottom").fadeOut(400, function () {
+                $(this).text(wordsArrayBottom[count % wordsArrayBottom.length]).fadeIn(400);
+            });
+
+        }, 2000);
+
+    });
+
+</script>
+
+<!-- Features JS for Time -->
+<script type="text/javascript">
+
+    // Blank string
+    var string = "";
+    // Initial call
+    // Get date today, the subtract to get time to 24:00:00 (theoretical midnight)
+    var now = new Date();
+    var seconds = now.getSeconds();
+    var minutes = now.getMinutes();
+    var hours = now.getHours();
+
+    // Makes sure time is in format of hh:mm:ss
+    if (hours   < 10) {hours   = "0"+hours;}
+    if (minutes < 10) {minutes = "0"+minutes;}
+    if (seconds < 10) {seconds = "0"+seconds;}
+
+    // Write time in hh:mm:ss format to element with #time
+    document.getElementById("timeText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    document.getElementById("batteryText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+
+    // function to repeat every second
+    window.setInterval(function(){
+
+        var now = new Date();
+        var seconds = now.getSeconds();
+        var minutes = now.getMinutes();
+        var hours = now.getHours();
+
+        // makes sure time is in format of hh:mm:ss
+        if (hours   < 10) {hours   = "0"+hours;}
+        if (minutes < 10) {minutes = "0"+minutes;}
+        if (seconds < 10) {seconds = "0"+seconds;}
+
+        // write time in hh:mm:ss format to element with #time
+        document.getElementById("timeText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("batteryText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
 

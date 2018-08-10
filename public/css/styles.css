@@ -157,8 +157,15 @@ a:active {
 	color: #f5f5f5;
 }
 .titleSize {
+	font-size: 50pt;
+	white-space: nowrap;
+	overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .titleSize {
 	font-weight: bold;
 	font-size: 75pt;
+  }
 }
 .sublineSize {
 	font-size: 6vw;
@@ -175,11 +182,6 @@ a:active {
 }
 .navBarSize {
 	font-size: 25pt;
-	white-space: nowrap;
-	overflow: hidden;
-}
-.titleSizeMobile {
-	font-size: 50pt;
 	white-space: nowrap;
 	overflow: hidden;
 }
@@ -287,7 +289,12 @@ a:active {
 	transform: translate3d(0,0,0);
 }
 .sectionContainer{
-    padding-top: 120pt;
+    padding-top: 75pt;
+}
+@media screen and (min-width: 768px) {
+	.sectionContainer{
+	    padding-top: 120pt;
+	}
 }
 .sectionContainerMobile{
     padding-top: 75pt;
@@ -355,7 +362,7 @@ a:active {
 
 
 /* Front Page */
-#time {
+#frontPageAnimatedText {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	font-size: 3.2vw;
@@ -364,13 +371,13 @@ a:active {
 	padding-left: 1.5vw;
 }
 @media screen and (min-width: 1700px) {
-  #time {
+  #frontPageAnimatedText {
     font-size: 54px; /* 3.2*0.01*1700 */
     padding-bottom: 170px; /* 10*0.01*1700 */
 	padding-left: 26px; /* 1.5*0.01*1700 */
   }
 }
-#time_small_screen {
+#frontPageAnimatedTextMobile {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 	font-size: 6.6vw;
@@ -431,10 +438,29 @@ a:active {
 .featureMobileMargin {
 	margin-top: 20px;
 }
-#dayNightCountdown {
+.featureAnimatedText {
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 10vw;
+}
+@media screen and (min-width: 768px) {
+  .featureAnimatedText {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 3.4vw;
+  }
+}
+.featureAnimatedTextSmall {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 5vw;
+}
+@media screen and (min-width: 768px) {
+  .featureAnimatedTextSmall {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	font-size: 1.7vw;
+  }
 }
 
 
