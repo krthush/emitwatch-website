@@ -115,8 +115,8 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                            <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>     
                     </div>
                 </div> 
@@ -133,8 +133,8 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Motivation. Keep going.</div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                            <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
                 </div> 
@@ -203,17 +203,17 @@
                 <!-- Spacing for mobile -->
                 <div class="d-md-none row full-width featureMobileMargin">
                     <div class="mx-auto">
-                        <a href='#' id="daynightBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/daynight-01.png"></a>
-                        <a href='#' id="calendarBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/calendar-01.png"></a>
-                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/smartphone-01.png"></a>
-                        <a href='#' id="timerBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/timer-01.png"></a>
+                        <a href='#' id="daynightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
+                        <a href='#' id="calendarBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
+                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
+                        <a href='#' id="timerBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
                     </div>
                 </div>
                 <div class="d-md-none row full-width">
                     <div class="mx-auto">
-                        <a href='#' id="progressBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/progress-01.png"></a>
-                        <a href='#' id="timeBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/time-01.png"></a>
-                        <a href='#' id="batteryBtnMobile" class="featureButtonLinkMobile" ><img class="featureButtonMobile" src="/images/battery-01.png"></a>
+                        <a href='#' id="progressBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
+                        <a href='#' id="timeBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
+                        <a href='#' id="batteryBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
                     </div>
                 </div>
 
