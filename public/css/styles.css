@@ -103,7 +103,12 @@ a:active {
     box-shadow: none;
 }
 .setLength {
-	width: 200px;
+	width: 140px;
+}
+@media screen and (min-width: 768px) {
+	.setLength {
+		width: 200px;
+	}
 }
 .setLengthMobile {
 	width: 140px;
@@ -156,6 +161,9 @@ a:active {
 .whiteText {
 	color: #f5f5f5;
 }
+.generalSize {
+	font-size: 12pt;
+}
 .titleSize {
 	font-size: 50pt;
 	white-space: nowrap;
@@ -168,22 +176,42 @@ a:active {
   }
 }
 .sublineSize {
-	font-size: 6vw;
+	font-size: 30pt;
+}
+@media screen and (min-width: 768px) {
+	.sublineSize {
+		font-size: 6vw;
+	}
 }
 .subTitleSize {
-	font-size: 3vw;
+	font-size: 16pt;
 	font-weight: bold;
 }
-.generalSize {
-	font-size: 12pt;
+@media screen and (min-width: 768px) {
+	.subTitleSize {
+		font-size: 3vw;
+		font-weight: bold;
+	}
 }
 .mediumSize {
-	font-size: 1.7vw;
+	font-size: 12pt;
+}
+@media screen and (min-width: 768px) {
+	.mediumSize {
+		font-size: 1.7vw;
+	}
 }
 .navBarSize {
-	font-size: 25pt;
+	font-size: 15pt;
 	white-space: nowrap;
 	overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+	.navBarSize {
+		font-size: 25pt;
+		white-space: nowrap;
+		overflow: hidden;
+	}
 }
 .sublineSizeMobile {
 	font-size: 30pt;

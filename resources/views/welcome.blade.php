@@ -33,7 +33,7 @@
         @endif
 
         <div class="d-md-none full-width mx-auto top-align">
-            <div class="full-width titleFont text-center titleSizeMobile whiteText">
+            <div class="full-width titleFont text-center titleSize whiteText">
                 <div>Own time.</div>
                 <div>Own emit.</div>
             </div>
