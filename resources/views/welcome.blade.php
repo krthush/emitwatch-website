@@ -81,10 +81,10 @@
                 <div class="col-2 mx-auto"><a href="#patrons">PATRONS</a></div>
             </div>            
         </div>
-        <div class="d-md-none bottom-align full-width titleFont text-center navBarSizeMobile whiteText full-width">
+        <div class="d-md-none bottom-align full-width titleFont text-center navBarSize whiteText full-width">
             <div class="miniBotPad">
-                <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
-                <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                 <!-- <div class="full-width titleFont text-center whiteText miniTopPad">Kickstarter soon!</div> -->
             </div>
             <div class="row full-width flex-center ">
@@ -166,7 +166,7 @@
                 </div>
 
                 <!-- Spacing for mobile -->
-                <div class="d-md-none full-width sectionContainerMobile"></div>                    
+                <div class="d-md-none full-width sectionContainer"></div>                    
 
             </div>
 
