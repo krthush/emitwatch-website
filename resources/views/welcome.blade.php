@@ -175,14 +175,14 @@
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
                     <div id="daynightImg">
-                        <span id="dayNightText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
+                        <span id="dayNightAnimatedText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
                     <div id="calendarImg" class="text-center">
                         <div class="whiteText transform-center">
-                            <span id="calendarTextTop" class="featureAnimatedTextSmall">Anniversary</span><br>
-                            <span id="calendarTextMiddle" class="featureAnimatedText">3 Days</span><br>
-                            <span id="calendarTextBottom" class="featureAnimatedTextSmall">4 Hours</span><br>
+                            <span id="calendarAnimatedTextTop" class="featureAnimatedTextSmall">Anniversary</span><br>
+                            <span id="calendarAnimatedTextMiddle" class="featureAnimatedText">3 Days</span><br>
+                            <span id="calendarAnimatedTextBottom" class="featureAnimatedTextSmall">4 Hours</span><br>
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
@@ -693,26 +693,7 @@ function textChangeFunction() {
             } else if (this.id == "batteryBtn") {
                 $("#batteryImg").show();
                 $("#batteryTxt").show();
-            } else {
-                // Bug Catch
-                $("#calendarImg").show();
-                $("#calendarTxt").show();
-            }
-
-        });
-
-        // Check for mouseover for Mobile
-        $(".featureButtonLinkMobile").mouseover(function(){
-
-            // Hides all txt/imgs
-            hideAll();
-
-            // $(this).find('img').fadeTo(500, 0.5);
-            document.getElementById(this.id).style.filter = "brightness(70%)";
-
-            // Check for which button is being hovered on
-            // TODO: this can be made more neat?
-            if (this.id == "daynightBtnMobile") {
+            } else if (this.id == "daynightBtnMobile") {
                 $("#daynightImg").show();
                 $("#daynightTxt").show();
             } else if (this.id == "calendarBtnMobile") {
@@ -740,8 +721,6 @@ function textChangeFunction() {
             }
 
         });
-
-
 
     });
 
@@ -805,7 +784,7 @@ function textChangeFunction() {
     if (seconds < 10) {seconds = "0"+seconds;}
 
     // Write time in hh:mm:ss format to element with #time
-    document.getElementById("dayNightText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     // function to repeat every second
     window.setInterval(function(){
@@ -821,7 +800,7 @@ function textChangeFunction() {
         if (seconds < 10) {seconds = "0"+seconds;}
 
         // write time in hh:mm:ss format to element with #time
-        document.getElementById("dayNightText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
 
@@ -853,13 +832,13 @@ function textChangeFunction() {
 
             count++;
 
-            $("#calendarTextTop").fadeOut(400, function () {
+            $("#calendarAnimatedTextTop").fadeOut(400, function () {
                 $(this).text(wordsArrayTop[count % wordsArrayTop.length]).fadeIn(400);
             });
-            $("#calendarTextMiddle").fadeOut(400, function () {
+            $("#calendarAnimatedTextMiddle").fadeOut(400, function () {
                 $(this).text(wordsArrayMiddle[count % wordsArrayMiddle.length]).fadeIn(400);
             });
-            $("#calendarTextBottom").fadeOut(400, function () {
+            $("#calendarAnimatedTextBottom").fadeOut(400, function () {
                 $(this).text(wordsArrayBottom[count % wordsArrayBottom.length]).fadeIn(400);
             });
 
