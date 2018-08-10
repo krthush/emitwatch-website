@@ -112,16 +112,11 @@
 
             <div class="layer flex-center">
                 <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont d-none d-md-block">
+                    <div class="titleFont">
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>     
-                    </div>
-                    <div class="titleFont d-md-none">
-                        <div class="sublineSizeMobile whiteText"><span id="workVideoTextMobile">Plan ahead.</span></div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
-                            <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>     
                     </div>
                 </div> 
@@ -135,17 +130,12 @@
 
             <div class="layer flex-center">
                 <div class="flex-center full-height full-width text-center">
-                    <div class="titleFont d-none d-md-block">
+                    <div class="titleFont">
                         <div class="sublineSize whiteText">Motivation. Keep going.</div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
-                        <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>     
-                    </div>
-                    <div class="titleFont d-md-none">
-                        <div class="sublineSizeMobile whiteText">Motivation. Keep going.</div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLengthMobile">Sign-Up</button></a>
-                            <button class="black-btn btn whiteBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>     
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                        </div>
                     </div>
                 </div> 
             </div>
@@ -233,143 +223,73 @@
                     <div class="d-md-none full-width featureMobileMargin"></div>
 
                     <div id="daynightTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Day/Night Cycle</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>A different way of looking at time. <br> In reverse.</p>
                             <p>Shows countdown to start and end of day.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Day/Night Cycle</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>A different way of looking at time. In reverse.</p>
-                            <p>Shows a countdown to start and end of day.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
-                        </div>
                     </div>
                     <div id="calendarTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Calendar Events</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Calendar Events</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Calendar Events</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Multiple countdowns to most important events / goals / look-forwards.</p>
-                            <p>Customise countdowns to last from seconds to years.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                     <div id="smartphoneTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Sync from phone</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Sync from phone</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Sync from phone</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
-                            <p>Works with variety of calendars including google, microsoft, etc.</p>
-                            <p>Compatible with iOS and Android.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                     <div id="timerTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Multiple Timers</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Multiple Timers</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Multiple Timers</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Ability to create many timers.</p>
-                            <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                     <div id="progressTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">See progress</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">See progress</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">See progress</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Set start and end time of a task.</p>
-                            <p>Intuitive representation of your progress.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                     <div id="timeTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Standard time</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Standard time</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Standard time</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Shows current time, if needed.</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                     <div id="batteryTxt" class="full-width">
-                        <div class="d-none d-md-block titleFont subTitleSize blackText">Long Battery Life</div>
-                        <div class="d-none d-md-block generalFont mediumSize blackText">
+                        <div class="titleFont subTitleSize blackText">Long Battery Life</div>
+                        <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Lasts up to 2 days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        </div>
-                        <div class="d-md-none titleFont subTitleSizeMobile blackText">Long Battery Life</div>
-                        <div class="d-md-none generalFont mediumSizeMobile blackText">
-                            <br>
-                            <p>Lasts up to 2 days per charge.</p>
-                            <p>Magnetic pin charging (2 hours).</p>
-                            <div class="text-center">    
-                                <a href="#signup"><button class="white-btn btn blackBorder blackText setLengthMobile">Sign-Up</button></a>
-                                <button class="black-btn btn blackBorder whiteText setLengthMobile"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -397,11 +317,7 @@
 
 <!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
 
-                    <p class="d-none d-md-block mediumSize">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
-
-<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
-
-                    <p class="d-md-none mediumSizeMobile">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
+                    <p class="mediumSize">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
 
                     <div class="row email-bar">
                         <div class="col-lg-2"></div>
@@ -481,7 +397,7 @@
             <img class="homeButton" src="/images/home-01.png">
         </a>
 
-        <div class="d-none d-md-block container-fluid">
+        <div class="container-fluid">
             <div class="row full-width sectionContainer">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont generalSize blackText text-justify">
@@ -507,49 +423,9 @@
                     </div>
 
                     <img src="/images/team.jpg" class="teamImg" alt="Responsive image">
-
-<!--                     <div class="row">
-                        <div class="col-4"></div>
-                        <div class="col-4"><img src="/images/teamphoto.png" class="img-fluid" alt="Responsive image"></div>
-                        <div class="col-4"></div>
-                    </div> -->       
-
                 </div>
                 <div class="col-sm-2"></div>
             </div>
-            <!-- <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image"> -->
-        </div>
-        <div class="d-md-none container-fluid">
-            <div class="row full-width sectionContainerMobile largeBottomPad">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-justify">
-
-                    <p>
-                        Time is our most precious resource. It flows constantly and irreversibly regardless of how we use it. We believe you can achieve your goals and live a more fulfilling life if you take control of your own time rather than succumb to it.
-                    </p>
-
-                    <p>    
-                        emit aims to improve how you look at time. Viewing time as a countdown to your most important events of the day, week, year or even life, will make you much more aware of how you really spend your time. We believe you will be more conscientious in choosing the things that matter most and be better equipped to achieve them. emit is made for realistic optimists - people who truly believe they can accomplish their big dreams and passions, if they pour their heart and soul into it.  emit represents the pioneering spirit in us, which doesn't conform to the status quo and is always looking at the world from new perspectives. It enables you to design your life, rather than sleepwalk through it.
-                    </p>
-
-                    <p>
-                        We are engineering students from Imperial College London who were looking for a tool to better manage our time. Watches, for centuries, have shown time as moving forwards. We realised that people could better perceive the value of time if shown as the remaining amount they had for their next event, or to the end of their day, instead of as an absolute value that is common for all. We set out to challenge the conventional way of looking at time.  Our mission is to help people accomplish their most important goals, whether it is related to family, friends, health, career or hobbies - by proactively allocating appropriate amounts of time to each of them.
-                    </p>
-
-                    <p>
-                        Own time. Own emit.
-                    </p>
-
-                    <div class="faded">
-                        <a class="licenseLink" href="licenses">Licenses</a>
-                    </div>
-
-                    <img src="/images/team.jpg" class="teamImgMobile" alt="Responsive image"> 
-
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-            <!-- <img src="/images/teamphoto.png" class="bottomImage img-fluid" alt="Responsive image">  -->
         </div>
     </div>
 
@@ -560,7 +436,7 @@
             <img class="homeButton inverted" src="/images/home-01.png">
         </a>
 
-        <div class="d-none d-md-block container-fluid">
+        <div class="container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
@@ -574,24 +450,6 @@
                     Alex Luy<br>
                     Ana Cristina Luy<br>
                      
-                </div>
-                <div class="col-sm-2"></div>
-            </div>
-        </div>
-        <div class="d-md-none container-fluid">
-            <div class="row full-width sectionContainerMobile largeBottomPad">
-                <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont mediumSizeMobile whiteText text-justify">
-
-                    Bob Wemerman<br>
-                    Simran Grewal<br>
-                    Shayan Imran<br>
-                    Pius Chong<br>
-                    Priya Sukumaran<br>
-                    Caleb Goddard<br>
-                    Alex Luy<br>
-                    Ana Cristina Luy<br>
-
                 </div>
                 <div class="col-sm-2"></div>
             </div>
@@ -761,39 +619,20 @@ var vid = document.getElementById("workVideo");
 vid.ontimeupdate = function() {textChangeFunction()};
 
 function textChangeFunction() {
-    var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-    if (w >= 768) {
-        if (vid.currentTime <= 4) {
-            document.getElementById("workVideoText").innerHTML = "Plan ahead.";
-        } else if (vid.currentTime <= 5) {
-            document.getElementById("workVideoText").innerHTML = "Report due: 8 hours";
-        } else if (vid.currentTime <= 6) {
-            document.getElementById("workVideoText").innerHTML = "Report due: 7 hours";  
-        } else if (vid.currentTime <= 7) {
-            document.getElementById("workVideoText").innerHTML = "Report due: 6 hours";  
-        } else if (vid.currentTime <= 8) {
-            document.getElementById("workVideoText").innerHTML = "Report due: 5 hours";  
-        } else if (vid.currentTime <= 9) {
-            document.getElementById("workVideoText").innerHTML = "Report due: 4 hours";  
-        } else {
-            document.getElementById("workVideoText").innerHTML = "Achieve more.";  
-        }
+    if (vid.currentTime <= 4) {
+        document.getElementById("workVideoText").innerHTML = "Plan ahead.";
+    } else if (vid.currentTime <= 5) {
+        document.getElementById("workVideoText").innerHTML = "Report due: 8 hours";
+    } else if (vid.currentTime <= 6) {
+        document.getElementById("workVideoText").innerHTML = "Report due: 7 hours";  
+    } else if (vid.currentTime <= 7) {
+        document.getElementById("workVideoText").innerHTML = "Report due: 6 hours";  
+    } else if (vid.currentTime <= 8) {
+        document.getElementById("workVideoText").innerHTML = "Report due: 5 hours";  
+    } else if (vid.currentTime <= 9) {
+        document.getElementById("workVideoText").innerHTML = "Report due: 4 hours";  
     } else {
-        if (vid.currentTime <= 4) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Plan ahead.";
-        } else if (vid.currentTime <= 5) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 8 hours";
-        } else if (vid.currentTime <= 6) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 7 hours";  
-        } else if (vid.currentTime <= 7) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 6 hours";  
-        } else if (vid.currentTime <= 8) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 5 hours";  
-        } else if (vid.currentTime <= 9) {
-            document.getElementById("workVideoTextMobile").innerHTML = "Report due: 4 hours";  
-        } else {
-            document.getElementById("workVideoTextMobile").innerHTML = "Achieve more.";  
-        }
+        document.getElementById("workVideoText").innerHTML = "Achieve more.";  
     }
 }
 
