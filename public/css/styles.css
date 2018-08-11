@@ -475,6 +475,7 @@ a:active {
 	font-size: 1.7vw;
   }
 }
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-100px;opacity:0} to{right:0;opacity:1}}
 
 
 

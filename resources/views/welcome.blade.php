@@ -156,7 +156,7 @@
 
                 <!-- content to be placed inside <body>…</body> -->
                 <div class="d-none d-md-block mx-auto sectionContainer featureButtonContainer">
-                    <a href='#' id="daynightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
+                    <a href='#' id="dayNightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
                     <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
                     <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                     <a href='#' id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
@@ -174,7 +174,7 @@
 
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
-                    <div id="daynightImg" class="text-center">
+                    <div id="dayNightImg" class="text-center">
                         <span id="dayNightAnimatedText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
                         <div id="dayNightAnimatedTextCalendar" class="whiteText transform-center">
                             <span class="featureAnimatedTextSmall">Work Meeting</span><br>
@@ -185,9 +185,9 @@
                     </div>
                     <div id="calendarImg" class="text-center">
                         <div class="whiteText transform-center">
-                            <span id="calendarAnimatedTextTop" class="featureAnimatedTextSmall">Anniversary</span><br>
-                            <span id="calendarAnimatedTextMiddle" class="featureAnimatedText">3 Days</span><br>
-                            <span id="calendarAnimatedTextBottom" class="featureAnimatedTextSmall">4 Hours</span><br>
+                            <span id="calendarAnimatedTextTop" class="featureAnimatedTextSmall w3-animate-right">Anniversary</span><br>
+                            <span id="calendarAnimatedTextMiddle" class="featureAnimatedText w3-animate-right">3 Days</span><br>
+                            <span id="calendarAnimatedTextBottom" class="featureAnimatedTextSmall w3-animate-right">4 Hours</span><br>
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
@@ -215,7 +215,7 @@
                 <!-- Spacing for mobile -->
                 <div class="d-md-none row full-width featureMobileMargin">
                     <div class="mx-auto">
-                        <a href='#' id="daynightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/daynight-01.png"></a>
+                        <a href='#' id="dayNightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
                         <a href='#' id="calendarBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
                         <a href='#' id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                         <a href='#' id="timerBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
@@ -234,7 +234,7 @@
                     <!-- Spacing for mobile -->
                     <div class="d-md-none full-width featureMobileMargin"></div>
 
-                    <div id="daynightTxt" class="full-width">
+                    <div id="dayNightTxt" class="full-width">
                         <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
                         <div class="generalFont mediumSize blackText">
                             <br>
@@ -645,7 +645,7 @@ function textChangeFunction() {
 <script type="text/javascript">
     $(document).ready(function(){
 
-        // Initial hide of all img + txt except daynight
+        // Initial hide of all img + txt except dayNight
         $("#calendarImg").hide();
         $("#smartphoneImg").hide();
         $("#timerImg").hide();
@@ -660,8 +660,8 @@ function textChangeFunction() {
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
 
-        document.getElementById("daynightBtn").style.filter = "brightness(70%)";
-        document.getElementById("daynightBtnMobile").style.filter = "brightness(70%)";
+        document.getElementById("dayNightBtn").style.filter = "brightness(70%)";
+        document.getElementById("dayNightBtnMobile").style.filter = "brightness(70%)";
 
         // Check for mouseover for Desktop
         $(".featureButtonLink").mouseover(function(){
@@ -674,9 +674,9 @@ function textChangeFunction() {
 
             // Check for which button is being hovered on
             // TODO: this can be made more neat?
-            if (this.id == "daynightBtn") {
-                $("#daynightImg").show();
-                $("#daynightTxt").show();
+            if (this.id == "dayNightBtn") {
+                $("#dayNightImg").show();
+                $("#dayNightTxt").show();
             } else if (this.id == "calendarBtn") {
                 $("#calendarImg").show();
                 $("#calendarTxt").show();
@@ -695,9 +695,9 @@ function textChangeFunction() {
             } else if (this.id == "batteryBtn") {
                 $("#batteryImg").show();
                 $("#batteryTxt").show();
-            } else if (this.id == "daynightBtnMobile") {
-                $("#daynightImg").show();
-                $("#daynightTxt").show();
+            } else if (this.id == "dayNightBtnMobile") {
+                $("#dayNightImg").show();
+                $("#dayNightTxt").show();
             } else if (this.id == "calendarBtnMobile") {
                 $("#calendarImg").show();
                 $("#calendarTxt").show();
@@ -730,7 +730,7 @@ function textChangeFunction() {
     function hideAll() {
 
         // Hide all imgs
-        $("#daynightImg").hide();
+        $("#dayNightImg").hide();
         $("#calendarImg").hide();
         $("#smartphoneImg").hide();
         $("#timerImg").hide();
@@ -739,7 +739,7 @@ function textChangeFunction() {
         $("#batteryImg").hide();
 
         // Hide all text
-        $("#daynightTxt").hide();
+        $("#dayNightTxt").hide();
         $("#calendarTxt").hide();
         $("#smartphoneTxt").hide();
         $("#timerTxt").hide();
@@ -748,7 +748,7 @@ function textChangeFunction() {
         $("#batteryTxt").hide();
 
         // Reset all buttons
-        document.getElementById("daynightBtn").style.filter = "brightness(100%)";
+        document.getElementById("dayNightBtn").style.filter = "brightness(100%)";
         document.getElementById("calendarBtn").style.filter = "brightness(100%)";
         document.getElementById("smartphoneBtn").style.filter = "brightness(100%)";
         document.getElementById("timerBtn").style.filter = "brightness(100%)";
@@ -756,7 +756,7 @@ function textChangeFunction() {
         document.getElementById("timeBtn").style.filter = "brightness(100%)";
         document.getElementById("batteryBtn").style.filter = "brightness(100%)";
 
-        document.getElementById("daynightBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("dayNightBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("calendarBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("smartphoneBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("timerBtnMobile").style.filter = "brightness(100%)";
@@ -771,11 +771,12 @@ function textChangeFunction() {
 <!-- Features jQuery for DayNight page -->
 <script type="text/javascript">
 
-    var daynight = true;
+    var dayNight = true;
+    var dayNightInterval = null;
 
     $(document).ready(function(){
 
-        // Hide calendar, Show daynight 
+        // Hide calendar, Show dayNight 
         $("#dayNightAnimatedTextCalendar").hide(); 
         $("#dayNightAnimatedText").show();
 
@@ -787,16 +788,40 @@ function textChangeFunction() {
         }, 1000);
 
         // Makes dayNight fade in and out with Meeting
-        setInterval(function () {
-            if (daynight) {
+        dayNightInterval = setInterval(function () {
+            if (dayNight) {
                 $("#dayNightAnimatedText").fadeOut(400);
                 $("#dayNightAnimatedTextCalendar").fadeIn(400);
             } else {
                 $("#dayNightAnimatedTextCalendar").fadeOut(400);
                 $("#dayNightAnimatedText").fadeIn(400);
             }
-            daynight=!daynight;
+            dayNight=!dayNight;
         }, 3000);
+
+
+        // Reset Interval when mouseover happens
+        $(".featureButtonLink").mouseover(function(){
+
+            // Clear timer
+            clearInterval(dayNightInterval);
+
+            if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
+
+                // Makes dayNight fade in and out with Meeting
+                dayNightInterval = setInterval(function () {
+                    if (dayNight) {
+                        $("#dayNightAnimatedText").fadeOut(400);
+                        $("#dayNightAnimatedTextCalendar").fadeIn(400);
+                    } else {
+                        $("#dayNightAnimatedTextCalendar").fadeOut(400);
+                        $("#dayNightAnimatedText").fadeIn(400);
+                    }
+                    dayNight=!dayNight;
+                }, 3000);
+
+            }
+        });
 
     });
 
@@ -819,22 +844,21 @@ function textChangeFunction() {
 
         count = 0;
         wordsArrayTop = ["Report Due", "Date Night", "Exams"];
-        wordsArrayMiddle = ["3 Days", "1 Day", "1 Month"];
-        wordsArrayBottom = ["7 Hours", "3 Hours", "3 Days"];
+        wordsArrayMiddle = ["1 Day", "3 Days", "1 Month"];
+        wordsArrayBottom = ["3 Hours", "7 Hours", "3 Days"];
 
         setInterval(function () {
 
             count++;
 
-            $("#calendarAnimatedTextTop").fadeOut(400, function () {
-                $(this).text(wordsArrayTop[count % wordsArrayTop.length]).fadeIn(400);
-            });
-            $("#calendarAnimatedTextMiddle").fadeOut(400, function () {
-                $(this).text(wordsArrayMiddle[count % wordsArrayMiddle.length]).fadeIn(400);
-            });
-            $("#calendarAnimatedTextBottom").fadeOut(400, function () {
-                $(this).text(wordsArrayBottom[count % wordsArrayBottom.length]).fadeIn(400);
-            });
+            $("#calendarAnimatedTextTop").hide(1);
+            $("#calendarAnimatedTextTop").text(wordsArrayTop[count % wordsArrayTop.length]).show(1);
+
+            $("#calendarAnimatedTextMiddle").hide(1);
+            $("#calendarAnimatedTextMiddle").text(wordsArrayMiddle[count % wordsArrayTop.length]).show(1);
+
+            $("#calendarAnimatedTextBottom").hide(1);
+            $("#calendarAnimatedTextBottom").text(wordsArrayBottom[count % wordsArrayTop.length]).show(1);
 
         }, 2000);
 
@@ -845,14 +869,14 @@ function textChangeFunction() {
 <!-- Features JS for Timer -->
 <script type="text/javascript">
 
-    var timerID = null;
+    var timerInterval = null;
 
     $(document).ready(function(){
 
         $(".featureButtonLink").mouseover(function(){
-            
+
             // Clear timer
-            clearInterval(timerID);
+            clearInterval(timerInterval);
 
             if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
 
@@ -873,7 +897,7 @@ function textChangeFunction() {
                     // Setup for a basic jquery countdown timer (non function) with global setInteval
                     duration = 598;
                     var timer = duration, minutes, seconds;
-                    timerID  = setInterval(function () {
+                    timerInterval  = setInterval(function () {
 
                         minutes = parseInt(timer / 60, 10);
                         seconds = parseInt(timer % 60, 10);
@@ -892,6 +916,7 @@ function textChangeFunction() {
                 }, 1000);
 
             }
+
         });
     });
 
