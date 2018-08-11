@@ -174,8 +174,13 @@
 
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
-                    <div id="daynightImg">
+                    <div id="daynightImg" class="text-center">
                         <span id="dayNightAnimatedText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
+                        <div id="dayNightAnimatedTextCalendar" class="whiteText transform-center">
+                            <span class="featureAnimatedTextSmall">Work Meeting</span><br>
+                            <span id="dayNightAnimatedTextMiddle" class="featureAnimatedText">03:10:00</span><br>
+                            <span class="featureAnimatedTextSmall"></span><br>
+                        </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
                     <div id="calendarImg" class="text-center">
@@ -233,8 +238,8 @@
                         <div class="titleFont subTitleSize blackText">Day/Night Cycle</div>
                         <div class="generalFont mediumSize blackText">
                             <br>
-                            <p>A different way of looking at time. <br> In reverse.</p>
                             <p>Shows countdown to start and end of day.</p>
+                            <p>Tap to effortlessly see the next immediate event on your schedule.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
@@ -763,6 +768,50 @@ function textChangeFunction() {
 
 </script>
 
+<!-- Features jQuery for DayNight page -->
+<script type="text/javascript">
+
+    var daynight = true;
+
+    $(document).ready(function(){
+
+        // Hide calendar, Show daynight 
+        $("#dayNightAnimatedTextCalendar").hide(); 
+        $("#dayNightAnimatedText").show();
+
+        // Setup for a basic countdown timer for to Meeting
+        var duration = 11400;
+        setInterval(function () {
+            duration--;
+            document.getElementById('dayNightAnimatedTextMiddle').innerHTML = formatTime(duration);
+        }, 1000);
+
+        // Makes dayNight fade in and out with Meeting
+        setInterval(function () {
+            if (daynight) {
+                $("#dayNightAnimatedText").fadeOut(400);
+                $("#dayNightAnimatedTextCalendar").fadeIn(400);
+            } else {
+                $("#dayNightAnimatedTextCalendar").fadeOut(400);
+                $("#dayNightAnimatedText").fadeIn(400);
+            }
+            daynight=!daynight;
+        }, 3000);
+
+    });
+
+    function formatTime(seconds) {
+        var h = Math.floor(seconds / 3600),
+            m = Math.floor(seconds / 60) % 60,
+            s = seconds % 60;
+        if (h < 10) h = "0" + h;
+        if (m < 10) m = "0" + m;
+        if (s < 10) s = "0" + s;
+        return h + ":" + m + ":" + s;
+    }
+
+</script>
+
 <!-- Features jQuery for Objective page -->
 <script type="text/javascript">
 
@@ -818,30 +867,30 @@ function textChangeFunction() {
                     $("#timerImgStop").show();
                     $("#timerAnimatedTextMiddle").show();
 
-                    startTimer(598, $('#timerAnimatedTextMiddle'));
+                    // Setup for a basic jquery countdown timer (non function) with global setInteval
+                    duration = 598;
+                    var timer = duration, minutes, seconds;
+                    timerID  = setInterval(function () {
+
+                        minutes = parseInt(timer / 60, 10);
+                        seconds = parseInt(timer % 60, 10);
+
+                        minutes = minutes < 10 ? "0" + minutes : minutes;
+                        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                        $('#timerAnimatedTextMiddle').text(minutes + ":" + seconds);
+
+                        if (--timer < 0) {
+                            timer = duration;
+                        }
+
+                    }, 1000);
 
                 }, 1000);
 
             }
         });
     });
-
-    function startTimer(duration, display) {
-        var timer = duration, minutes, seconds;
-        timerID  = setInterval(function () {
-            minutes = parseInt(timer / 60, 10);
-            seconds = parseInt(timer % 60, 10);
-
-            minutes = minutes < 10 ? "0" + minutes : minutes;
-            seconds = seconds < 10 ? "0" + seconds : seconds;
-
-            display.text(minutes + ":" + seconds);
-
-            if (--timer < 0) {
-                timer = duration;
-            }
-        }, 1000);
-    }
 
 </script>
 
