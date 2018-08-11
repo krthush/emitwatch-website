@@ -188,7 +188,14 @@
                     </div>
                     <!-- <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid" alt="Responsive image"> -->
                     <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid" alt="Responsive image">
-                    <img id="timerImg" src="/images/timerImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <div id="timerImg">
+                        <div class="whiteText transform-center">
+                            <span id="timerAnimatedTextMiddle" class="featureAnimatedText">09:59</span><br>
+                            <span id="testTime"></span>
+                        </div>
+                        <img id="timerImgStart" src="/images/timerImgStart.png" class="featureImg img-fluid" alt="Responsive image">
+                        <img id="timerImgStop" src="/images/timerImgStop.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
                     <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid" alt="Responsive image">
                     <div id="timeImg">
                         <span id="timeText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
@@ -555,7 +562,7 @@ $(function() {
 });
 </script> -->
 
-<!-- JS for Daily CountDown -->
+<!-- JS for FrontPage Daily CountDown & Features JS for Daily CountDown -->
 <script type="text/javascript">
 
     // Blank string
@@ -575,6 +582,7 @@ $(function() {
     // Write time in hh:mm:ss format to element with #time
     document.getElementById("frontPageAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
     document.getElementById("frontPageAnimatedTextMobile").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     // function to repeat every second
     window.setInterval(function(){
@@ -592,20 +600,9 @@ $(function() {
         // write time in hh:mm:ss format to element with #time
         document.getElementById("frontPageAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
         document.getElementById("frontPageAnimatedTextMobile").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
-
-    function msToTime(s) {
-
-        var ms = s % 1000;
-        s = (s - ms) / 1000;
-        var secs = s % 60;
-        s = (s - secs) / 60;
-        var mins = s % 60;
-        var hrs = (s - mins) / 60;
-
-        return hrs + ':' + mins + ':' + secs + '.' + ms;
-    }
 
 </script>
 
@@ -766,62 +763,10 @@ function textChangeFunction() {
 
 </script>
 
-<!-- Features JS for Daily CountDown -->
-<script type="text/javascript">
-
-    // Blank string
-    var string = "";
-    // Initial call
-    // Get date today, the subtract to get time to 24:00:00 (theoretical midnight)
-    var now = new Date();
-    var seconds = 59-now.getSeconds();
-    var minutes = 59-now.getMinutes();
-    var hours = 23-now.getHours();
-
-    // Makes sure time is in format of hh:mm:ss
-    if (hours   < 10) {hours   = "0"+hours;}
-    if (minutes < 10) {minutes = "0"+minutes;}
-    if (seconds < 10) {seconds = "0"+seconds;}
-
-    // Write time in hh:mm:ss format to element with #time
-    document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-
-    // function to repeat every second
-    window.setInterval(function(){
-
-        var now = new Date();
-        var seconds = 59-now.getSeconds();
-        var minutes = 59-now.getMinutes();
-        var hours = 23-now.getHours();
-
-        // makes sure time is in format of hh:mm:ss
-        if (hours   < 10) {hours   = "0"+hours;}
-        if (minutes < 10) {minutes = "0"+minutes;}
-        if (seconds < 10) {seconds = "0"+seconds;}
-
-        // write time in hh:mm:ss format to element with #time
-        document.getElementById("dayNightAnimatedText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-
-    }, 1000);
-
-    function msToTime(s) {
-
-        var ms = s % 1000;
-        s = (s - ms) / 1000;
-        var secs = s % 60;
-        s = (s - secs) / 60;
-        var mins = s % 60;
-        var hrs = (s - mins) / 60;
-
-        return hrs + ':' + mins + ':' + secs + '.' + ms;
-    }
-
-</script>
-
 <!-- Features jQuery for Objective page -->
 <script type="text/javascript">
 
-    $(function () {
+    $(document).ready(function(){
 
         count = 0;
         wordsArrayTop = ["Report Due", "Date Night", "Exams"];
@@ -845,6 +790,58 @@ function textChangeFunction() {
         }, 2000);
 
     });
+
+</script>
+
+<!-- Features JS for Timer -->
+<script type="text/javascript">
+
+    var timerID = null;
+
+    $(document).ready(function(){
+
+        $(".featureButtonLink").mouseover(function(){
+            if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
+
+                // Hide stop image + text, Show timer start 
+                $("#timerImgStop").hide();
+                $("#timerAnimatedTextMiddle").hide(); 
+                $("#timerImgStart").show();
+
+                // Reset timer before starting 'animation'
+                clearInterval(timerID);
+                $('#timerAnimatedTextMiddle').text('09:59');
+
+                setTimeout(function () {
+
+                    $("#timerImgStart").hide();
+                    $("#timerImgStop").show();
+                    $("#timerAnimatedTextMiddle").show();
+
+                    startTimer(598, $('#timerAnimatedTextMiddle'));
+
+                }, 1000);
+
+            }
+        });
+    });
+
+    function startTimer(duration, display) {
+        var timer = duration, minutes, seconds;
+        timerID  = setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.text(minutes + ":" + seconds);
+
+            if (--timer < 0) {
+                timer = duration;
+            }
+        }, 1000);
+    }
 
 </script>
 
@@ -887,18 +884,6 @@ function textChangeFunction() {
         document.getElementById("batteryText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
-
-    function msToTime(s) {
-
-        var ms = s % 1000;
-        s = (s - ms) / 1000;
-        var secs = s % 60;
-        s = (s - secs) / 60;
-        var mins = s % 60;
-        var hrs = (s - mins) / 60;
-
-        return hrs + ':' + mins + ':' + secs + '.' + ms;
-    }
 
 </script>
 
