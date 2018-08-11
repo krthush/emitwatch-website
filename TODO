@@ -1,11 +1,9 @@
 TODO:
 
-Need to leverage browser caching to optimize website better
+Need to leverage browser caching to optimize website better -> need to edit htcaccess -> need to fix openssh putty connection
 
 setInterval negative possibilities? Look into this... Also all this set interval stuff is prone to get messy? Should double check whether timers are cancelled properly and stuff!
 
 Potential bug with set interval swapping of different animations???
 
 Bug with viewport change of size in features page leading to changing between features being stuck
-
-Need slide in animations instead of fadeOut and fadeIn animations, maybe look at w3? or jquery plugins etc.?
