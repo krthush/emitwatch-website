@@ -5,3 +5,5 @@ MASSIVE optimization required by removing using of "normal" and "mobile" css cla
 Need to leverage browser caching to optimize website better
 
 setInterval negative possibilities? Look into this... Also all this set interval stuff is prone to get messy? Should double check whether timers are cancelled properly and stuff!
+
+Need slide in animations instead of fadeOut and fadeIn animations, maybe look at w3? or jquery plugins etc.?
