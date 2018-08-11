@@ -850,6 +850,10 @@ function textChangeFunction() {
     $(document).ready(function(){
 
         $(".featureButtonLink").mouseover(function(){
+            
+            // Clear timer
+            clearInterval(timerID);
+
             if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
 
                 // Hide stop image + text, Show timer start 
@@ -858,7 +862,6 @@ function textChangeFunction() {
                 $("#timerImgStart").show();
 
                 // Reset timer before starting 'animation'
-                clearInterval(timerID);
                 $('#timerAnimatedTextMiddle').text('09:59');
 
                 setTimeout(function () {
