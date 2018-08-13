@@ -352,7 +352,7 @@
                                     <div class="input-group">
                                         <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
                                         <div class="input-group-append">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="email-btn btn generalFont">
+                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn email-btn generalFont">
                                         </div>
                                     </div>
                                 </div>
