@@ -459,8 +459,7 @@
                     Pius Chong<br>
                     Priya Sukumaran<br>
                     Caleb Goddard<br>
-                    Alex Luy<br>
-                    Ana Cristina Luy<br>
+                    José Adrião<br>
                      
                 </div>
                 <div class="col-sm-2"></div>
