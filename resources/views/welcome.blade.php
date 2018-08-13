@@ -811,6 +811,7 @@ function textChangeFunction() {
 <!-- Features jQuery for DayNight page -->
 <script type="text/javascript">
 
+    var dayNight = true;
     var dayNightTimeout = null;
     var dayNightInterval = null;
 
@@ -848,8 +849,6 @@ function textChangeFunction() {
             clearInterval(dayNightInterval);
 
             if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
-
-                var dayNight = true;
 
                 setTimeout(function () {
                     document.getElementById("dayNightAnimatedTextMiddle").classList.remove("w3-animate-right");
