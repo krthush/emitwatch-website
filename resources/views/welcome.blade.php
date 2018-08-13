@@ -221,7 +221,17 @@
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
-                    <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid" alt="Responsive image">
+                    <div id="progressImg" class="text-center">
+                        <div class="whiteText transform-center">
+                            <span id="progressAnimatedTextTop" class="featureAnimatedTextSmall w3-animate-right">01/01/2018</span><br>
+                            <span id="progressAnimatedTextMiddle" class="featureAnimatedText w3-animate-right">Eat Healthy</span><br>
+                            <span id="progressAnimatedTextBottom" class="featureAnimatedTextSmall w3-animate-right">31/12/2018</span><br>
+                        </div>
+                        <div class="transform-center full-width">
+                            <img id="progressImgPie" src="/images/progressImgPie.png" class="featureImg img-fluid" alt="Responsive image">
+                        </div>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
+                    </div>
                     <div id="timeImg">
                         <div class="whiteText transform-center">
                             <span id="timeText" class="featureAnimatedText w3-animate-right">00:00:00</span>
@@ -965,6 +975,51 @@ function textChangeFunction() {
 
 <!-- Features JS for Progress -->
 <script type="text/javascript">
+
+    var progress = true;
+    var progressInterval = null;
+
+    $(document).ready(function(){
+
+        $(".featureButtonLink").mouseover(function(){
+
+            // Clear timer
+            clearInterval(progressInterval);
+
+            if (this.id == "progressBtn" || this.id == "progressBtnMobile") {
+
+                // Hide stop image + text, Show timer start 
+                $("#progressImgPie").hide();
+                $("#progressAnimatedTextTop").show();
+                $("#progressAnimatedTextMiddle").show();
+                $("#progressAnimatedTextBottom").show();
+
+                setTimeout(function () {
+                    
+                    $("#progressAnimatedTextTop").fadeOut(400);
+                    $("#progressAnimatedTextMiddle").fadeOut(400);
+                    $("#progressAnimatedTextBottom").fadeOut(400);
+                    $("#progressImgPie").fadeIn(400);
+
+                    // progressInterval = setInterval(function () {
+                    //     if (progress) {
+                    //         $("#progressImgPie").fadeOut(400);
+                    //         $("#progressAnimatedTextTop").fadeIn(400);
+                    //         $("#progressAnimatedTextMiddle").fadeIn(400);
+                    //         $("#progressAnimatedTextBottom").fadeIn(400);
+                    //     } else {
+                    //         $("#progressAnimatedTextCalendar").fadeOut(400);
+                    //         $("#progressAnimatedTextDaily").fadeIn(400);
+                    //     }
+                    //     progress=!progress;
+                    // }, 3000);
+
+                }, 1000);
+
+            }
+
+        });
+    });
     
 </script>
 
