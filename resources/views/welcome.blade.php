@@ -158,11 +158,11 @@
                 <div class="d-none d-md-block mx-auto sectionContainer featureButtonContainer">
                     <a href='#' id="dayNightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
                     <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
-                    <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                     <a href='#' id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
                     <a href='#' id="progressBtn" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
                     <a href='#' id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
                     <a href='#' id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                    <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                 </div>
 
                 <!-- Spacing for mobile -->
@@ -175,9 +175,11 @@
                 <div class="col-md-2"></div> 
                 <div class="col-md-4 flex-center">
                     <div id="dayNightImg" class="text-center">
-                        <span id="dayNightAnimatedText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
+                        <div id="dayNightAnimatedTextDaily" class="whiteText transform-center">
+                            <span id="dayNightAnimatedText" class="featureAnimatedText">00:00:00</span>
+                        </div>
                         <div id="dayNightAnimatedTextCalendar" class="whiteText transform-center">
-                            <span class="featureAnimatedTextSmall">Work Meeting</span><br>
+                            <span id="dayNightAnimatedTextTop" class="featureAnimatedTextSmall">Work Meeting</span><br>
                             <span id="dayNightAnimatedTextMiddle" class="featureAnimatedText">03:10:00</span><br>
                             <span class="featureAnimatedTextSmall"></span><br>
                         </div>
@@ -191,25 +193,36 @@
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
-                    <!-- <img id="calendarImg" src="/images/calendarImg.png" class="featureImg img-fluid" alt="Responsive image"> -->
-                    <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid" alt="Responsive image">
                     <div id="timerImg">
                         <div class="whiteText transform-center">
-                            <span id="timerAnimatedTextMiddle" class="featureAnimatedText">09:59</span><br>
-                            <span id="testTime"></span>
+                            <span id="timerAnimatedTextMiddle" class="featureAnimatedText">09:59</span>
                         </div>
-                        <img id="timerImgStart" src="/images/timerImgStart.png" class="featureImg img-fluid" alt="Responsive image">
-                        <img id="timerImgStop" src="/images/timerImgStop.png" class="featureImg img-fluid" alt="Responsive image">
+                        <div class="transform-center full-height full-width">
+                            <img id="timerImgStart" src="/images/timerImgStartBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
+                            <img id="timerImgStop" src="/images/timerImgStopBlank.png" class="featureImg img-fluid" alt="Responsive image">
+                        </div>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
                     <img id="progressImg" src="/images/progressImg.png" class="featureImg img-fluid" alt="Responsive image">
                     <div id="timeImg">
-                        <span id="timeText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
-                        <img src="/images/timeImgBlank.png" class="featureImg img-fluid" alt="Responsive image">
+                        <div class="whiteText transform-center">
+                            <span id="timeText" class="featureAnimatedText w3-animate-right">00:00:00</span>
+                        </div>
+                        <div class="transform-center full-height full-width">
+                            <img src="/images/timeImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
+                        </div>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
                     <div id="batteryImg">
-                        <span id="batteryText" class="featureAnimatedText whiteText transform-center">00:00:00</span>
-                        <img src="/images/timeImgBlank.png" class="featureImg img-fluid" alt="Responsive image">
+                        <div class="whiteText transform-center">
+                            <span id="batteryText" class="featureAnimatedText w3-animate-right">00:00:00</span>
+                        </div>
+                        <div class="transform-center full-height full-width">
+                            <img src="/images/timeImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
+                        </div>
+                        <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
+                    <img id="smartphoneImg" src="/images/smartphoneImg.png" class="featureImg img-fluid" alt="Responsive image">
                 </div>
 
                 <!-- Spacing for mobile -->
@@ -217,15 +230,15 @@
                     <div class="mx-auto">
                         <a href='#' id="dayNightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
                         <a href='#' id="calendarBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
-                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                         <a href='#' id="timerBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
+                        <a href='#' id="progressBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
                     </div>
                 </div>
                 <div class="d-md-none row full-width">
                     <div class="mx-auto">
-                        <a href='#' id="progressBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
                         <a href='#' id="timeBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
                         <a href='#' id="batteryBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                     </div>
                 </div>
 
@@ -777,7 +790,7 @@ function textChangeFunction() {
 
         // Hide calendar, Show dayNight 
         $("#dayNightAnimatedTextCalendar").hide(); 
-        $("#dayNightAnimatedText").show();
+        $("#dayNightAnimatedTextDaily").show();
 
         // Setup for a basic countdown timer for to Meeting
         var duration = 11400;
@@ -789,11 +802,11 @@ function textChangeFunction() {
         // Makes dayNight fade in and out with Meeting
         dayNightInterval = setInterval(function () {
             if (dayNight) {
-                $("#dayNightAnimatedText").fadeOut(400);
+                $("#dayNightAnimatedTextDaily").fadeOut(400);
                 $("#dayNightAnimatedTextCalendar").fadeIn(400);
             } else {
                 $("#dayNightAnimatedTextCalendar").fadeOut(400);
-                $("#dayNightAnimatedText").fadeIn(400);
+                $("#dayNightAnimatedTextDaily").fadeIn(400);
             }
             dayNight=!dayNight;
         }, 3000);
@@ -807,19 +820,30 @@ function textChangeFunction() {
 
             if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
 
+                setTimeout(function () {
+                    document.getElementById("dayNightAnimatedTextMiddle").classList.remove("w3-animate-right");
+                    document.getElementById("dayNightAnimatedText").classList.remove("w3-animate-right");
+                    document.getElementById("dayNightAnimatedTextTop").classList.remove("w3-animate-right");
+                }, 500);
+
                 // Makes dayNight fade in and out with Meeting
                 dayNightInterval = setInterval(function () {
                     if (dayNight) {
-                        $("#dayNightAnimatedText").fadeOut(400);
+                        $("#dayNightAnimatedTextDaily").fadeOut(400);
                         $("#dayNightAnimatedTextCalendar").fadeIn(400);
                     } else {
                         $("#dayNightAnimatedTextCalendar").fadeOut(400);
-                        $("#dayNightAnimatedText").fadeIn(400);
+                        $("#dayNightAnimatedTextDaily").fadeIn(400);
                     }
                     dayNight=!dayNight;
                 }, 3000);
 
+            } else {
+                document.getElementById("dayNightAnimatedTextMiddle").classList.add("w3-animate-right");
+                document.getElementById("dayNightAnimatedText").classList.add("w3-animate-right");
+                document.getElementById("dayNightAnimatedTextTop").classList.add("w3-animate-right");
             }
+
         });
 
     });
