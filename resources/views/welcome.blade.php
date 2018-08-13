@@ -995,27 +995,39 @@ function textChangeFunction() {
                 $("#progressAnimatedTextBottom").show();
 
                 setTimeout(function () {
+                    document.getElementById("progressAnimatedTextTop").classList.remove("w3-animate-right");
+                    document.getElementById("progressAnimatedTextMiddle").classList.remove("w3-animate-right");
+                    document.getElementById("progressAnimatedTextBottom").classList.remove("w3-animate-right");
+                }, 500);
+
+                setTimeout(function () {
                     
                     $("#progressAnimatedTextTop").fadeOut(400);
                     $("#progressAnimatedTextMiddle").fadeOut(400);
                     $("#progressAnimatedTextBottom").fadeOut(400);
                     $("#progressImgPie").fadeIn(400);
 
-                    // progressInterval = setInterval(function () {
-                    //     if (progress) {
-                    //         $("#progressImgPie").fadeOut(400);
-                    //         $("#progressAnimatedTextTop").fadeIn(400);
-                    //         $("#progressAnimatedTextMiddle").fadeIn(400);
-                    //         $("#progressAnimatedTextBottom").fadeIn(400);
-                    //     } else {
-                    //         $("#progressAnimatedTextCalendar").fadeOut(400);
-                    //         $("#progressAnimatedTextDaily").fadeIn(400);
-                    //     }
-                    //     progress=!progress;
-                    // }, 3000);
+                    progressInterval = setInterval(function () {
+                        if (progress) {
+                            $("#progressImgPie").fadeOut(400);
+                            $("#progressAnimatedTextTop").fadeIn(400);
+                            $("#progressAnimatedTextMiddle").fadeIn(400);
+                            $("#progressAnimatedTextBottom").fadeIn(400);
+                        } else {
+                            $("#progressAnimatedTextTop").fadeOut(400);
+                            $("#progressAnimatedTextMiddle").fadeOut(400);
+                            $("#progressAnimatedTextBottom").fadeOut(400);
+                            $("#progressImgPie").fadeIn(400);
+                        }
+                        progress=!progress;
+                    }, 3000);
 
                 }, 1000);
 
+            } else {
+                document.getElementById("progressAnimatedTextTop").classList.add("w3-animate-right");
+                document.getElementById("progressAnimatedTextMiddle").classList.add("w3-animate-right");
+                document.getElementById("progressAnimatedTextBottom").classList.add("w3-animate-right");
             }
 
         });
