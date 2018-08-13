@@ -812,6 +812,7 @@ function textChangeFunction() {
 <script type="text/javascript">
 
     var dayNight = true;
+    var dayNightTimeout = null;
     var dayNightInterval = null;
 
     $(document).ready(function(){
@@ -843,7 +844,8 @@ function textChangeFunction() {
         // Reset Interval when mouseover happens
         $(".featureButtonLink").mouseover(function(){
 
-            // Clear timer
+            // Clear timers
+            clearInterval(dayNightTimeout);
             clearInterval(dayNightInterval);
 
             if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
@@ -854,7 +856,7 @@ function textChangeFunction() {
                     document.getElementById("dayNightAnimatedTextTop").classList.remove("w3-animate-right");
                 }, 500);
 
-                setTimeout(function () {
+                dayNightTimeout = setTimeout(function () {
                     
                     $("#dayNightAnimatedTextDaily").fadeOut(400);
                     $("#dayNightAnimatedTextCalendar").fadeIn(400);
@@ -940,13 +942,15 @@ function textChangeFunction() {
 <!-- Features JS for Timer -->
 <script type="text/javascript">
 
+    var timerTimeout = null;
     var timerInterval = null;
 
     $(document).ready(function(){
 
         $(".featureButtonLink").mouseover(function(){
 
-            // Clear timer
+            // Clear timers
+            clearInterval(timerTimeout);
             clearInterval(timerInterval);
 
             if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
@@ -959,7 +963,7 @@ function textChangeFunction() {
                 // Reset timer before starting 'animation'
                 $('#timerAnimatedTextMiddle').text('09:59');
 
-                setTimeout(function () {
+                timerTimeout = setTimeout(function () {
 
                     $("#timerImgStart").hide();
                     $("#timerImgStop").show();
@@ -998,6 +1002,7 @@ function textChangeFunction() {
 <script type="text/javascript">
 
     var progress = true;
+    var progressTimeout = null;
     var progressInterval = null;
 
     $(document).ready(function(){
@@ -1005,6 +1010,7 @@ function textChangeFunction() {
         $(".featureButtonLink").mouseover(function(){
 
             // Clear timer
+            clearInterval(progressTimeout);
             clearInterval(progressInterval);
 
             if (this.id == "progressBtn" || this.id == "progressBtnMobile") {
@@ -1021,7 +1027,7 @@ function textChangeFunction() {
                     document.getElementById("progressAnimatedTextBottom").classList.remove("w3-animate-right");
                 }, 500);
 
-                setTimeout(function () {
+                progressTimeout = setTimeout(function () {
                     
                     $("#progressAnimatedTextTop").fadeOut(400);
                     $("#progressAnimatedTextMiddle").fadeOut(400);
