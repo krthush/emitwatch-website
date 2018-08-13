@@ -106,6 +106,24 @@
         </a>
 
         <div class="slide">
+            <video class="fullscreenVideo" loop muted data-autoplay>
+                <source src="/images/morning.mp4" type="video/mp4">
+            </video>
+
+            <div class="layer flex-center">
+                <div class="flex-center full-height full-width text-center">
+                    <div class="titleFont">
+                        <div class="sublineSize whiteText">Always on time. Everywhere.</div>
+                        <div>
+                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="slide">
             <video class="fullscreenVideo" loop muted data-autoplay id="workVideo">
                 <source src="/images/work.mp4" type="video/mp4">
             </video>
