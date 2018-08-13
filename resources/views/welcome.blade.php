@@ -205,9 +205,9 @@
                     </div>
                     <div id="calendarImg" class="text-center">
                         <div class="whiteText transform-center">
-                            <span id="calendarAnimatedTextTop" class="featureAnimatedTextSmall w3-animate-right">Anniversary</span><br>
-                            <span id="calendarAnimatedTextMiddle" class="featureAnimatedText w3-animate-right">3 Days</span><br>
-                            <span id="calendarAnimatedTextBottom" class="featureAnimatedTextSmall w3-animate-right">4 Hours</span><br>
+                            <span id="calendarAnimatedTextTop" class="featureAnimatedTextSmall w3-animate-right">Report Due</span><br>
+                            <span id="calendarAnimatedTextMiddle" class="featureAnimatedText w3-animate-right">1 Day</span><br>
+                            <span id="calendarAnimatedTextBottom" class="featureAnimatedTextSmall w3-animate-right">3 Hours</span><br>
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
@@ -854,17 +854,24 @@ function textChangeFunction() {
                     document.getElementById("dayNightAnimatedTextTop").classList.remove("w3-animate-right");
                 }, 500);
 
-                // Makes dayNight fade in and out with Meeting
-                dayNightInterval = setInterval(function () {
-                    if (dayNight) {
-                        $("#dayNightAnimatedTextDaily").fadeOut(400);
-                        $("#dayNightAnimatedTextCalendar").fadeIn(400);
-                    } else {
-                        $("#dayNightAnimatedTextCalendar").fadeOut(400);
-                        $("#dayNightAnimatedTextDaily").fadeIn(400);
-                    }
-                    dayNight=!dayNight;
-                }, 3000);
+                setTimeout(function () {
+                    
+                    $("#dayNightAnimatedTextDaily").fadeOut(400);
+                    $("#dayNightAnimatedTextCalendar").fadeIn(400);
+
+                    // Makes dayNight fade in and out with Meeting
+                    dayNightInterval = setInterval(function () {
+                        if (dayNight) {
+                            $("#dayNightAnimatedTextDaily").fadeOut(400);
+                            $("#dayNightAnimatedTextCalendar").fadeIn(400);
+                        } else {
+                            $("#dayNightAnimatedTextCalendar").fadeOut(400);
+                            $("#dayNightAnimatedTextDaily").fadeIn(400);
+                        }
+                        dayNight=!dayNight;
+                    }, 3000);
+
+                }, 1000);
 
             } else {
                 document.getElementById("dayNightAnimatedTextMiddle").classList.add("w3-animate-right");
@@ -888,30 +895,43 @@ function textChangeFunction() {
 
 </script>
 
-<!-- Features jQuery for Objective page -->
+<!-- Features jQuery for Calendar page -->
 <script type="text/javascript">
 
     $(document).ready(function(){
 
         count = 0;
-        wordsArrayTop = ["Report Due", "Date Night", "Exams"];
-        wordsArrayMiddle = ["1 Day", "3 Days", "1 Month"];
-        wordsArrayBottom = ["3 Hours", "7 Hours", "3 Days"];
+        wordsArrayTop = ["Date Night", "Exams", "Report Due"];
+        wordsArrayMiddle = ["3 Days", "1 Month", "1 Day"];
+        wordsArrayBottom = ["7 Hours", "3 Days", "3 Hours"];
 
-        setInterval(function () {
+        var calendarInterval = null;
 
-            count++;
+        $(".featureButtonLink").mouseover(function(){
 
-            $("#calendarAnimatedTextTop").hide(1);
-            $("#calendarAnimatedTextTop").text(wordsArrayTop[count % wordsArrayTop.length]).show(1);
+            // Clear timer
+            clearInterval(calendarInterval);
 
-            $("#calendarAnimatedTextMiddle").hide(1);
-            $("#calendarAnimatedTextMiddle").text(wordsArrayMiddle[count % wordsArrayTop.length]).show(1);
+            if (this.id == "calendarBtn" || this.id == "calendarBtnMobile") {
 
-            $("#calendarAnimatedTextBottom").hide(1);
-            $("#calendarAnimatedTextBottom").text(wordsArrayBottom[count % wordsArrayTop.length]).show(1);
+                calendarInterval  =  setInterval(function () {
 
-        }, 2000);
+                    count++;
+
+                    $("#calendarAnimatedTextTop").hide(1);
+                    $("#calendarAnimatedTextTop").text(wordsArrayTop[count % wordsArrayTop.length]).show(1);
+
+                    $("#calendarAnimatedTextMiddle").hide(1);
+                    $("#calendarAnimatedTextMiddle").text(wordsArrayMiddle[count % wordsArrayTop.length]).show(1);
+
+                    $("#calendarAnimatedTextBottom").hide(1);
+                    $("#calendarAnimatedTextBottom").text(wordsArrayBottom[count % wordsArrayTop.length]).show(1);
+
+                }, 2000);
+
+            }
+
+        });
 
     });
 
@@ -969,6 +989,7 @@ function textChangeFunction() {
             }
 
         });
+
     });
 
 </script>
