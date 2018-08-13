@@ -197,7 +197,7 @@
                         <div class="whiteText transform-center">
                             <span id="timerAnimatedTextMiddle" class="featureAnimatedText">09:59</span>
                         </div>
-                        <div class="transform-center full-height full-width">
+                        <div class="transform-center full-width">
                             <img id="timerImgStart" src="/images/timerImgStartBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
                             <img id="timerImgStop" src="/images/timerImgStopBlank.png" class="featureImg img-fluid" alt="Responsive image">
                         </div>
@@ -208,7 +208,7 @@
                         <div class="whiteText transform-center">
                             <span id="timeText" class="featureAnimatedText w3-animate-right">00:00:00</span>
                         </div>
-                        <div class="transform-center full-height full-width">
+                        <div class="transform-center full-width">
                             <img src="/images/timeImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
@@ -217,7 +217,7 @@
                         <div class="whiteText transform-center">
                             <span id="batteryText" class="featureAnimatedText w3-animate-right">00:00:00</span>
                         </div>
-                        <div class="transform-center full-height full-width">
+                        <div class="transform-center full-width">
                             <img src="/images/timeImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
@@ -943,6 +943,11 @@ function textChangeFunction() {
         });
     });
 
+</script>
+
+<!-- Features JS for Progress -->
+<script type="text/javascript">
+    
 </script>
 
 <!-- Features JS for Time -->
