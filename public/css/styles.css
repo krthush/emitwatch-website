@@ -363,8 +363,6 @@ a:active {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 @media screen and (min-width: 768px) {
 	.teamImg {
@@ -372,7 +370,6 @@ a:active {
 	    margin-left: auto;
 	    margin-right: auto;
 	    width: 30%;
-	    padding-bottom: 100px;
 	}
 }
 
