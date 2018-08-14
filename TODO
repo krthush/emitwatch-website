@@ -1,7 +1,5 @@
 TODO:
 
-Need to leverage browser caching to optimize website better -> need to edit htcaccess -> need to fix openssh putty connection
-
 setInterval negative possibilities? Look into this... Also all this set interval stuff is prone to get messy? Should double check whether timers are cancelled properly and stuff! Also over using global variables here
 
 Bug with viewport change of size in features page leading to changing between features being stuck
