@@ -539,12 +539,12 @@
                     <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <video id="desktopVideo" controls class="containedVideo">
+                    <video id="desktopVideo" controls class="d-none d-md-block containedVideo">
                         <source src="/images/movieLarge.mp4" type="video/mp4">
                     </video>
-<!--                     <video id="mobileVideo" controls class="d-md-none containedVideo">
+                    <video id="mobileVideo" controls class="d-md-none containedVideo">
                         <source src="/images/movieSmall.mp4" type="video/mp4">
-                    </video> -->
+                    </video>
                 </div>
             </div>
       </div>
@@ -582,7 +582,7 @@
     if (w >= 768) {
         $('#desktopVideo')[0].play();
     } else {
-        $('#desktopVideo')[0].play(); 
+        $('#mobileVideo')[0].play(); 
     }
   });
 
@@ -591,7 +591,7 @@
     if (w >= 768) {
         $('#desktopVideo')[0].pause();
     } else {
-        $('#desktopVideo')[0].pause(); 
+        $('#mobileVideo')[0].pause(); 
     }
   });
 </script>
