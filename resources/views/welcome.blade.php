@@ -49,7 +49,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
-                        <div class="navBarSize whiteText miniBotPad">Have a better perspective on time.</div>
+                        <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
                         <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         <!-- <div class="full-width titleFont text-center navBarSize whiteText miniTopPad">Kickstarter soon!</div>      -->
