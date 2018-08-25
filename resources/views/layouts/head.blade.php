@@ -10,6 +10,8 @@
 <meta property="og:url" content="ownemit.com">
 <meta property="og:type" content="website">
 
+<!-- favicon icon -->
+<link rel="icon" href="/images/logo.png">
 
 <!-- CSS -->
 
