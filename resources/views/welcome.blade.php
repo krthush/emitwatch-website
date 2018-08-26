@@ -698,134 +698,6 @@ function textChangeFunction() {
 
 </script>
 
-
-<!-- jQuery for features page -->
-<script type="text/javascript">
-    $(document).ready(function(){
-
-        // Initial hide of all img + txt except dayNight
-        $("#calendarImg").hide();
-        $("#smartphoneImg").hide();
-        $("#timerImg").hide();
-        $("#progressImg").hide();
-        $("#timeImg").hide();
-        $("#batteryImg").hide();
-
-        $("#calendarTxt").hide();
-        $("#smartphoneTxt").hide();
-        $("#timerTxt").hide();
-        $("#progressTxt").hide();
-        $("#timeTxt").hide();
-        $("#batteryTxt").hide();
-
-        document.getElementById("dayNightBtn").style.filter = "brightness(70%)";
-        document.getElementById("dayNightBtnMobile").style.filter = "brightness(70%)";
-
-        // Check for mouseover for Desktop
-        $(".featureButtonLink").mouseover(function(){
-
-            // Hides all txt/imgs
-            hideAll();
-
-            // $(this).find('img').fadeTo(500, 0.5);
-            document.getElementById(this.id).style.filter = "brightness(70%)";
-
-            // Check for which button is being hovered on
-            // TODO: this can be made more neat?
-            if (this.id == "dayNightBtn") {
-                $("#dayNightImg").show();
-                $("#dayNightTxt").show();
-            } else if (this.id == "calendarBtn") {
-                $("#calendarImg").show();
-                $("#calendarTxt").show();
-            } else if (this.id == "smartphoneBtn") {
-                $("#smartphoneImg").show();
-                $("#smartphoneTxt").show();
-            } else if (this.id == "timerBtn") {
-                $("#timerImg").show();
-                $("#timerTxt").show();
-            } else if (this.id == "progressBtn") {
-                $("#progressImg").show();
-                $("#progressTxt").show();
-            } else if (this.id == "timeBtn") {
-                $("#timeImg").show();
-                $("#timeTxt").show();
-            } else if (this.id == "batteryBtn") {
-                $("#batteryImg").show();
-                $("#batteryTxt").show();
-            } else if (this.id == "dayNightBtnMobile") {
-                $("#dayNightImg").show();
-                $("#dayNightTxt").show();
-            } else if (this.id == "calendarBtnMobile") {
-                $("#calendarImg").show();
-                $("#calendarTxt").show();
-            } else if (this.id == "smartphoneBtnMobile") {
-                $("#smartphoneImg").show();
-                $("#smartphoneTxt").show();
-            } else if (this.id == "timerBtnMobile") {
-                $("#timerImg").show();
-                $("#timerTxt").show();
-            } else if (this.id == "progressBtnMobile") {
-                $("#progressImg").show();
-                $("#progressTxt").show();
-            } else if (this.id == "timeBtnMobile") {
-                $("#timeImg").show();
-                $("#timeTxt").show();
-            } else if (this.id == "batteryBtnMobile") {
-                $("#batteryImg").show();
-                $("#batteryTxt").show();
-            } else {
-                // Bug Catch
-                $("#calendarImg").show();
-                $("#calendarTxt").show();
-            }
-
-        });
-
-    });
-
-    // Hides all txt/imgs
-    function hideAll() {
-
-        // Hide all imgs
-        $("#dayNightImg").hide();
-        $("#calendarImg").hide();
-        $("#smartphoneImg").hide();
-        $("#timerImg").hide();
-        $("#progressImg").hide();
-        $("#timeImg").hide();
-        $("#batteryImg").hide();
-
-        // Hide all text
-        $("#dayNightTxt").hide();
-        $("#calendarTxt").hide();
-        $("#smartphoneTxt").hide();
-        $("#timerTxt").hide();
-        $("#progressTxt").hide();
-        $("#timeTxt").hide();
-        $("#batteryTxt").hide();
-
-        // Reset all buttons
-        document.getElementById("dayNightBtn").style.filter = "brightness(100%)";
-        document.getElementById("calendarBtn").style.filter = "brightness(100%)";
-        document.getElementById("smartphoneBtn").style.filter = "brightness(100%)";
-        document.getElementById("timerBtn").style.filter = "brightness(100%)";
-        document.getElementById("progressBtn").style.filter = "brightness(100%)";
-        document.getElementById("timeBtn").style.filter = "brightness(100%)";
-        document.getElementById("batteryBtn").style.filter = "brightness(100%)";
-
-        document.getElementById("dayNightBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("calendarBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("smartphoneBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("timerBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("progressBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("timeBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("batteryBtnMobile").style.filter = "brightness(100%)";
-
-    }
-
-</script>
-
 <!-- Features jQuery for DayNight page -->
 <script type="text/javascript">
 
@@ -1120,6 +992,133 @@ function textChangeFunction() {
         document.getElementById("batteryText").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
 
     }, 1000);
+
+</script>
+
+<!-- jQuery for features page -->
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        // Initial hide of all img + txt except dayNight
+        $("#calendarImg").hide();
+        $("#smartphoneImg").hide();
+        $("#timerImg").hide();
+        $("#progressImg").hide();
+        $("#timeImg").hide();
+        $("#batteryImg").hide();
+
+        $("#calendarTxt").hide();
+        $("#smartphoneTxt").hide();
+        $("#timerTxt").hide();
+        $("#progressTxt").hide();
+        $("#timeTxt").hide();
+        $("#batteryTxt").hide();
+
+        document.getElementById("dayNightBtn").style.filter = "brightness(70%)";
+        document.getElementById("dayNightBtnMobile").style.filter = "brightness(70%)";
+
+        // Check for mouseover for Desktop
+        $(".featureButtonLink").mouseover(function(){
+
+            // Hides all txt/imgs
+            hideAll();
+
+            // $(this).find('img').fadeTo(500, 0.5);
+            document.getElementById(this.id).style.filter = "brightness(70%)";
+
+            // Check for which button is being hovered on
+            // TODO: this can be made more neat?
+            if (this.id == "dayNightBtn") {
+                $("#dayNightImg").show();
+                $("#dayNightTxt").show();
+            } else if (this.id == "calendarBtn") {
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            } else if (this.id == "smartphoneBtn") {
+                $("#smartphoneImg").show();
+                $("#smartphoneTxt").show();
+            } else if (this.id == "timerBtn") {
+                $("#timerImg").show();
+                $("#timerTxt").show();
+            } else if (this.id == "progressBtn") {
+                $("#progressImg").show();
+                $("#progressTxt").show();
+            } else if (this.id == "timeBtn") {
+                $("#timeImg").show();
+                $("#timeTxt").show();
+            } else if (this.id == "batteryBtn") {
+                $("#batteryImg").show();
+                $("#batteryTxt").show();
+            } else if (this.id == "dayNightBtnMobile") {
+                $("#dayNightImg").show();
+                $("#dayNightTxt").show();
+            } else if (this.id == "calendarBtnMobile") {
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            } else if (this.id == "smartphoneBtnMobile") {
+                $("#smartphoneImg").show();
+                $("#smartphoneTxt").show();
+            } else if (this.id == "timerBtnMobile") {
+                $("#timerImg").show();
+                $("#timerTxt").show();
+            } else if (this.id == "progressBtnMobile") {
+                $("#progressImg").show();
+                $("#progressTxt").show();
+            } else if (this.id == "timeBtnMobile") {
+                $("#timeImg").show();
+                $("#timeTxt").show();
+            } else if (this.id == "batteryBtnMobile") {
+                $("#batteryImg").show();
+                $("#batteryTxt").show();
+            } else {
+                // Bug Catch
+                $("#calendarImg").show();
+                $("#calendarTxt").show();
+            }
+
+        });
+
+    });
+
+    // Hides all txt/imgs
+    function hideAll() {
+
+        // Hide all imgs
+        $("#dayNightImg").hide();
+        $("#calendarImg").hide();
+        $("#smartphoneImg").hide();
+        $("#timerImg").hide();
+        $("#progressImg").hide();
+        $("#timeImg").hide();
+        $("#batteryImg").hide();
+
+        // Hide all text
+        $("#dayNightTxt").hide();
+        $("#calendarTxt").hide();
+        $("#smartphoneTxt").hide();
+        $("#timerTxt").hide();
+        $("#progressTxt").hide();
+        $("#timeTxt").hide();
+        $("#batteryTxt").hide();
+
+        // Reset all buttons
+        document.getElementById("dayNightBtn").style.filter = "brightness(100%)";
+        document.getElementById("calendarBtn").style.filter = "brightness(100%)";
+        document.getElementById("smartphoneBtn").style.filter = "brightness(100%)";
+        document.getElementById("timerBtn").style.filter = "brightness(100%)";
+        document.getElementById("progressBtn").style.filter = "brightness(100%)";
+        document.getElementById("timeBtn").style.filter = "brightness(100%)";
+        document.getElementById("batteryBtn").style.filter = "brightness(100%)";
+
+        document.getElementById("dayNightBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("calendarBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("smartphoneBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("timerBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("progressBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("timeBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("batteryBtnMobile").style.filter = "brightness(100%)";
+
+    }
 
 </script>
 
