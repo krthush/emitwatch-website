@@ -768,7 +768,7 @@ function textChangeFunction() {
         var calendarInterval = null;
 
         // Check for mouseover for Desktop + Mobile
-        $(".featureButtonLink").mouseover(function(){
+        $(".featureButtonLink").on('click mouseover', function () {
 
             // Hides all txt/imgs
             hideAll();
