@@ -435,7 +435,6 @@ a:active {
 	margin-left: 5px;
 	margin-right: 5px;
 	display: inline-block;
-    background: black;
     padding: 0;
 }
 @media screen and (min-width: 768px) {

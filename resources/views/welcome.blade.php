@@ -192,13 +192,13 @@
 
                 <!-- content to be placed inside <body>…</body> -->
                 <div class="d-none d-md-block mx-auto sectionContainer featureButtonContainer">
-                    <a href='#' id="dayNightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
-                    <a href='#' id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
-                    <a href='#' id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
-                    <a href='#' id="progressBtn" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
-                    <a href='#' id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
-                    <a href='#' id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
-                    <a href='#' id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
+                    <a id="dayNightBtn" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
+                    <a id="calendarBtn" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
+                    <a id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
+                    <a id="progressBtn" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
+                    <a id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
+                    <a id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                    <a id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                 </div>
 
                 <!-- Spacing for mobile -->
@@ -274,17 +274,17 @@
                 <!-- Spacing for mobile -->
                 <div class="d-md-none row full-width featureMobileMargin">
                     <div class="mx-auto">
-                        <a href='#' id="dayNightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
-                        <a href='#' id="calendarBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
-                        <a href='#' id="timerBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
-                        <a href='#' id="progressBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
+                        <a id="dayNightBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/dayNight-01.png"></a>
+                        <a id="calendarBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/calendar-01.png"></a>
+                        <a id="timerBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
+                        <a id="progressBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
                     </div>
                 </div>
                 <div class="d-md-none row full-width">
                     <div class="mx-auto">
-                        <a href='#' id="timeBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
-                        <a href='#' id="batteryBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
-                        <a href='#' id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
+                        <a id="timeBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
+                        <a id="batteryBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                        <a id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                     </div>
                 </div>
 
