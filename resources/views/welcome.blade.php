@@ -702,6 +702,20 @@ function textChangeFunction() {
 <!-- jQuery for features page -->
 <script type="text/javascript">
 
+    // Var Initialization (Features jQuery for DayNight page)
+    var dayNight = true;
+    var dayNightTimeout = null;
+    var dayNightInterval = null;
+
+    // Var Initialization (Features JS for Timer)
+    var timerTimeout = null;
+    var timerInterval = null;
+
+    // Var Initialization (Features JS for Progress)
+    var progressTimeout = null;
+    var progressInterval = null;
+
+
     $(document).ready(function(){
 
         // Initial hide of all img + txt except dayNight
@@ -719,14 +733,187 @@ function textChangeFunction() {
         $("#timeTxt").hide();
         $("#batteryTxt").hide();
 
+        // Initial brightness change
         document.getElementById("dayNightBtn").style.filter = "brightness(70%)";
         document.getElementById("dayNightBtnMobile").style.filter = "brightness(70%)";
 
-        // Check for mouseover for Desktop
+        // Hide calendar, Show dayNight (Features jQuery for DayNight page)
+        $("#dayNightAnimatedTextCalendar").hide(); 
+        $("#dayNightAnimatedTextDaily").show();
+
+        // Setup for a basic countdown timer for to Meeting (Features jQuery for DayNight page)
+        var duration = 11400;
+        setInterval(function () {
+            duration--;
+            document.getElementById('dayNightAnimatedTextMiddle').innerHTML = formatTime(duration);
+        }, 1000);
+
+        // Makes dayNight fade in and out with Meeting (Features jQuery for DayNight page)
+        dayNightInterval = setInterval(function () {
+            if (dayNight) {
+                $("#dayNightAnimatedTextDaily").fadeOut(400);
+                $("#dayNightAnimatedTextCalendar").fadeIn(400);
+            } else {
+                $("#dayNightAnimatedTextCalendar").fadeOut(400);
+                $("#dayNightAnimatedTextDaily").fadeIn(400);
+            }
+            dayNight=!dayNight;
+        }, 3000);
+
+        // Var for Features jQuery for Calendar page
+        count = 0;
+        wordsArrayTop = ["Date Night", "Exams", "Report Due"];
+        wordsArrayMiddle = ["3 Days", "1 Month", "1 Day"];
+        wordsArrayBottom = ["7 Hours", "3 Days", "3 Hours"];
+        var calendarInterval = null;
+
+        // Check for mouseover for Desktop + Mobile
         $(".featureButtonLink").mouseover(function(){
 
             // Hides all txt/imgs
             hideAll();
+
+            // Features jQuery for DayNight page
+            clearInterval(dayNightTimeout);
+            clearInterval(dayNightInterval);
+            if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
+
+                setTimeout(function () {
+                    document.getElementById("dayNightAnimatedTextMiddle").classList.remove("w3-animate-right");
+                    document.getElementById("dayNightAnimatedText").classList.remove("w3-animate-right");
+                    document.getElementById("dayNightAnimatedTextTop").classList.remove("w3-animate-right");
+                }, 500);
+
+                dayNightTimeout = setTimeout(function () {
+                    
+                    $("#dayNightAnimatedTextDaily").fadeOut(400);
+                    $("#dayNightAnimatedTextCalendar").fadeIn(400);
+
+                    // Makes dayNight fade in and out with Meeting
+                    dayNightInterval = setInterval(function () {
+                        if (dayNight) {
+                            $("#dayNightAnimatedTextDaily").fadeOut(400);
+                            $("#dayNightAnimatedTextCalendar").fadeIn(400);
+                        } else {
+                            $("#dayNightAnimatedTextCalendar").fadeOut(400);
+                            $("#dayNightAnimatedTextDaily").fadeIn(400);
+                        }
+                        dayNight=!dayNight;
+                    }, 3000);
+
+                }, 1000);
+
+            } else {
+                document.getElementById("dayNightAnimatedTextMiddle").classList.add("w3-animate-right");
+                document.getElementById("dayNightAnimatedText").classList.add("w3-animate-right");
+                document.getElementById("dayNightAnimatedTextTop").classList.add("w3-animate-right");
+            }
+
+            // Features jQuery for Calendar page
+            clearInterval(calendarInterval);
+            if (this.id == "calendarBtn" || this.id == "calendarBtnMobile") {
+                calendarInterval  =  setInterval(function () {
+
+                    count++;
+
+                    $("#calendarAnimatedTextTop").hide(1);
+                    $("#calendarAnimatedTextTop").text(wordsArrayTop[count % wordsArrayTop.length]).show(1);
+
+                    $("#calendarAnimatedTextMiddle").hide(1);
+                    $("#calendarAnimatedTextMiddle").text(wordsArrayMiddle[count % wordsArrayTop.length]).show(1);
+
+                    $("#calendarAnimatedTextBottom").hide(1);
+                    $("#calendarAnimatedTextBottom").text(wordsArrayBottom[count % wordsArrayTop.length]).show(1);
+
+                }, 2000);
+            }
+
+            // Features JS for Timer
+            clearInterval(timerTimeout);
+            clearInterval(timerInterval);
+            if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
+                // Hide stop image + text, Show timer start 
+                $("#timerImgStop").hide();
+                $("#timerAnimatedTextMiddle").hide(); 
+                $("#timerImgStart").show();
+
+                // Reset timer before starting 'animation'
+                $('#timerAnimatedTextMiddle').text('09:59');
+
+                timerTimeout = setTimeout(function () {
+
+                    $("#timerImgStart").hide();
+                    $("#timerImgStop").show();
+                    $("#timerAnimatedTextMiddle").show();
+
+                    // Setup for a basic jquery countdown timer (non function) with global setInteval
+                    duration = 598;
+                    var timer = duration, minutes, seconds;
+                    timerInterval  = setInterval(function () {
+
+                        minutes = parseInt(timer / 60, 10);
+                        seconds = parseInt(timer % 60, 10);
+
+                        minutes = minutes < 10 ? "0" + minutes : minutes;
+                        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                        $('#timerAnimatedTextMiddle').text(minutes + ":" + seconds);
+
+                        if (--timer < 0) {
+                            timer = duration;
+                        }
+
+                    }, 1000);
+
+                }, 1000);
+            }
+
+            // Features JS for Progress
+            clearInterval(progressTimeout);
+            clearInterval(progressInterval);
+            if (this.id == "progressBtn" || this.id == "progressBtnMobile") {
+                // Hide stop image + text, Show timer start 
+                $("#progressImgPie").hide();
+                $("#progressAnimatedTextTop").show();
+                $("#progressAnimatedTextMiddle").show();
+                $("#progressAnimatedTextBottom").show();
+
+                setTimeout(function () {
+                    document.getElementById("progressAnimatedTextTop").classList.remove("w3-animate-right");
+                    document.getElementById("progressAnimatedTextMiddle").classList.remove("w3-animate-right");
+                    document.getElementById("progressAnimatedTextBottom").classList.remove("w3-animate-right");
+                }, 500);
+
+                progressTimeout = setTimeout(function () {
+
+                    var progress = true;
+                    
+                    $("#progressAnimatedTextTop").fadeOut(400);
+                    $("#progressAnimatedTextMiddle").fadeOut(400);
+                    $("#progressAnimatedTextBottom").fadeOut(400);
+                    $("#progressImgPie").fadeIn(400);
+
+                    progressInterval = setInterval(function () {
+                        if (progress) {
+                            $("#progressImgPie").fadeOut(400);
+                            $("#progressAnimatedTextTop").fadeIn(400);
+                            $("#progressAnimatedTextMiddle").fadeIn(400);
+                            $("#progressAnimatedTextBottom").fadeIn(400);
+                        } else {
+                            $("#progressAnimatedTextTop").fadeOut(400);
+                            $("#progressAnimatedTextMiddle").fadeOut(400);
+                            $("#progressAnimatedTextBottom").fadeOut(400);
+                            $("#progressImgPie").fadeIn(400);
+                        }
+                        progress=!progress;
+                    }, 3000);
+
+                }, 1000);
+            } else {
+                document.getElementById("progressAnimatedTextTop").classList.add("w3-animate-right");
+                document.getElementById("progressAnimatedTextMiddle").classList.add("w3-animate-right");
+                document.getElementById("progressAnimatedTextBottom").classList.add("w3-animate-right");
+            }
 
             // $(this).find('img').fadeTo(500, 0.5);
             document.getElementById(this.id).style.filter = "brightness(70%)";
@@ -825,85 +1012,6 @@ function textChangeFunction() {
 
     }
 
-</script>
-
-<!-- Features jQuery for DayNight page -->
-<script type="text/javascript">
-
-    var dayNight = true;
-    var dayNightTimeout = null;
-    var dayNightInterval = null;
-
-    $(document).ready(function(){
-
-        // Hide calendar, Show dayNight 
-        $("#dayNightAnimatedTextCalendar").hide(); 
-        $("#dayNightAnimatedTextDaily").show();
-
-        // Setup for a basic countdown timer for to Meeting
-        var duration = 11400;
-        setInterval(function () {
-            duration--;
-            document.getElementById('dayNightAnimatedTextMiddle').innerHTML = formatTime(duration);
-        }, 1000);
-
-        // Makes dayNight fade in and out with Meeting
-        dayNightInterval = setInterval(function () {
-            if (dayNight) {
-                $("#dayNightAnimatedTextDaily").fadeOut(400);
-                $("#dayNightAnimatedTextCalendar").fadeIn(400);
-            } else {
-                $("#dayNightAnimatedTextCalendar").fadeOut(400);
-                $("#dayNightAnimatedTextDaily").fadeIn(400);
-            }
-            dayNight=!dayNight;
-        }, 3000);
-
-
-        // Reset Interval when mouseover happens
-        $(".featureButtonLink").mouseover(function(){
-
-            // Clear timers
-            clearInterval(dayNightTimeout);
-            clearInterval(dayNightInterval);
-
-            if (this.id == "dayNightBtn" || this.id == "dayNightBtnMobile") {
-
-                setTimeout(function () {
-                    document.getElementById("dayNightAnimatedTextMiddle").classList.remove("w3-animate-right");
-                    document.getElementById("dayNightAnimatedText").classList.remove("w3-animate-right");
-                    document.getElementById("dayNightAnimatedTextTop").classList.remove("w3-animate-right");
-                }, 500);
-
-                dayNightTimeout = setTimeout(function () {
-                    
-                    $("#dayNightAnimatedTextDaily").fadeOut(400);
-                    $("#dayNightAnimatedTextCalendar").fadeIn(400);
-
-                    // Makes dayNight fade in and out with Meeting
-                    dayNightInterval = setInterval(function () {
-                        if (dayNight) {
-                            $("#dayNightAnimatedTextDaily").fadeOut(400);
-                            $("#dayNightAnimatedTextCalendar").fadeIn(400);
-                        } else {
-                            $("#dayNightAnimatedTextCalendar").fadeOut(400);
-                            $("#dayNightAnimatedTextDaily").fadeIn(400);
-                        }
-                        dayNight=!dayNight;
-                    }, 3000);
-
-                }, 1000);
-
-            } else {
-                document.getElementById("dayNightAnimatedTextMiddle").classList.add("w3-animate-right");
-                document.getElementById("dayNightAnimatedText").classList.add("w3-animate-right");
-                document.getElementById("dayNightAnimatedTextTop").classList.add("w3-animate-right");
-            }
-
-        });
-
-    });
-
     function formatTime(seconds) {
         var h = Math.floor(seconds / 3600),
             m = Math.floor(seconds / 60) % 60,
@@ -914,172 +1022,6 @@ function textChangeFunction() {
         return h + ":" + m + ":" + s;
     }
 
-</script>
-
-<!-- Features jQuery for Calendar page -->
-<script type="text/javascript">
-
-    $(document).ready(function(){
-
-        count = 0;
-        wordsArrayTop = ["Date Night", "Exams", "Report Due"];
-        wordsArrayMiddle = ["3 Days", "1 Month", "1 Day"];
-        wordsArrayBottom = ["7 Hours", "3 Days", "3 Hours"];
-
-        var calendarInterval = null;
-
-        $(".featureButtonLink").mouseover(function(){
-
-            // Clear timer
-            clearInterval(calendarInterval);
-
-            if (this.id == "calendarBtn" || this.id == "calendarBtnMobile") {
-
-                calendarInterval  =  setInterval(function () {
-
-                    count++;
-
-                    $("#calendarAnimatedTextTop").hide(1);
-                    $("#calendarAnimatedTextTop").text(wordsArrayTop[count % wordsArrayTop.length]).show(1);
-
-                    $("#calendarAnimatedTextMiddle").hide(1);
-                    $("#calendarAnimatedTextMiddle").text(wordsArrayMiddle[count % wordsArrayTop.length]).show(1);
-
-                    $("#calendarAnimatedTextBottom").hide(1);
-                    $("#calendarAnimatedTextBottom").text(wordsArrayBottom[count % wordsArrayTop.length]).show(1);
-
-                }, 2000);
-
-            }
-
-        });
-
-    });
-
-</script>
-
-<!-- Features JS for Timer -->
-<script type="text/javascript">
-
-    var timerTimeout = null;
-    var timerInterval = null;
-
-    $(document).ready(function(){
-
-        $(".featureButtonLink").mouseover(function(){
-
-            // Clear timers
-            clearInterval(timerTimeout);
-            clearInterval(timerInterval);
-
-            if (this.id == "timerBtn" || this.id == "timerBtnMobile") {
-
-                // Hide stop image + text, Show timer start 
-                $("#timerImgStop").hide();
-                $("#timerAnimatedTextMiddle").hide(); 
-                $("#timerImgStart").show();
-
-                // Reset timer before starting 'animation'
-                $('#timerAnimatedTextMiddle').text('09:59');
-
-                timerTimeout = setTimeout(function () {
-
-                    $("#timerImgStart").hide();
-                    $("#timerImgStop").show();
-                    $("#timerAnimatedTextMiddle").show();
-
-                    // Setup for a basic jquery countdown timer (non function) with global setInteval
-                    duration = 598;
-                    var timer = duration, minutes, seconds;
-                    timerInterval  = setInterval(function () {
-
-                        minutes = parseInt(timer / 60, 10);
-                        seconds = parseInt(timer % 60, 10);
-
-                        minutes = minutes < 10 ? "0" + minutes : minutes;
-                        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-                        $('#timerAnimatedTextMiddle').text(minutes + ":" + seconds);
-
-                        if (--timer < 0) {
-                            timer = duration;
-                        }
-
-                    }, 1000);
-
-                }, 1000);
-
-            }
-
-        });
-
-    });
-
-</script>
-
-<!-- Features JS for Progress -->
-<script type="text/javascript">
-
-    var progressTimeout = null;
-    var progressInterval = null;
-
-    $(document).ready(function(){
-
-        $(".featureButtonLink").mouseover(function(){
-
-            // Clear timer
-            clearInterval(progressTimeout);
-            clearInterval(progressInterval);
-
-            if (this.id == "progressBtn" || this.id == "progressBtnMobile") {
-
-                // Hide stop image + text, Show timer start 
-                $("#progressImgPie").hide();
-                $("#progressAnimatedTextTop").show();
-                $("#progressAnimatedTextMiddle").show();
-                $("#progressAnimatedTextBottom").show();
-
-                setTimeout(function () {
-                    document.getElementById("progressAnimatedTextTop").classList.remove("w3-animate-right");
-                    document.getElementById("progressAnimatedTextMiddle").classList.remove("w3-animate-right");
-                    document.getElementById("progressAnimatedTextBottom").classList.remove("w3-animate-right");
-                }, 500);
-
-                progressTimeout = setTimeout(function () {
-
-                    var progress = true;
-                    
-                    $("#progressAnimatedTextTop").fadeOut(400);
-                    $("#progressAnimatedTextMiddle").fadeOut(400);
-                    $("#progressAnimatedTextBottom").fadeOut(400);
-                    $("#progressImgPie").fadeIn(400);
-
-                    progressInterval = setInterval(function () {
-                        if (progress) {
-                            $("#progressImgPie").fadeOut(400);
-                            $("#progressAnimatedTextTop").fadeIn(400);
-                            $("#progressAnimatedTextMiddle").fadeIn(400);
-                            $("#progressAnimatedTextBottom").fadeIn(400);
-                        } else {
-                            $("#progressAnimatedTextTop").fadeOut(400);
-                            $("#progressAnimatedTextMiddle").fadeOut(400);
-                            $("#progressAnimatedTextBottom").fadeOut(400);
-                            $("#progressImgPie").fadeIn(400);
-                        }
-                        progress=!progress;
-                    }, 3000);
-
-                }, 1000);
-
-            } else {
-                document.getElementById("progressAnimatedTextTop").classList.add("w3-animate-right");
-                document.getElementById("progressAnimatedTextMiddle").classList.add("w3-animate-right");
-                document.getElementById("progressAnimatedTextBottom").classList.add("w3-animate-right");
-            }
-
-        });
-    });
-    
 </script>
 
 <!-- Features JS for Time -->
