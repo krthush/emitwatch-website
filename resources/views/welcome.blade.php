@@ -197,7 +197,7 @@
                     <a id="timerBtn" class="featureButtonLink" ><img class="featureButton" src="/images/timer-01.png"></a>
                     <a id="progressBtn" class="featureButtonLink" ><img class="featureButton" src="/images/progress-01.png"></a>
                     <a id="timeBtn" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
-                    <a id="batteryBtn" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                    <a id="healthBtn" class="featureButtonLink" ><img class="featureButton" src="/images/health-01.png"></a>
                     <a id="smartphoneBtn" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                 </div>
 
@@ -259,12 +259,9 @@
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
-                    <div id="batteryImg">
-                        <div class="whiteText transform-center">
-                            <span id="batteryText" class="featureAnimatedText w3-animate-right">00:00:00</span>
-                        </div>
+                    <div id="healthImg">
                         <div class="transform-center full-width">
-                            <img src="/images/timeImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
+                            <img src="/images/healthImgBlank.png" class="featureImg img-fluid w3-animate-right" alt="Responsive image">
                         </div>
                         <img src="/images/watch.png" class="featureImg img-fluid" alt="Responsive image">
                     </div>
@@ -283,7 +280,7 @@
                 <div class="d-md-none row full-width">
                     <div class="mx-auto">
                         <a id="timeBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/time-01.png"></a>
-                        <a id="batteryBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/battery-01.png"></a>
+                        <a id="healthBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/health-01.png"></a>
                         <a id="smartphoneBtnMobile" class="featureButtonLink" ><img class="featureButton" src="/images/smartphone-01.png"></a>
                     </div>
                 </div>
@@ -349,16 +346,17 @@
                         <div class="generalFont mediumSize blackText">
                             <br>
                             <p>Shows current time, if needed.</p>
+                            <p>Battery Life lasts up to 2+ days per charge.</p>
+                            <p>Magnetic pin charging (2 hours).</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
-                    <div id="batteryTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Long Battery Life</div>
+                    <div id="healthTxt" class="full-width">
+                        <div class="titleFont subTitleSize blackText">Health Monitoring</div>
                         <div class="generalFont mediumSize blackText">
                             <br>
-                            <p>Lasts up to 2+ days per charge.</p>
-                            <p>Magnetic pin charging (2 hours).</p>
+                            <p>See daily footsteps as well as your heartrate.</p>
                             <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
@@ -710,14 +708,14 @@ function textChangeFunction() {
         $("#timerImg").hide();
         $("#progressImg").hide();
         $("#timeImg").hide();
-        $("#batteryImg").hide();
+        $("#healthImg").hide();
 
         $("#calendarTxt").hide();
         $("#smartphoneTxt").hide();
         $("#timerTxt").hide();
         $("#progressTxt").hide();
         $("#timeTxt").hide();
-        $("#batteryTxt").hide();
+        $("#healthTxt").hide();
 
         document.getElementById("dayNightBtn").style.filter = "brightness(70%)";
         document.getElementById("dayNightBtnMobile").style.filter = "brightness(70%)";
@@ -751,9 +749,9 @@ function textChangeFunction() {
             } else if (this.id == "timeBtn") {
                 $("#timeImg").show();
                 $("#timeTxt").show();
-            } else if (this.id == "batteryBtn") {
-                $("#batteryImg").show();
-                $("#batteryTxt").show();
+            } else if (this.id == "healthBtn") {
+                $("#healthImg").show();
+                $("#healthTxt").show();
             } else if (this.id == "dayNightBtnMobile") {
                 $("#dayNightImg").show();
                 $("#dayNightTxt").show();
@@ -772,9 +770,9 @@ function textChangeFunction() {
             } else if (this.id == "timeBtnMobile") {
                 $("#timeImg").show();
                 $("#timeTxt").show();
-            } else if (this.id == "batteryBtnMobile") {
-                $("#batteryImg").show();
-                $("#batteryTxt").show();
+            } else if (this.id == "healthBtnMobile") {
+                $("#healthImg").show();
+                $("#healthTxt").show();
             } else {
                 // Bug Catch
                 $("#calendarImg").show();
@@ -795,7 +793,7 @@ function textChangeFunction() {
         $("#timerImg").hide();
         $("#progressImg").hide();
         $("#timeImg").hide();
-        $("#batteryImg").hide();
+        $("#healthImg").hide();
 
         // Hide all text
         $("#dayNightTxt").hide();
@@ -804,7 +802,7 @@ function textChangeFunction() {
         $("#timerTxt").hide();
         $("#progressTxt").hide();
         $("#timeTxt").hide();
-        $("#batteryTxt").hide();
+        $("#healthTxt").hide();
 
         // Reset all buttons
         document.getElementById("dayNightBtn").style.filter = "brightness(100%)";
@@ -813,7 +811,7 @@ function textChangeFunction() {
         document.getElementById("timerBtn").style.filter = "brightness(100%)";
         document.getElementById("progressBtn").style.filter = "brightness(100%)";
         document.getElementById("timeBtn").style.filter = "brightness(100%)";
-        document.getElementById("batteryBtn").style.filter = "brightness(100%)";
+        document.getElementById("healthBtn").style.filter = "brightness(100%)";
 
         document.getElementById("dayNightBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("calendarBtnMobile").style.filter = "brightness(100%)";
@@ -821,7 +819,7 @@ function textChangeFunction() {
         document.getElementById("timerBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("progressBtnMobile").style.filter = "brightness(100%)";
         document.getElementById("timeBtnMobile").style.filter = "brightness(100%)";
-        document.getElementById("batteryBtnMobile").style.filter = "brightness(100%)";
+        document.getElementById("healthBtnMobile").style.filter = "brightness(100%)";
 
     }
 
