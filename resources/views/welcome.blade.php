@@ -559,6 +559,7 @@
 <script type="text/javascript">
   $('#videoModal').on('shown.bs.modal', function () {
         $('#desktopVideo')[0].play();
+        fbq('track', 'ViewContent');
   });
 
   $('#videoModal').on('hidden.bs.modal', function () {
