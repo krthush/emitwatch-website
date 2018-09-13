@@ -373,69 +373,6 @@
     </div>
 
     <div class="section">
-        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">SIGN-UP</div>
-
-        <a class="d-none d-md-block" href="#home">
-            <img class="homeButton" src="/images/home-01.png">
-        </a>
-
-        <div class="container-fluid">
-            <div class="row full-width sectionContainer mediumBottomPad">
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8 generalFont blackText">
-
-<!--                     <p>You can contact us at <a href="mailto:ownemit@gmail.com">ownemit@gmail.com</a> or +447472508476, and we'll get back to you as soon as possible.</p> -->
-
-                    <p class="mediumSize">We're looking for early tech backers to support us. Sign-up now to get an early bird emit at a 30% Kickstarter discount. </p>
-
-                    <div class="row email-bar">
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-8">
-
-
-                            
-<!--                             <form  method="POST" action="{{ route('subscribe') }}">
-                                {{ csrf_field() }}
-                                <div class="input-group mb-3">
-                                  <input name="email" type="email" class="email-form form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                  <div class="input-group-append">
-                                    <button class="email-btn btn" type="submit" onclick="this.disabled=true;this.value='Submitting...'; this.form.submit();">Subscribe</button>
-                                  </div>
-                                </div>
-                            </form> -->
-
-                        </div>
-                        <div class="col-lg-2"></div>
-                    </div>
-                    
-<!--                     <div class="fb-like" data-href="https://www.facebook.com/ownemit/" data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div> -->
-
-                    <div class="row iconContainer">
-                        <a href="https://www.instagram.com/emitwatch/">
-                            <img class="icon" src="/images/insta_logo.png">
-                        </a>
-                        <a href="https://www.facebook.com/ownemit/">
-                            <img class="icon" src="/images/fb_logo.png">
-                        </a>
-                        <a href="https://twitter.com/emitwatch">
-                            <img class="icon" src="/images/twitter_logo.png">
-                        </a>
-
-                        <a href="https://emitwatch.myshopify.com/">
-                            <img class="icon" src="/images/cart.png">
-                        </a>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-2"></div>
-            </div>
-            <div class="bottom-align"></div>
-            <img src="/images/sideup_life_comp.png" class="bottomImage img-fluid" alt="Responsive image">  
-        </div>
-    </div>
-
-    <div class="section">
         <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">MISSION</div>
 
         <a class="d-none d-md-block" href="#home">
@@ -465,6 +402,24 @@
 
                     <div class="faded">
                         <a class="licenseLink" href="licenses">Licenses</a>
+                    </div>
+
+                    <div class="row iconContainer">
+
+                        <a href="https://www.instagram.com/emitwatch/">
+                            <img class="icon" src="/images/insta_logo.png">
+                        </a>
+                        <a href="https://www.facebook.com/ownemit/">
+                            <img class="icon" src="/images/fb_logo.png">
+                        </a>
+                        <a href="https://twitter.com/emitwatch">
+                            <img class="icon" src="/images/twitter_logo.png">
+                        </a>
+
+                        <a href="https://emitwatch.myshopify.com/">
+                            <img class="icon" src="/images/cart.png">
+                        </a>
+
                     </div>
 
                     <img src="/images/team.jpg" class="teamImg" alt="Responsive image">
@@ -582,14 +537,21 @@
             // dragAndMove: false,
             // dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
             // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
-            sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
+            sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
             // anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
-            anchors: ['home', 'why', 'features', 'signup', 'mission', 'patrons'],
+            anchors: ['home', 'why', 'features', 'mission', 'patrons'],
             scrollOverflow: true,
             verticalCentered:false,
             licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
+    });
+</script>
 
+<script type="text/javascript">
+    $(document).ready(function() {
+        if (window.location.href == "https://ownemit.com/?pop" || window.location.href == "http://emit.test/?pop") {
+            $('#signupModal').modal('show');
+        }
     });
 </script>
 
