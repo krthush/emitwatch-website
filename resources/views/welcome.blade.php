@@ -550,7 +550,6 @@
 <!-- FullPage JS setup -->
 <script type="text/javascript">
     $(document).ready(function() {
-
         $('#fullpage').fullpage({
             keyboardScrolling: true,
             animateAnchor: true,
