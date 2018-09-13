@@ -57,20 +57,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-.modal-dialog {
-	max-width: 100%;
-    width:  100%;
-}
-@media screen and (min-width: 768px) {
-	.modal-dialog {
-		max-width: 80%;
-	    width:  80%;
-	}
-}
-.modal-content {
-	background-color: transparent;
-	border: none;
-}
 
 
 
@@ -151,6 +137,34 @@ a:active {
 }
 .close-btn:hover {
 	color: #f5f5f5;
+}
+
+
+
+/* Modals */
+.signupHeader {
+	border-width: 0; 
+}
+.signupContent {
+	background-color: #f5f5f5;
+	border: none;
+}
+.signupFooter {
+	border-width: 0; 
+}
+.videoDialog {
+	max-width: 100%;
+    width:  100%;
+}
+@media screen and (min-width: 768px) {
+	.videoDialog {
+		max-width: 80%;
+	    width:  80%;
+	}
+}
+.videoContent {
+	background-color: transparent;
+	border: none;
 }
 
 
@@ -487,15 +501,16 @@ a:active {
 }
 
 
+
 /* Progress Page */
 .email-bar {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
 .email-form {
-	border: 1px solid #0a0a0a; 
+	/* border: 1px solid #0a0a0a; */
   	border-radius:0;
-	background: #f5f5f5;
+	background: #ffffff;
 	color: #0a0a0a;
 	margin-bottom: 20px;
 }

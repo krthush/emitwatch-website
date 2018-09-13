@@ -50,7 +50,7 @@
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
-                        <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                        <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         <!-- <div class="full-width titleFont text-center navBarSize whiteText miniTopPad">Kickstarter soon!</div>      -->
                     </div>
@@ -83,7 +83,7 @@
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSize whiteText full-width">
             <div class="miniBotPad">
-                <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength">Sign-Up</button></a>
+                <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                 <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                 <!-- <div class="full-width titleFont text-center whiteText miniTopPad">Kickstarter soon!</div> -->
             </div>
@@ -115,7 +115,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time.<br class="d-md-none"> Everywhere.</div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>     
                     </div>
@@ -151,7 +151,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Motivation.<br class="d-md-none"> Keep going.</div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -169,7 +169,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Aspire.<br class="d-md-none"> Then go further.</div>
                         <div>
-                            <a href="#signup"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Sign-Up</button></a>
+                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
                             <br>
                             <p>Shows countdown to start and end of day.</p>
                             <p>Tap to effortlessly see the next immediate event on your schedule.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
                     </div>
@@ -306,7 +306,7 @@
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -317,7 +317,7 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -348,7 +348,7 @@
                             <p>Shows current time, if needed.</p>
                             <p>Battery Life lasts up to 2+ days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                         <div class="generalFont mediumSize blackText">
                             <br>
                             <p>See daily footsteps as well as your heartrate.</p>
-                            <a href="#signup"><button class="white-btn btn blackBorder blackText setLength">Sign-Up</button></a>
+                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -392,31 +392,7 @@
                         <div class="col-lg-2"></div>
                         <div class="col-lg-8">
 
-                            <!-- Begin MailChimp Signup Form -->
 
-                            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-                            <style type="text/css">
-                                #mc_embed_signup{background:#f5f5f5; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-                                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-                            </style>
-                            <div id="mc_embed_signup">
-                            <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                <div id="mc_embed_signup_scroll">
-                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value="">
-                                    </div>
-                                    <div class="input-group">
-                                        <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
-                                        <div class="input-group-append">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn email-btn generalFont">
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            </div>
-
-                            <!--End mc_embed_signup-->
                             
 <!--                             <form  method="POST" action="{{ route('subscribe') }}">
                                 {{ csrf_field() }}
@@ -528,9 +504,57 @@
 </div>
 
 <!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content signupContent">
+      <div class="modal-header signupHeader">
+        <div class="modal-title titleFont subTitleSize blackText text-center" id="exampleModalLongTitle">You're Not Going to Want to Miss Out on This!</div>
+      </div>
+      <div class="modal-body generalFont generalSize blackText text-center">
+                We are <b>launching on Kickstarter.com</b>! Enter your email for more information and <b>be notified</b> when it becomes <b>available for purchase</b>.
+      </div>
+      <div class="modal-footer signupFooter">
+        <div class="row full-width">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <!-- Begin MailChimp Signup Form -->
+
+                <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{background:#f5f5f5; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                </style>
+                <div id="mc_embed_signup">
+                <form action="https://ownemit.us18.list-manage.com/subscribe/post?u=3c3af586825828c2e88762ca9&amp;id=456cecaf08" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3c3af586825828c2e88762ca9_456cecaf08" tabindex="-1" value="">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" value="" name="EMAIL" class="email-form form-control generalFont" id="mce-EMAIL" placeholder="Email Address" required>
+                        </div>
+                    </div>
+
+                            <div class="input-group-append miniTopPad flex-center">
+                                <input type="submit" value="Reserve My Launch Invite" name="subscribe" id="mc-embedded-subscribe" class="btn email-btn generalFont">
+                            </div>
+                </form>
+                </div>
+
+                <!--End mc_embed_signup-->
+            </div>
+            <div class="col-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
 <div class="modal modal-wide fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
+  <div class="modal-dialog modal-dialog-centered videoDialog" role="document">
+    <div class="modal-content videoContent">
       <div class="modal-body">
             <div class="row full-width">
                 <div class="col-12 relative-position zeroPad">
