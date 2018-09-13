@@ -28,6 +28,9 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+body {
+	background-color: #0a0a0a;
+}
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
