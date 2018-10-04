@@ -52,23 +52,14 @@
                         <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
                         <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                        <!-- <div class="full-width titleFont text-center navBarSize whiteText miniTopPad">Kickstarter soon!</div>      -->
                     </div>
                 </div>
-
-                <div class="full-width text-center bottom-align">
-                    <!-- <div class="full-width titleFont text-center sublineSize whiteText"> 
-                        <div>Kickstarter Launch: </div>
-                        <div><span id="kickstarterCountDown"></span></div>
-                    </div> -->
+            </div>
+            <div class="d-none d-md-block full-width text-center bottom-align">
+                <div class="full-width titleFont text-center navBarSize whiteText"> 
+                    <div>Kickstarter Launch: <span id="kickstarterCountDown"></span></div>
                 </div>
             </div>
-        </div>
-        <div class="d-md-none full-width text-center bottom-align">
-            <!-- <div class="full-width titleFont text-center sublineSizeMobile whiteText">
-                <div>Kickstarter Launch: </div>
-                <div><span id="kickstarterCountDownMobile"></span></div>
-            </div> -->
         </div>
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
@@ -85,7 +76,6 @@
             <div class="miniBotPad">
                 <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
                 <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
-                <!-- <div class="full-width titleFont text-center whiteText miniTopPad">Kickstarter soon!</div> -->
             </div>
             <div class="row full-width flex-center ">
                 <span ><a href="#why">WHY?</a></span>
@@ -95,7 +85,10 @@
                 <span ><a href="#mission">MISSION</a></span>
                 <span class="lrPad"> | </span>
                 <span ><a href="#patrons">PATRONS</a></span>
-            </div>              
+            </div>
+            <div class="full-width titleFont text-center sublineSizeMobile whiteText">
+                <div>Kickstarter Launch: <span id="kickstarterCountDownMobile"></span></div>
+            </div>             
         </div>
     </div>
 
@@ -568,9 +561,9 @@
 </script>
 
 <!-- Script for calculating days until kickstarterCountDown -->
-<!-- <script>
+<script>
 $(function() {
-    var countDownDate = new Date("August 1, 2018 23:59:59").getTime();
+    var countDownDate = new Date("October 22, 2018 23:59:59").getTime();
     // Get todays date and time
     var now = new Date().getTime();
 
@@ -594,7 +587,7 @@ $(function() {
         document.getElementById("kickstarterCountDownMobile").innerHTML = "BEGUN!";
     }
 });
-</script> -->
+</script>
 
 <!-- JS for FrontPage Daily CountDown & Features JS for Daily CountDown -->
 <script type="text/javascript">
