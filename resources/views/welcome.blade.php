@@ -397,6 +397,10 @@
                         <a class="licenseLink" href="licenses">Licenses</a>
                     </div>
 
+                    <div class="faded">
+                        <a class="licenseLink" href="presskit">Presskit</a>
+                    </div>
+
                     <div class="row iconContainer">
 
                         <a href="https://www.instagram.com/emitwatch/">
