@@ -346,7 +346,7 @@
                         </div>
                     </div>
                     <div id="healthTxt" class="full-width">
-                        <div class="titleFont subTitleSize blackText">Health Monitoring</div>
+                        <div class="titleFont subTitleSize blackText">Fitness Tracking</div>
                         <div class="generalFont mediumSize blackText">
                             <br>
                             <p>See daily footsteps as well as your heartrate.</p>
