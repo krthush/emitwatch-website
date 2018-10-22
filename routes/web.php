@@ -28,7 +28,7 @@ Route::get('/presskit', function () {
 })->name('presskit');
 
 Route::get('/kickstarter', function () {
-    return redirect('https://www.kickstarter.com/projects/thush/2004873004?ref=556426&token=5b5e0f0e/');
+    return redirect('https://www.kickstarter.com/projects/thush/2004873004?ref=556426&token=5b5e0f0e');
 })->name('kickstarter');
 
 // Route::get('/shop', function () {
