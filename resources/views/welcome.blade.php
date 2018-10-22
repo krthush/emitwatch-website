@@ -57,7 +57,7 @@
             </div>
             <div class="d-none d-md-block full-width text-center bottom-align">
                 <div class="full-width titleFont text-center navBarSize whiteText"> 
-                    <div>Kickstarter Launch: <span id="kickstarterCountDown"></span></div>
+                    <div><a href="kickstarter">Live on Kickstarter!</a></div>
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
                 <span ><a href="#patrons">PATRONS</a></span>
             </div>
             <div class="full-width titleFont text-center sublineSizeMobile whiteText">
-                <div>Kickstarter Launch: <span id="kickstarterCountDownMobile"></span></div>
+                <div><a href="kickstarter">Live on Kickstarter!</a></div>
             </div>             
         </div>
     </div>
