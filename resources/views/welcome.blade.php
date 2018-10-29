@@ -463,7 +463,7 @@
         <div class="modal-title titleFont subTitleSize blackText text-center" id="exampleModalLongTitle">You're Not Going to Want to Miss Out on This!</div>
       </div>
       <div class="modal-body generalFont generalSize blackText text-center">
-                We are <b>launching on Kickstarter.com</b>! Enter your email for more information and <b>be notified</b> when it becomes <b>available for purchase</b>.
+                We are <b> on Kickstarter.com</b>! Enter your email for more information.
       </div>
       <div class="modal-footer signupFooter">
         <div class="row full-width">
@@ -489,7 +489,7 @@
                     </div>
 
                             <div class="input-group-append miniTopPad flex-center">
-                                <input type="submit" value="Reserve My Launch Invite" name="subscribe" id="mc-embedded-subscribe" class="btn email-btn generalFont">
+                                <input type="submit" value="Keep me updated" name="subscribe" id="mc-embedded-subscribe" class="btn email-btn generalFont">
                             </div>
                 </form>
                 </div>
