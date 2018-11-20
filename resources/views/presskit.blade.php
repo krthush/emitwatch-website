@@ -10,7 +10,7 @@
         <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">PRESS KIT</div>
 
         <div class="container-fluid miniTopPad">
-            <div class="row full-width sectionContainer mediumBottomPad">
+            <div class="row mx-auto full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
                 <div class="col-sm-2 generalFont blackText text-center">
                     <div class="mediumSize">
