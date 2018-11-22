@@ -23,8 +23,12 @@ Route::get('/thankyou', function () {
     return view('thankyou');
 })->name('thankyou');
 
+Route::get('/resources', function () {
+    return view('resources');
+})->name('resources');
+
 Route::get('/presskit', function () {
-    return view('presskit');
+    return redirect()->route('resources');
 })->name('presskit');
 
 Route::get('/inperson', function () {

@@ -7,7 +7,7 @@
 
     <div class="section">
 
-        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">PRESS KIT</div>
+        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">RESOURCES</div>
 
         <div class="container-fluid miniTopPad">
             <div class="row full-width sectionContainer">
