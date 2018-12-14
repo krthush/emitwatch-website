@@ -39,6 +39,10 @@ Route::get('/kickstarter', function () {
     return redirect('https://www.kickstarter.com/projects/thush/2004873004?ref=556426&token=5b5e0f0e');
 })->name('kickstarter');
 
+Route::get('/pitchdeck', function () {
+    return redirect('https://1drv.ms/b/s!AgYYSjzpoQzmo2aoxesJG2mHeJw7');
+})->name('pitchdeck');
+
 // Route::get('/shop', function () {
 //     return redirect('https://emitwatch.myshopify.com/');
 // })->name('shop');
