@@ -65,7 +65,6 @@ Stephen Rawson<br>
 Julian Hardy<br>
 Julian Burger<br>
 Moran Friedman<br>
-Guest 1600827902<br>
 Kisaanth Jeyarayan<br>
 Girrja Mohandass<br>
 ABiran<br>
@@ -98,8 +97,8 @@ Joao Ventura<br>
 Rajendra Vimalan<br>
 Tom Alon<br>
 Marc<br>
-whooosh<br>
-enzo iannone<br>
+Whooosh<br>
+Enzo Iannone<br>
 Mahmood Al-Khenaizi<br>
 John Hubbard<br>
 Erik Pautsch<br>
@@ -125,7 +124,7 @@ María<br>
 Cosmoflop<br>
 Giovanna<br>
 Tyler<br>
-wendles<br>
+Wendles<br>
 Alvaro Calderon<br>
 Kahler Emanuel<br>
 Zoe Hobbs<br>
