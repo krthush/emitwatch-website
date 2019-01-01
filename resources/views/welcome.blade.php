@@ -436,7 +436,7 @@
         <div class="container-fluid">
             <div class="row full-width sectionContainer mediumBottomPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
+                <div class="col-sm-8 generalFont mediumSize whiteText text-center">
 
                     @include('backers')
                      
