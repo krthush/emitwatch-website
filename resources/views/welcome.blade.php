@@ -438,13 +438,7 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8 generalFont mediumSize whiteText text-justify">
 
-                    Bob Wemerman<br>
-                    Simran Grewal<br>
-                    Shayan Imran<br>
-                    Pius Chong<br>
-                    Priya Sukumaran<br>
-                    Caleb Goddard<br>
-                    José Adrião<br>
+                    @include('backers')
                      
                 </div>
                 <div class="col-sm-2"></div>
