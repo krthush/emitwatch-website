@@ -91,6 +91,14 @@
 
                     analytics by Shastry from the Noun Project <br>
 
+                    NFC by Nithinan Tatah from the Noun Project <br>
+
+                    Watches by Wilson Joseph from the Noun Project <br>
+
+                    Hand by Maxim Kulikov from the Noun Project <br>
+
+                    assistant by Lakshisha from the Noun Project <br>
+
                     <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
                     Kickstarter campaign video produced with Giovanni Montalvo
                      
