@@ -40,7 +40,7 @@ Route::get('/kickstarter', function () {
 })->name('kickstarter');
 
 Route::get('/pitchdeck', function () {
-    return redirect('https://1drv.ms/b/s!AgYYSjzpoQzmo2aoxesJG2mHeJw7');
+    return redirect('https://1drv.ms/b/s!AgYYSjzpoQzmpFmd4SGe5giBO8b_');
 })->name('pitchdeck');
 
 // Route::get('/shop', function () {

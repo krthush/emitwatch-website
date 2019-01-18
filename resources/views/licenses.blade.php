@@ -99,6 +99,12 @@
 
                     assistant by Lakshisha from the Noun Project <br>
 
+                    Business by myladkings from the Noun Project <br>
+
+                    No Mediator by Arthur Shlain from the Noun Project <br>
+
+                    wifi by Saifurrijal from the Noun Project <br>
+
                     <a class="licenseLink" href="https://www.youtube.com/watch?v=LHFXQ7Y2cos&index=5&list=PLESp7SFlcw7zHMdBttXsvWSQ1_Hi5Bt59&t=0s">Morning Walk</a> by Jonny Easton <br>
                     Kickstarter campaign video produced with Giovanni Montalvo
                      
