@@ -16,6 +16,7 @@
                     <div class="titleFont">
                         <div class="subTitleSize whiteText">ME2 Design Week First Hand-In</div>
                         <div class="sublineSize whiteText"><span id="eventCountDown" ></span></div>
+                        <div class="subTitleSize whiteText"><span id="eventCountDownSubline" ></span></div>
                     </div>
                 </div> 
             </div>
@@ -69,15 +70,22 @@ $(function() {
     if (minutes < 10) {minutes = "0"+minutes;}
     if (seconds < 10) {seconds = "0"+seconds;}
 
-    // Display the result in the element with id="eventCountDown"
-    document.getElementById("eventCountDown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
-    // document.getElementById("eventCountDownMobile").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+    if (days >= 1) {
+        // Display the result in the element with id="eventCountDown"
+        document.getElementById("eventCountDown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("eventCountDownSubline").innerHTML = days + " Days";
 
-    // If the count down is finished, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("eventCountDown").innerHTML = "DUE!";
-        // document.getElementById("eventCountDownMobile").innerHTML = "DUE!";
+    } else {
+        // Display the result in the element with id="eventCountDown"
+        document.getElementById("eventCountDown").innerHTML = string.concat(hours, ":", minutes, ":", seconds);
+        document.getElementById("eventCountDownSubline").innerHTML = "";
+
+        // If the count down is finished, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("eventCountDown").innerHTML = "DUE!";
+            document.getElementById("eventCountDownSubline").innerHTML = "";
+        }
     }
 
     // function to repeat every second
