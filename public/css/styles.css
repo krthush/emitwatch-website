@@ -238,6 +238,9 @@ a:active {
 .faded {
 	opacity: 0.4;
 }
+.bringToFront {
+	z-index: 9;
+}
 
 
 
