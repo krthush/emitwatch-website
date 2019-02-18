@@ -57,7 +57,7 @@
             </div>
             <div class="d-none d-md-block full-width text-center bottom-align">
                 <div class="full-width titleFont text-center navBarSize whiteText"> 
-                    <div><a href="kickstarter">Buy on Kickstarter!</a></div>
+                    <div><a href="kickstarter">Preorder now!</a></div>
                 </div>
             </div>
         </div>
