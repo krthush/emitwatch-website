@@ -50,16 +50,16 @@
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
-                        <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                        <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength">Preorder</button></a>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                     </div>
                 </div>
             </div>
-            <div class="d-none d-md-block full-width text-center bottom-align">
+<!--             <div class="d-none d-md-block full-width text-center bottom-align">
                 <div class="full-width titleFont text-center navBarSize whiteText"> 
                     <div><a href="kickstarter">Preorder now!</a></div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="d-none d-md-block mx-auto top-align full-width titleFont text-center navBarSize whiteText full-width navBar">
             <div class="row full-width">
@@ -74,7 +74,7 @@
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSize whiteText full-width">
             <div class="miniBotPad">
-                <button class="white-btn btn whiteBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength">Preorder</button></a>
                 <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
             </div>
             <div class="row full-width flex-center ">
@@ -86,9 +86,9 @@
                 <span class="lrPad"> | </span>
                 <span ><a href="#patrons">PATRONS</a></span>
             </div>
-            <div class="full-width titleFont text-center sublineSizeMobile whiteText">
+<!--             <div class="full-width titleFont text-center sublineSizeMobile whiteText">
                 <div><a href="kickstarter">Buy on Kickstarter!</a></div>
-            </div>             
+            </div>  -->            
         </div>
     </div>
 
@@ -108,7 +108,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time.<br class="d-md-none"> Everywhere.</div>
                         <div>
-                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
                         <div>
-                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>     
                     </div>
@@ -144,7 +144,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Motivation.<br class="d-md-none"> Keep going.</div>
                         <div>
-                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Aspire.<br class="d-md-none"> Then go further.</div>
                         <div>
-                            <button class="white-btn btn whiteBorder blackText setLength lrPadButton"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -289,7 +289,7 @@
                             <br>
                             <p>Shows countdown to start and end of day.</p>
                             <p>Tap to effortlessly see the next immediate event on your schedule.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
                     </div>
@@ -299,7 +299,7 @@
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -310,7 +310,7 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -341,7 +341,7 @@
                             <p>Shows current time, if needed.</p>
                             <p>Battery Life lasts up to 2+ days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -350,7 +350,7 @@
                         <div class="generalFont mediumSize blackText">
                             <br>
                             <p>See daily footsteps as well as your heartrate.</p>
-                            <button class="white-btn btn blackBorder blackText setLength"  data-toggle="modal" data-target="#signupModal">Sign-Up</button>
+                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>

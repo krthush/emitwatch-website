@@ -40,7 +40,7 @@ Route::get('/me2', function () {
 })->name('me2');
 
 Route::get('/kickstarter', function () {
-    return redirect('https://www.kickstarter.com/projects/thush/2004873004?ref=556426&token=5b5e0f0e');
+    return redirect('https://www.indiegogo.com/projects/emit-world-s-first-productivity-smartwatch/');
 })->name('kickstarter');
 
 Route::get('/pitchdeck', function () {
