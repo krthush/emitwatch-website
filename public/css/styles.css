@@ -224,13 +224,13 @@ a:active {
 	}
 }
 .navBarSize {
-	font-size: 15pt;
+	font-size: 10pt;
 	white-space: nowrap;
 	overflow: hidden;
 }
 @media screen and (min-width: 768px) {
 	.navBarSize {
-		font-size: 25pt;
+		font-size: 15pt;
 		white-space: nowrap;
 		overflow: hidden;
 	}
