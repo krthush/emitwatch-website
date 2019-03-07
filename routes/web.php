@@ -53,3 +53,8 @@ Route::get('/pitchdeck', function () {
 
 // Route for getting user email
 Route::post('/subscribe', 'EmailController@store')->name('subscribe');
+
+/* Analytics Routes */
+Route::get('/analytics/view','ActivityController@view')->name('view-json');
+Route::get('/analytics/save','ActivityController@save')->name('save-json');
+Route::get('/analytics/rebuild','ActivityController@rebuild')->name('rebuild-json');
