@@ -7,7 +7,6 @@
 
 require('./bootstrap');
 require('mustache');
-require('fullpage.js');
 
 // window.Vue = require('vue');
 

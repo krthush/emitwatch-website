@@ -10,8 +10,10 @@ class ActivityController extends Controller
 {
     public function view() {
 
-		$json = Storage::disk('local')->get('procrastitracker_report.json');
-		$json = json_decode($json, true);
+		// $json = Storage::disk('local')->get('procrastitracker_report.json');
+		// $json = json_decode($json, true);
+
+		$json = Activity::defaultOrder()->withDepth()->get()->toTree()->toJson();
 
 		dd($json);
 
@@ -47,9 +49,9 @@ class ActivityController extends Controller
 
     public function home() {
 
-		$tree = Activity::defaultOrder()->withDepth()->get()->toTree()->toJson();;
+		$tree = Activity::defaultOrder()->withDepth()->get()->toTree()->toJson();
 		
-		return view('home');
+		return view('analytics');
 
     }
 }

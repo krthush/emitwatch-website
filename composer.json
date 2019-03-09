@@ -9,7 +9,8 @@
         "fideloper/proxy": "~4.0",
         "kalnoy/nestedset": "^4.3",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "mayconbordin/l5-mustache": "dev-master"
     },
     "require-dev": {
         "filp/whoops": "~2.0",

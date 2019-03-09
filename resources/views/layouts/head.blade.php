@@ -38,9 +38,6 @@
 <!-- FullpageJS -->
 <script type="text/javascript" src="/js/fullpage.min.js"></script>
 
-<!-- D3 -->
-<script src="https://d3js.org/d3.v5.min.js"></script>
-
 <!-- Hotjar Tracking Code for https://ownemit.com/ -->
 <script>
     (function(h,o,t,j,a,r){

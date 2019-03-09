@@ -146,6 +146,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Mayconbordin\L5Mustache\L5MustacheServiceProvider::class,
 
         /*
          * Package Service Providers...

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c3a4098fccc8b038ae2c5636285de6c",
+    "content-hash": "077df09122620a856658edb358be7115",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -808,6 +808,55 @@
             "time": "2019-02-01T08:50:36+00:00"
         },
         {
+            "name": "mayconbordin/l5-mustache",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mayconbordin/l5-mustache.git",
+                "reference": "a928c2d26590bf7bc24f671b9c2f01e6048f0743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mayconbordin/l5-mustache/zipball/a928c2d26590bf7bc24f671b9c2f01e6048f0743",
+                "reference": "a928c2d26590bf7bc24f671b9c2f01e6048f0743",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5",
+                "mustache/mustache": "~2.8",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mayconbordin\\L5Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dimaculangan",
+                    "email": "mcdimaculangan@gmail.com"
+                },
+                {
+                    "name": "Maycon Viana Bordin",
+                    "email": "mayconbordin@gmail.com"
+                }
+            ],
+            "description": "A Mustache.php wrapper for Laravel 5",
+            "homepage": "https://github.com/mayconbordin/l5-mustache",
+            "keywords": [
+                "laravel",
+                "laravel 5",
+                "mustache",
+                "php"
+            ],
+            "time": "2017-12-14T14:58:52+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.24.0",
             "source": {
@@ -884,6 +933,52 @@
                 "psr-3"
             ],
             "time": "2018-11-05T09:00:11+00:00"
+        },
+        {
+            "name": "mustache/mustache",
+            "version": "v2.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/mustache.php.git",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "reference": "fe8fe72e9d580591854de404cc59a1b83ca4d19e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~1.11",
+                "phpunit/phpunit": "~3.7|~4.0|~5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Mustache": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Justin Hileman",
+                    "email": "justin@justinhileman.info",
+                    "homepage": "http://justinhileman.com"
+                }
+            ],
+            "description": "A Mustache implementation in PHP.",
+            "homepage": "https://github.com/bobthecow/mustache.php",
+            "keywords": [
+                "mustache",
+                "templating"
+            ],
+            "time": "2017-07-11T12:54:05+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -4310,7 +4405,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "mayconbordin/l5-mustache": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
