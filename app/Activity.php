@@ -11,13 +11,13 @@ class Activity extends Model
 	
 	protected $fillable = ['name','of_parent_percent','semi_idle','keys','lmb','rmb','scrollwheel','start_on','details','time'];
 
-    public function childs() 
-    {
-        return $this->hasMany('App\Activity','parent_id') ;
-    }
+    // public function childs() 
+    // {
+    //     return $this->hasMany('App\Activity','parent_id') ;
+    // }
 
-    // Each branch may have a parent
-    public function parent() {
-        return $this->belongsTo('App\Activity','parent_id');
-    }
+    // // Each branch may have a parent
+    // public function parent() {
+    //     return $this->belongsTo('App\Activity','parent_id');
+    // }
 }

@@ -44,4 +44,12 @@ class ActivityController extends Controller
 		dd($json);
 
     }
+
+    public function home() {
+
+		$tree = Activity::defaultOrder()->withDepth()->get()->toTree()->toJson();;
+		
+		return view('home');
+
+    }
 }

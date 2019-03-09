@@ -10,17 +10,20 @@
 <meta property="og:url" content="ownemit.com">
 <meta property="og:type" content="website">
 
+<meta name="csrf-token" content="{{ csrf_token() }}">
+
 <!-- favicon icon -->
 <link rel="icon" href="/images/logo.png">
 
 <!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/css/app.css">
 
 <!-- Custom Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> -->
 
 <!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 
 <!-- Custom CSS -->
 <link href="/css/styles.css" rel="stylesheet" type="text/css">
@@ -29,11 +32,12 @@
 <link href="/css/jquery.fullpage.min.css" rel="stylesheet" type="text/css">
 
 <!-- JAVASCRIPTS -->
+<script src="/js/app.js"></script>
 
 <!-- Bootstrap JS/jquery -->
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
 <!-- fullPage plugin by Alvaro Trigo CSS -->
 <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
@@ -45,6 +49,11 @@
 
 <!-- FullpageJS -->
 <script type="text/javascript" src="/js/fullpage.min.js"></script>
+
+
+
+<!-- D3 -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
 
 <!-- Hotjar Tracking Code for https://ownemit.com/ -->
 <script>

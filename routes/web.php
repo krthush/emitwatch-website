@@ -58,3 +58,4 @@ Route::post('/subscribe', 'EmailController@store')->name('subscribe');
 Route::get('/analytics/view','ActivityController@view')->name('view-json');
 Route::get('/analytics/save','ActivityController@save')->name('save-json');
 Route::get('/analytics/rebuild','ActivityController@rebuild')->name('rebuild-json');
+Route::get('/analytics/home','ActivityController@home')->name('home');
