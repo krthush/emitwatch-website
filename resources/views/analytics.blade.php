@@ -43,9 +43,9 @@
                     @{{#isDirect}}
                         <span title="Directly in this category" rel="tooltip"><i class="icon-info"></i></span>
                     @{{/isDirect}}
-                    @{{category}}
+                    @{{name}}
                     </td>
-                    <td class="cost">$ @{{cost}}</td>
+                    <td class="cost">$ @{{of_parent_percent}}</td>
                 </script>
 
             </div>
@@ -66,7 +66,7 @@
     var holder = $('#hierarchical-pie-demo-1');
     holder.empty();
 
-    $.getJSON('/sample-data.json', function(data) {
+    $.getJSON('/sample-data-2.json', function(data) {
       new HierarchicalPie({
         chartId : '#hierarchical-pie-demo-1',
         data : data,

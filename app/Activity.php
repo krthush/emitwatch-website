@@ -11,6 +11,8 @@ class Activity extends Model
 	
 	protected $fillable = ['name','of_parent_percent','semi_idle','keys','lmb','rmb','scrollwheel','start_on','details','time'];
 
+    protected $visible = ['id', 'name', 'of_parent_percent', 'children'];
+
     // public function childs() 
     // {
     //     return $this->hasMany('App\Activity','parent_id') ;

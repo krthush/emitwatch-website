@@ -12,13 +12,13 @@ var HierarchicalPie = function(options) {
     navigation        : null,
     hideNavOnRoot     : true,
     dataSchema        : {
-      idField       : 'id_category',
-      valueField    : 'cost',
-      childrenField : 'categories'
+      idField       : 'id',
+      valueField    : 'of_parent_percent',
+      childrenField : 'children'
     },
     hoverPieAnimation : {
     easing   : "easeLinear",
-    duration : 1
+    duration : 200
     },
     focusAnimation : {
       easing   : "easeInOutQuart",
@@ -135,7 +135,7 @@ var HierarchicalPie = function(options) {
       .enter()
         .append("li")
         .html(function(d, i) {
-          return d.category + '<span class="divider">/</span>';
+          return d.name + '<span class="divider">/</span>';
         });
   }
 
