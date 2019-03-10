@@ -16,6 +16,10 @@ var HierarchicalPie = function(options) {
       valueField    : 'cost',
       childrenField : 'categories'
     },
+    hoverPieAnimation : {
+    easing   : "easeLinear",
+    duration : 1
+    },
     focusAnimation : {
       easing   : "easeInOutQuart",
       duration : 100

@@ -35,6 +35,19 @@
                     <tbody></tbody>
                 </table>
 
+                <script id="rowTemplate" type="text/template">
+                    <td class="color-cell">
+                        <span class="cat-color" style="background: @{{color}};"></span>
+                    </td>
+                    <td>
+                    @{{#isDirect}}
+                        <span title="Directly in this category" rel="tooltip"><i class="icon-info"></i></span>
+                    @{{/isDirect}}
+                    @{{category}}
+                    </td>
+                    <td class="cost">$ @{{cost}}</td>
+                </script>
+
             </div>
           </div>
         </div>
@@ -44,7 +57,9 @@
 
 <!-- d3-hierarchical-pie setup -->
 <script src="/js/d3.min.js"></script>
+<script src="/js/mustache.js"></script>
 <script src="/js/hierarchical-pie.js"></script>
+
 <script type="text/javascript">
   // Chart 1
   $(function() {

@@ -6,7 +6,7 @@
  */
 
 require('./bootstrap');
-require('mustache');
+// require('mustache');
 
 // window.Vue = require('vue');
 
