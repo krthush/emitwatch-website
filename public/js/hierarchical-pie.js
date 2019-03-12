@@ -14,11 +14,12 @@ var HierarchicalPie = function(options) {
     dataSchema        : {
       idField       : 'id',
       valueField    : 'of_parent_percent',
+      displayField  : 'time',
       childrenField : 'children'
     },
     hoverPieAnimation : {
-    easing   : "easeLinear",
-    duration : 200
+      easing   : "easeLinear",
+      duration : 200
     },
     focusAnimation : {
       easing   : "easeInOutQuart",
@@ -91,7 +92,7 @@ var HierarchicalPie = function(options) {
     self.percentLabel = self.focusGroup.append('g')
       .attr('class', 'arc-percent').append("text");
 
-    self.valueLabel = self.focusGroup.append('g')
+    self.costLabel = self.focusGroup.append('g')
       .attr('class', 'arc-cost').append("text").attr("dy", "1.2em");
 
     self.navigation = $(config.navigation);
@@ -172,7 +173,7 @@ var HierarchicalPie = function(options) {
 
     var percentage = (((d.endAngle - d.startAngle) / (2 * Math.PI)) * 100).toFixed(1);
     self.percentLabel.text(percentage + '%');
-    // self.valueLabel.text(d.data[config.dataSchema.valueField]);
+    self.costLabel.text(d.data[config.dataSchema.displayField]);
     self.focusGroup.transition().attr('opacity', 1);
     hovered.transition().ease(config.focusAnimation.easing).duration(config.focusAnimation.duration).attr("d", self.arcOver);
 
