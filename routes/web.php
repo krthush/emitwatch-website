@@ -55,7 +55,9 @@ Route::get('/pitchdeck', function () {
 Route::post('/subscribe', 'EmailController@store')->name('subscribe');
 
 /* Analytics Routes */
-Route::get('/analytics/view','ActivityController@view')->name('view-json');
-Route::get('/analytics/save','ActivityController@save')->name('save-json');
-Route::get('/analytics/rebuild','ActivityController@rebuild')->name('rebuild-json');
+// Route::get('/analytics/view','ActivityController@view')->name('view-json'); // in-development
+// Route::get('/analytics/save','ActivityController@save')->name('save-json'); // in-development
+// Route::get('/analytics/rebuild','ActivityController@rebuild')->name('rebuild-json'); // in-development
 Route::get('/analytics/home','ActivityController@home')->name('home');
+Route::get('/analytics/demo', function () { return view('demo'); })->name('demo');
+Route::get('/analytics/demo2', function () { return view('demo2'); })->name('demo2');
