@@ -12,15 +12,6 @@
 
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<!-- favicon icon -->
-<link rel="icon" href="/images/logo.png">
-
-<!-- CSS -->
-<link rel="stylesheet" type="text/css" href="/css/app.css">
-
-<!-- Custom CSS -->
-<link href="/css/styles.css" rel="stylesheet" type="text/css">
-
 <!-- fullPage plugin by Alvaro Trigo CSS -->
 <link href="/css/jquery.fullpage.min.css" rel="stylesheet" type="text/css">
 
@@ -100,5 +91,14 @@
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MDUzNGQ1YzctNTFkMy00YjVlLWExMDEtZGVlZTY3NzdiNTA3NjM2ODk0MDkzNzI0MTg5NTYw"></script>
 
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
+<!-- favicon icon -->
+<link rel="icon" href="/images/logo.png">
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+
+<!-- Custom CSS -->
+<link href="/css/styles.css" rel="stylesheet" type="text/css">
 
 <title>emit</title>
