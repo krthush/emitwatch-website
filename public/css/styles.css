@@ -74,6 +74,7 @@ a:active {
     outline: 0 none;
 }
 .black-btn:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	color: #f5f5f5;
     background: #222222;
 }
 .black-btn:active, .btn-primary.active {
