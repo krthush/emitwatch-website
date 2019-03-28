@@ -96,4 +96,9 @@
   gtag('config', 'UA-123259634-1');
 </script>
 
+<!-- Snipcart Stuff -->
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NWUyOTE5NTktNzRhMS00NTZiLTlmMTUtN2FiMTFiZDhlY2IzNjM2ODkzOTExODkyNzMyODA5"></script>
+
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 <title>emit</title>
