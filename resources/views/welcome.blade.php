@@ -57,7 +57,7 @@
                             data-item-price="119"
                             data-item-url="https://ownemit.com/"
                             data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
-                                Preorder
+                                Buy Now
                         </button>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                     </div>
@@ -116,7 +116,15 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Always on time.<br class="d-md-none"> Everywhere.</div>
                         <div>
-                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
+                            <button 
+                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -134,7 +142,15 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
                         <div>
-                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
+                            <button 
+                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>     
                     </div>
@@ -152,7 +168,15 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Motivation.<br class="d-md-none"> Keep going.</div>
                         <div>
-                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
+                            <button 
+                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -170,7 +194,15 @@
                     <div class="titleFont">
                         <div class="sublineSize whiteText">Aspire.<br class="d-md-none"> Then go further.</div>
                         <div>
-                            <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength lrPadButton">Preorder</button></a>
+                            <button 
+                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn whiteBorder whiteText setLength lrPadButton"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -297,7 +329,15 @@
                             <br>
                             <p>Shows countdown to start and end of day.</p>
                             <p>Tap to effortlessly see the next immediate event on your schedule.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>  
                         </div>
                     </div>
@@ -307,7 +347,15 @@
                             <br>
                             <p>Multiple countdowns to most important events / goals / look-forwards.</p>
                             <p>Customise countdowns to last from seconds to years.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -318,7 +366,15 @@
                             <p>Simply select an event on your phone calendar and emit syncs automatically via Bluetooth.</p>
                             <p>Works with variety of calendars including google, microsoft, etc.</p>
                             <p>Compatible with iOS and Android.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -328,7 +384,15 @@
                             <br>
                             <p>Ability to create many timers.</p>
                             <p>Easy timing of countdowns such as breaks, meetings, excercises, etc.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -338,7 +402,15 @@
                             <br>
                             <p>Set start and end time of a task.</p>
                             <p>Intuitive representation of your progress.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -349,7 +421,15 @@
                             <p>Shows current time, if needed.</p>
                             <p>Battery Life lasts up to 2+ days per charge.</p>
                             <p>Magnetic pin charging (2 hours).</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
@@ -358,7 +438,15 @@
                         <div class="generalFont mediumSize blackText">
                             <br>
                             <p>See daily footsteps as well as your heartrate.</p>
-                            <a href="kickstarter"><button class="white-btn btn blackBorder blackText setLength" >Preorder</button></a>
+                            <button 
+                                class="white-btn btn blackBorder blackText setLength snipcart-add-item"
+                                data-item-id="1"
+                                data-item-name="emit smartwatch 2.0"
+                                data-item-price="119"
+                                data-item-url="https://ownemit.com/"
+                                data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                    Buy Now
+                            </button>
                             <button class="black-btn btn blackBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                         </div>
                     </div>
