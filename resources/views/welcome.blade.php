@@ -3,10 +3,6 @@
 @section('content')
 <!-- Content-->
 
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NWUyOTE5NTktNzRhMS00NTZiLTlmMTUtN2FiMTFiZDhlY2IzNjM2ODkzOTExODkyNzMyODA5"></script>
-
-<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-
 <!-- FB Like Plugin -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -54,7 +50,15 @@
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
-                        <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength">Preorder</button></a>
+                        <button 
+                            class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                            data-item-id="1"
+                            data-item-name="emit smartwatch 2.0"
+                            data-item-price="119"
+                            data-item-url="https://ownemit.com/"
+                            data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                                Preorder
+                        </button>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                     </div>
                 </div>
@@ -539,6 +543,13 @@
             verticalCentered:false,
             licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
         });
+    });
+</script>
+
+<!-- Scripts for snipcart -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        Snipcart.api.cart.currency('gbp');
     });
 </script>
 
