@@ -99,6 +99,6 @@
 <link rel="stylesheet" type="text/css" href="/css/app.css">
 
 <!-- Custom CSS -->
-<link href="/css/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 
 <title>emit</title>
