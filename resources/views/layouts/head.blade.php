@@ -97,7 +97,7 @@
 </script>
 
 <!-- Snipcart Stuff -->
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="NzI1Y2RlZDItNWVjMy00NDU2LThhYTYtNDQ2MmZjMTEzNjdkNjM2ODk0MDkzNzI0MTg5NTYw"></script>
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MDUzNGQ1YzctNTFkMy00YjVlLWExMDEtZGVlZTY3NzdiNTA3NjM2ODk0MDkzNzI0MTg5NTYw"></script>
 
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
 
