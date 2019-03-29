@@ -13,21 +13,24 @@
 <meta name="csrf-token" content="{{ csrf_token() }}">
 
 <!-- fullPage plugin by Alvaro Trigo CSS -->
-<link href="/css/jquery.fullpage.min.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.css" rel="stylesheet" type="text/css">
 
 <!-- JAVASCRIPTS -->
 <script src="/js/app.js"></script>
 
+<!-- Script to force div to scroll -->
+<script type="text/javascript" src="/js/jquery.slimscroll.min.js"></script>
+
 <!-- fullPage plugin by Alvaro Trigo CSS -->
 <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-<script src="/js/scrolloverflow.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/vendors/scrolloverflow.js"></script>
 
 <!-- Drag N Move Extension -->
 <!-- <script src="/js/fullpage.dragAndMove.min.js"></script> -->
 <!-- <script src="/js/jquery.fullpage.extensions.min.js"></script> -->
 
 <!-- FullpageJS -->
-<script type="text/javascript" src="/js/fullpage.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.js"></script>
 
 <!-- Hotjar Tracking Code for https://ownemit.com/ -->
 <script>
