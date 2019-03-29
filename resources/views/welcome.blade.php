@@ -38,7 +38,7 @@
                 <div>Own emit.</div>
             </div>
         </div>
-        <div class="row mobile-vhmax">
+        <div class="row no-gutters mobile-vhmax">
             <div class="col-md-6 flex-center">
                 <span id="frontPageAnimatedText" class="transform-hozcenter d-none d-md-block whiteText"></span>
                 <span id="frontPageAnimatedTextMobile" class="transform-hozcenter d-md-none whiteText"></span>
@@ -479,7 +479,7 @@
         </div>
 
         <!-- Spacing for mobile -->
-        <div class="d-md-none full-width largeBottomPad"></div>
+        <!-- <div class="d-md-none full-width largeBottomPad"></div> -->
 
     </div>
 
@@ -637,30 +637,32 @@
 
 <!-- FullPage JS setup -->
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            keyboardScrolling: true,
-            animateAnchor: true,
-            recordHistory: true,
-            showActiveTooltip: true,
-            // dragAndMove: false,
-            // dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
-            // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
-            // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
-            // anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
-            anchors: ['home', 'why', 'features', 'mission', 'patrons'],
-            scrollOverflow: true,
-            verticalCentered:false,
-            licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
-        });
-        
-        // $(".white-btn").click(function() {
-        //     //disabling scrolling
-        //       $.fn.fullpage.setAllowScrolling(false);
-        //       $.fn.fullpage.setKeyboardScrolling(false);
-        // });
+    if ($(window).width()>768) {
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                keyboardScrolling: true,
+                animateAnchor: true,
+                recordHistory: true,
+                showActiveTooltip: true,
+                // dragAndMove: false,
+                // dragAndMoveKey: 'b3duZW1pdC5jb21fbGJwWkhKaFowRnVaRTF2ZG1VPTJ0cA==',
+                // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
+                // sectionsColor: ['#0a0a0a', '#0a0a0a', '#f5f5f5', '#f5f5f5', '#0a0a0a'],
+                // anchors: ['home', 'video', 'features', 'signup', 'mission', 'patrons'],
+                anchors: ['home', 'why', 'features', 'mission', 'patrons'],
+                scrollOverflow: true,
+                verticalCentered:false,
+                licenseKey:'OPEN-SOURCE-GPLV3-LICENSE',
+            });
+            
+            // $(".white-btn").click(function() {
+            //     //disabling scrolling
+            //       $.fn.fullpage.setAllowScrolling(false);
+            //       $.fn.fullpage.setKeyboardScrolling(false);
+            // });
 
-    });
+        });
+    }
 </script>
 
 <!-- Scripts for snipcart -->
