@@ -125,7 +125,7 @@
                         <div class="sublineSize whiteText">Always on time.<br class="d-md-none"> Everywhere.</div>
                         <div>
                             <button 
-                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
                                 data-item-price="119"
@@ -151,7 +151,7 @@
                         <div class="sublineSize whiteText"><span id="workVideoText">Plan ahead.</span></div>
                         <div>
                             <button 
-                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
                                 data-item-price="119"
@@ -177,7 +177,7 @@
                         <div class="sublineSize whiteText">Motivation.<br class="d-md-none"> Keep going.</div>
                         <div>
                             <button 
-                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
                                 data-item-price="119"
@@ -203,7 +203,7 @@
                         <div class="sublineSize whiteText">Aspire.<br class="d-md-none"> Then go further.</div>
                         <div>
                             <button 
-                                class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                                class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
                                 data-item-price="119"

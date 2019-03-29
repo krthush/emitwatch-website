@@ -101,7 +101,7 @@ a:active {
     box-shadow: none;
 }
 .setLength {
-	width: 140px;
+	width: 150px;
 }
 @media screen and (min-width: 768px) {
 	.setLength {
