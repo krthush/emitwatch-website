@@ -82,7 +82,15 @@
         </div>
         <div class="d-md-none bottom-align full-width titleFont text-center navBarSize whiteText full-width">
             <div class="miniBotPad">
-                <a href="kickstarter"><button class="white-btn btn whiteBorder blackText setLength">Preorder</button></a>
+                <button 
+                    class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
+                    data-item-id="1"
+                    data-item-name="emit smartwatch 2.0"
+                    data-item-price="119"
+                    data-item-url="https://ownemit.com/"
+                    data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
+                        Buy Now
+                </button>
                 <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
             </div>
             <div class="row full-width flex-center ">
