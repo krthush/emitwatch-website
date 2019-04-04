@@ -60,7 +60,7 @@
 
 <script type="text/javascript">
 function home_click() {
-    window.location.replace("http://emit.test/analytics/demo");
+    window.location.replace("http://ownemit.com/analytics/demo");
 }
 function insights_click() {
     document.getElementById("mainDemoImage").src = "/images/website demo/week summary cropped.png";

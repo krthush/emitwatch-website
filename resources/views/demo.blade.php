@@ -106,7 +106,7 @@ function sleep_1_in() {
   document.getElementById("mainDemoImage").src = "/images/website demo/week overview cropped sleep 1.png";
 }
 function social_media_1_click() {
-    window.location.replace("http://emit.test/analytics/demo2");
+    window.location.replace("http://ownemit.com/analytics/demo2");
 }
 </script>
 
