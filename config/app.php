@@ -147,6 +147,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Mayconbordin\L5Mustache\L5MustacheServiceProvider::class,
+        Aws\Laravel\AwsServiceProvider::class,
+        BaoPham\DynamoDb\DynamoDbServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -209,6 +211,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'AWS' => Aws\Laravel\AwsFacade::class,
 
     ],
 

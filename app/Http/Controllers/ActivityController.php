@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Storage;
 use App\Activity;
+use AWS;
+use Config;
+use App\ActivityDynamoDB;
+
 
 class ActivityController extends Controller
 {
@@ -49,7 +53,26 @@ class ActivityController extends Controller
 
     public function home() {
 
-		$tree = Activity::defaultOrder()->withDepth()->get()->toTree()->toJson();
+        //Fetching credentials for DynamDB
+        $config =  Config::get('aws');
+
+        //Create DynamoDb client & specify table
+        $client = AWS::createClient('DynamoDb');
+
+        $table = 'emit-activity-stream-EventData';
+        $limit = 10;
+
+        $result = $client->scan(array(
+        		'TableName' => $table,
+        		'Limit' => $limit,
+        		'Select' => 'ALL_ATTRIBUTES'                
+     		),
+    		array('limit' => $limit),
+  		);
+
+  		// $result = ActivityDynamoDB::where('endtime', '=', '2019-04-11T18:44:38Z')->get();
+
+  		dd($result);
 		
 		return view('analytics');
 
