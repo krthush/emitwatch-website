@@ -35,9 +35,9 @@ Route::get('/inperson', function () {
     return view('inperson');
 })->name('inperson');
 
-Route::get('/me2', function () {
-    return view('me2');
-})->name('me2');
+Route::get('/watch/android/terms', function () {
+    return view('watch-android-terms');
+})->name('watch-android-terms');
 
 Route::get('/kickstarter', function () {
     return redirect('https://www.kickstarter.com/projects/thush/emit-smartwatch-change-your-perspective-on-time');
