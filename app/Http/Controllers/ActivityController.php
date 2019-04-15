@@ -83,8 +83,8 @@ class ActivityController extends Controller
 		$eav = $marshaler->marshalJson('
 		    {
 		        ":MAC_address":"9C:DA:3E:5A:8A:D5",
-		        ":endtime1": "2019-04-15T14:44:38Z",
-		        ":endtime2": "2019-04-15T15:44:38Z"
+		        ":endtime1": "2019-04-15T15:44:38Z",
+		        ":endtime2": "2019-04-15T16:44:38Z"
 		    }
 		');
 
