@@ -6,18 +6,13 @@
 <div class="container-fluid zeroPad">
 
     <div class="section">
-        <div class="mx-auto top-align full-width titleFont text-center titleSize blackText">TERMS &amp; CONDITIONS</div>
-
-        <a class="d-none d-md-block" href="/">
-            <img class="homeButton" src="/images/home-01.png">
-        </a>
 
         <div class="container-fluid">
-            <div class="row full-width sectionContainer mediumBottomPad">
+            <div class="row full-width miniTopPad">
                 <div class="col-sm-2"></div>
-                <div class="col-sm-8 generalFont generalSize blackText text-justify">
+                <div class="col-sm-8 generalFont generalSize blackText">
 
-                <h1>emit smartwatch and ownemit.com</h1>
+                <h1>TERMS &amp; CONDITIONS</h1>
                 <p>Updated as of 15 March 2019</p>
                 <p><strong><em>PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY</em></strong></p>
                 <h1>AGREEMENT TO TERMS</h1>
