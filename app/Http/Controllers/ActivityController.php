@@ -9,6 +9,9 @@ use AWS;
 use Config;
 use App\ActivityDynamoDB;
 
+use Aws\DynamoDb\Marshaler;
+use Aws\DynamoDb\Exception\DynamoDbException;
+
 
 class ActivityController extends Controller
 {
@@ -59,16 +62,49 @@ class ActivityController extends Controller
         //Create DynamoDb client & specify table
         $client = AWS::createClient('DynamoDb');
 
-        $table = 'emit-activity-stream-EventData';
+        $tableName = 'emit-activity-stream-EventData';
         $limit = 10;
 
-        $result = $client->scan(array(
-        		'TableName' => $table,
-        		'Limit' => $limit,
-        		'Select' => 'ALL_ATTRIBUTES'                
-     		),
-    		array('limit' => $limit),
-  		);
+        $marshaler = new Marshaler();
+
+  //       $eav = $marshaler->marshalJson('
+		//     {
+		//         ":MAC_address": "9C:DA:3E:5A:8A:D5" 
+		//     }
+		// ');
+
+		// $params = [
+		//     'TableName' => $tableName,
+		//     'KeyConditionExpression' => '#MAC_address = :MAC_address',
+		//     'ExpressionAttributeNames'=> [ '#MAC_address' => 'MAC_address' ],
+		//     'ExpressionAttributeValues'=> $eav
+		// ];
+
+		$eav = $marshaler->marshalJson('
+		    {
+		        ":MAC_address":"9C:DA:3E:5A:8A:D5",
+		        ":endtime1": "2019-04-15T14:44:38Z",
+		        ":endtime2": "2019-04-15T15:44:38Z"
+		    }
+		');
+
+		$params = [
+		    'TableName' => $tableName,
+		    'KeyConditionExpression' =>
+		        '#MAC_address = :MAC_address and endtime between :endtime1 and :endtime2',
+		    'ExpressionAttributeNames'=> [ '#MAC_address' => 'MAC_address' ],
+		    'ExpressionAttributeValues'=> $eav
+		];
+
+        $result = $client->query($params);
+
+    //     $result = $client->scan(array(
+    //     		'TableName' => $tableName,
+    //     		'Limit' => $limit,
+    //     		'Select' => 'ALL_ATTRIBUTES'                
+    //  		),
+    // 		array('limit' => $limit),
+  		// );
 
   		// $result = ActivityDynamoDB::where('endtime', '=', '2019-04-11T18:44:38Z')->get();
 
