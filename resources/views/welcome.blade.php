@@ -54,7 +54,7 @@
                             class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
                             data-item-id="1"
                             data-item-name="emit smartwatch 2.0"
-                            data-item-price="119"
+                            data-item-price="99"
                             data-item-url="https://ownemit.com/"
                             data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                 Buy Now
@@ -86,7 +86,7 @@
                     class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
                     data-item-id="1"
                     data-item-name="emit smartwatch 2.0"
-                    data-item-price="119"
+                    data-item-price="99"
                     data-item-url="https://ownemit.com/"
                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                         Buy Now
@@ -128,7 +128,7 @@
                                 class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
-                                data-item-price="119"
+                                data-item-price="99"
                                 data-item-url="https://ownemit.com/"
                                 data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                     Buy Now
@@ -154,7 +154,7 @@
                                 class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
-                                data-item-price="119"
+                                data-item-price="99"
                                 data-item-url="https://ownemit.com/"
                                 data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                     Buy Now
@@ -180,7 +180,7 @@
                                 class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
-                                data-item-price="119"
+                                data-item-price="99"
                                 data-item-url="https://ownemit.com/"
                                 data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                     Buy Now
@@ -206,7 +206,7 @@
                                 class="white-btn btn whiteBorder blackText setLength lrPadButton snipcart-add-item"
                                 data-item-id="1"
                                 data-item-name="emit smartwatch 2.0"
-                                data-item-price="119"
+                                data-item-price="99"
                                 data-item-url="https://ownemit.com/"
                                 data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                     Buy Now
@@ -342,7 +342,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -362,7 +362,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -383,7 +383,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -403,7 +403,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -423,7 +423,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -444,7 +444,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
@@ -463,7 +463,7 @@
                                     class="white-btn btn blackBorder blackText setLength snipcart-add-item"
                                     data-item-id="1"
                                     data-item-name="emit smartwatch 2.0"
-                                    data-item-price="119"
+                                    data-item-price="99"
                                     data-item-url="https://ownemit.com/"
                                     data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                         Buy Now
