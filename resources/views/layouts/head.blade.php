@@ -90,10 +90,44 @@
   gtag('config', 'UA-123259634-1');
 </script>
 
+<!-- Webgains tracking landing page script -->
+<script>
+(function(w,e,b,g,a,i,n,s){w['ITCLKOBJ']=a;w[a]=w[a]||function(){(w[a].q=w[a].q||[]).push(arguments)},w[a].l=1*new Date();i=e.createElement(b),n=e.getElementsByTagName(b)[0];i.async=1;i.src=g;n.parentNode.insertBefore(i,n)})(window,document,'script','https://analytics.webgains.io/clk.min.js','ITCLKQ');
+ITCLKQ('set', 'internal.api', true);
+ITCLKQ('set', 'internal.cookie', true);
+ITCLKQ('click');
+</script>
+
 <!-- Snipcart Stuff -->
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MDUzNGQ1YzctNTFkMy00YjVlLWExMDEtZGVlZTY3NzdiNTA3NjM2ODk0MDkzNzI0MTg5NTYw"></script>
-
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
+<!-- Webgains on confirmation of order on snipcart -->
+<script type="text/javascript">
+  $(document).ready(function(){
+    Snipcart.subscribe('order.completed', function (data) {
+        (function(w,e,b,g,a,i,n,s){w['ITCVROBJ']=a;w[a]=w[a]||function(){
+            (w[a].q=w[a].q||[]).push(arguments)},w[a].l=1*new Date();i=e.createElement(b),
+            n=e.getElementsByTagName(b)[0];i.async=1;i.src=g;n.parentNode.insertBefore(i,n)
+        })(window,document,'script','https://analytics.webgains.io/cvr.min.js','ITCVRQ');
+        ITCVRQ('set', 'trk.programId', '');
+        ITCVRQ('set', 'cvr', {
+            value: data.total,
+            currency: data.currency,
+            language: 'en_EN',
+            eventId: '1046475',
+            orderReference : data.invoiceNumber,
+            multiple: data.items.length,
+            checksum: data.token,
+            items: data.items,
+            customerId: data.user.id,
+            voucherId: data.discounts,
+            location: document.referrer
+        });
+        ITCVRQ('conversion');
+    });
+  });
+</script>
 
 <!-- favicon icon -->
 <link rel="icon" href="/images/logo.png">
