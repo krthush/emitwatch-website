@@ -110,15 +110,13 @@ ITCLKQ('click');
             (w[a].q=w[a].q||[]).push(arguments)},w[a].l=1*new Date();i=e.createElement(b),
             n=e.getElementsByTagName(b)[0];i.async=1;i.src=g;n.parentNode.insertBefore(i,n)
         })(window,document,'script','https://analytics.webgains.io/cvr.min.js','ITCVRQ');
-        ITCVRQ('set', 'trk.programId', '');
+        ITCVRQ('set', 'trk.programId', '273825');
         ITCVRQ('set', 'cvr', {
             value: data.total,
             currency: data.currency,
             language: 'en_EN',
             eventId: '1046475',
             orderReference : data.invoiceNumber,
-            multiple: data.items.length,
-            checksum: data.token,
             items: data.items,
             customerId: data.user.id,
             voucherId: data.discounts,
