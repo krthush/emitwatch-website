@@ -118,8 +118,7 @@ ITCLKQ('click');
             eventId: '1046475',
             orderReference : data.invoiceNumber,
             items: data.items,
-            customerId: data.user.id,
-            voucherId: data.discounts.code,
+            voucherId: data.discounts,
             location: document.referrer
         });
         ITCVRQ('conversion');
