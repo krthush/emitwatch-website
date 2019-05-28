@@ -119,7 +119,7 @@ ITCLKQ('click');
             orderReference : data.invoiceNumber,
             items: data.items,
             customerId: data.user.id,
-            voucherId: data.discounts,
+            voucherId: data.discounts.code,
             location: document.referrer
         });
         ITCVRQ('conversion');
