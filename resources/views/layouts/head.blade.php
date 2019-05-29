@@ -117,7 +117,11 @@ ITCLKQ('click');
             language: 'en_EN',
             eventId: '1046475',
             orderReference : data.invoiceNumber,
+            comment: '',
+            multiple: '',
+            checksum: '',
             items: data.items,
+            customerId: '',
             voucherId: data.discounts,
             location: document.referrer
         });
