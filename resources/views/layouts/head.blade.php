@@ -106,6 +106,14 @@ ITCLKQ('click');
 <script type="text/javascript">
   $(document).ready(function(){
     Snipcart.subscribe('order.completed', function (data) {
+
+        // Mapping variables to be used
+        var itemsArray = data.items;
+        var discountsArray = data.discounts;
+        var itemNames = itemsArray.map(a => a.name);
+        var discountNames = discountsArray.map(b => b.name);
+
+        // Webgains confirmation script
         (function(w,e,b,g,a,i,n,s){w['ITCVROBJ']=a;w[a]=w[a]||function(){
             (w[a].q=w[a].q||[]).push(arguments)},w[a].l=1*new Date();i=e.createElement(b),
             n=e.getElementsByTagName(b)[0];i.async=1;i.src=g;n.parentNode.insertBefore(i,n)
@@ -120,9 +128,9 @@ ITCLKQ('click');
             comment: '',
             multiple: '',
             checksum: '',
-            items: data.items,
+            items: itemNames.toString(),
             customerId: '',
-            voucherId: data.discounts,
+            voucherId: discountNames.toString(),
             location: document.referrer
         });
         ITCVRQ('conversion');
