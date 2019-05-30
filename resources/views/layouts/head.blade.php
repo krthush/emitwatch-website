@@ -111,7 +111,11 @@ ITCLKQ('click');
         var itemsArray = data.items;
         var discountsArray = data.discounts;
         var itemNames = itemsArray.map(a => a.name);
-        var discountNames = discountsArray.map(b => b.name);
+        var itemIDs = itemsArray.map(b => b.id);
+        var discountsNames = discountsArray.map(c => c.name);
+
+        // Forming items string
+        var itemsString = '1046475' + '::' + data.total + '::' + itemNames.toString() + '::' + itemIDs.toString() + '::' + discountsNames.toString();
 
         // Webgains confirmation script
         (function(w,e,b,g,a,i,n,s){w['ITCVROBJ']=a;w[a]=w[a]||function(){
@@ -128,9 +132,9 @@ ITCLKQ('click');
             comment: '',
             multiple: '',
             checksum: '',
-            items: itemNames.toString(),
+            items: itemsString,
             customerId: '',
-            voucherId: discountNames.toString(),
+            voucherId: discountsNames.toString(),
             location: document.referrer
         });
         ITCVRQ('conversion');
