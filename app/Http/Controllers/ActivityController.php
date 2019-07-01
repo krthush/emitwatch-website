@@ -57,15 +57,15 @@ class ActivityController extends Controller
     public function home() {
 
         //Fetching credentials for DynamDB
-        $config =  Config::get('aws');
+        // $config =  Config::get('aws');
 
-        //Create DynamoDb client & specify table
-        $client = AWS::createClient('DynamoDb');
+        // //Create DynamoDb client & specify table
+        // $client = AWS::createClient('DynamoDb');
 
-        $tableName = 'emit-activity-stream-EventData';
-        $limit = 10;
+        // $tableName = 'emit-activity-stream-EventData';
+        // $limit = 10;
 
-        $marshaler = new Marshaler();
+        // $marshaler = new Marshaler();
 
   //       $eav = $marshaler->marshalJson('
 		//     {
@@ -80,23 +80,23 @@ class ActivityController extends Controller
 		//     'ExpressionAttributeValues'=> $eav
 		// ];
 
-		$eav = $marshaler->marshalJson('
-		    {
-		        ":MAC_address":"9C:DA:3E:5A:8A:D5",
-		        ":endtime1": "2019-04-15T15:44:38Z",
-		        ":endtime2": "2019-04-15T16:44:38Z"
-		    }
-		');
+		// $eav = $marshaler->marshalJson('
+		//     {
+		//         ":MAC_address":"9C:DA:3E:5A:8A:D5",
+		//         ":endtime1": "2019-04-15T15:44:38Z",
+		//         ":endtime2": "2019-04-15T16:44:38Z"
+		//     }
+		// ');
 
-		$params = [
-		    'TableName' => $tableName,
-		    'KeyConditionExpression' =>
-		        '#MAC_address = :MAC_address and endtime between :endtime1 and :endtime2',
-		    'ExpressionAttributeNames'=> [ '#MAC_address' => 'MAC_address' ],
-		    'ExpressionAttributeValues'=> $eav
-		];
+		// $params = [
+		//     'TableName' => $tableName,
+		//     'KeyConditionExpression' =>
+		//         '#MAC_address = :MAC_address and endtime between :endtime1 and :endtime2',
+		//     'ExpressionAttributeNames'=> [ '#MAC_address' => 'MAC_address' ],
+		//     'ExpressionAttributeValues'=> $eav
+		// ];
 
-        $result = $client->query($params);
+  //       $result = $client->query($params);
 
     //     $result = $client->scan(array(
     //     		'TableName' => $tableName,
@@ -108,7 +108,7 @@ class ActivityController extends Controller
 
   		// $result = ActivityDynamoDB::where('endtime', '=', '2019-04-11T18:44:38Z')->get();
 
-  		dd($result);
+  		// dd($result);
 		
 		return view('analytics');
 
