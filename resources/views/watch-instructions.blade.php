@@ -34,7 +34,7 @@
 
                 <ol>
                 <li>Make sure Wifi symbol (in the bottom level of emit watch) is turned on (white) and download the emit watch app from AppStore.</li>
-                <li>Click on “Sync” on the phone app, and then after making all desired changes click sync now again so the watch reflects the phone app countdowns. </li>
+                <li>Click on “Sync” on the phone app, and then after making all desired changes click "sync now" again so the watch reflects the phone app countdowns. </li>
                          
                 </ol>
                
