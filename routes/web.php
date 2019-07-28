@@ -35,6 +35,10 @@ Route::get('/inperson', function () {
     return view('inperson');
 })->name('inperson');
 
+Route::get('/watch/instructions', function () {
+    return view('watch-instructions');
+})->name('watch-instructions');
+
 Route::get('/watch/android/terms', function () {
     return view('watch-android-terms');
 })->name('watch-android-terms');
