@@ -50,7 +50,7 @@
                         <div class="sublineSize whiteText">Own time.</div>
                         <div class="sublineSize whiteText">Own emit.</div>
                         <div class="navBarSize whiteText miniBotPad">Change your perspective on time.</div>
-                        <button 
+                        <!-- <button 
                             class="white-btn btn whiteBorder blackText setLength snipcart-add-item"
                             data-item-id="1"
                             data-item-name="emit smartwatch 2.0"
@@ -58,7 +58,8 @@
                             data-item-url="https://ownemit.com/"
                             data-item-description="A productivity smartwatch dedicated to improving your mindset on time. emit shows you countdowns to your most important events, tasks and goals.">
                                 Buy Now
-                        </button>
+                        </button> -->
+                        <a class="white-btn btn whiteBorder blackText setLength"  href="https://www.kickstarter.com/projects/thush/emit-smartwatch-change-your-perspective-on-time">Kickstarter</a>
                         <button class="black-btn btn whiteBorder whiteText setLength"  data-toggle="modal" data-target="#videoModal">Play Video</button>
                     </div>
                 </div>
