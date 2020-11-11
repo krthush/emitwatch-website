@@ -76,6 +76,11 @@ a:active {
   	border-radius: 0;
   	margin-bottom: 10px;
 }
+.black-btn:visited, .black-btn:link {
+    background: #0a0a0a;
+    background-color: #0a0a0a;
+    color: #f5f5f5;
+}
 .black-btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
@@ -95,6 +100,11 @@ a:active {
     color: #f5f5f5;
   	border-radius: 0;
   	margin-bottom: 10px;
+}
+.white-btn:visited, .white-btn:link {
+    background: #f5f5f5;
+    background-color: #f5f5f5;
+    color: #0a0a0a;
 }
 .white-btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
